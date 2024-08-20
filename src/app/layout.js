@@ -22,11 +22,16 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/assets/libs/bootstrap-icons/font/bootstrap-icons.min.css" />
         <link rel="stylesheet" href="/assets/libs/feather-webfont/dist/feather-icons.css" />
         <link rel="stylesheet" href="/assets/libs/simplebar/dist/simplebar.min.css" />
+        <link href="/assets/libs/slick-carousel/slick/slick.css" rel="stylesheet" />
+        <link href="/assets/libs/slick-carousel/slick/slick-theme.css" rel="stylesheet" />
+        <link href="/assets/libs/tiny-slider/dist/tiny-slider.css" rel="stylesheet" />
+        {/* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" /> */}
 
-        <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></Script>
-        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></Script>
+        {/* <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></Script> */}
+        {/* <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></Script> */}
+        <Script src="/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
         <Script src="/assets/js/custom.js" strategy="beforeInteractive" />
-        <Script src="/assets/libs/simplebar/dist/simplebar.min.js" strategy="beforeInteractive" />
+        {/* <Script src="/assets/libs/simplebar/dist/simplebar.min.js" strategy="beforeInteractive" />
         <Script src="/assets/js/theme.min.js" strategy="beforeInteractive" />
         <Script src="/assets/js/vendors/jquery.min.js" strategy="beforeInteractive" />
         <Script src="/assets/js/vendors/countdown.js" strategy="beforeInteractive" />
@@ -34,7 +39,7 @@ export default function RootLayout({ children }) {
         <Script src="/assets/js/vendors/slick-slider.js" strategy="beforeInteractive" />
         <Script src="/assets/libs/tiny-slider/dist/min/tiny-slider.js" strategy="beforeInteractive" />
         <Script src="/assets/js/vendors/tns-slider.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/vendors/zoom.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/vendors/zoom.js" strategy="beforeInteractive" /> */}
 
       </head>
 

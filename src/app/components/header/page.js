@@ -475,13 +475,13 @@ function header() {
                      <div class="collapse mt-2" id="collapseExample">
                         <div class="card card-body">
                            <ul class="mb-0 list-unstyled">
-                              <li><a class="dropdown-item" href="shop-grid.html">Dairy, Bread & Eggs</a></li>
-                              <li><a class="dropdown-item" href="shop-grid.html">Snacks & Munchies</a></li>
-                              <li><a class="dropdown-item" href="shop-grid.html">Fruits & Vegetables</a></li>
-                              <li><a class="dropdown-item" href="shop-grid.html">Cold Drinks & Juices</a></li>
-                              <li><a class="dropdown-item" href="shop-grid.html">Breakfast & Instant Food</a></li>
-                              <li><a class="dropdown-item" href="shop-grid.html">Bakery & Biscuits</a></li>
-                              <li><a class="dropdown-item" href="shop-grid.html">Chicken, Meat & Fish</a></li>
+                              <li><a class="dropdown-item" href="/components/shopgrid">Dairy, Bread & Eggs</a></li>
+                              <li><a class="dropdown-item" href="/components/shopgrid">Snacks & Munchies</a></li>
+                              <li><a class="dropdown-item" href="/components/shopgrid">Fruits & Vegetables</a></li>
+                              <li><a class="dropdown-item" href="/components/shopgrid">Cold Drinks & Juices</a></li>
+                              <li><a class="dropdown-item" href="/components/shopgrid">Breakfast & Instant Food</a></li>
+                              <li><a class="dropdown-item" href="/components/shopgrid">Bakery & Biscuits</a></li>
+                              <li><a class="dropdown-item" href="/components/shopgrid">Chicken, Meat & Fish</a></li>
                            </ul>
                         </div>
                      </div>
@@ -517,37 +517,37 @@ function header() {
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li>
-                    <a className="dropdown-item" href="shop-grid.html">
+                    <a className="dropdown-item" href="/components/shopgrid">
                       Dairy, Bread &amp; Eggs
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="shop-grid.html">
+                    <a className="dropdown-item" href="/components/shopgrid">
                       Snacks &amp; Munchies
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="shop-grid.html">
+                    <a className="dropdown-item" href="/components/shopgrid">
                       Fruits &amp; Vegetables
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="shop-grid.html">
+                    <a className="dropdown-item" href="/components/shopgrid">
                       Cold Drinks &amp; Juices
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="shop-grid.html">
+                    <a className="dropdown-item" href="/components/shopgrid">
                       Breakfast &amp; Instant Food
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="shop-grid.html">
+                    <a className="dropdown-item" href="/components/shopgrid">
                       Bakery &amp; Biscuits
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="shop-grid.html">
+                    <a className="dropdown-item" href="/components/shopgrid">
                       Chicken, Meat &amp; Fish
                     </a>
                   </li>
@@ -566,6 +566,7 @@ function header() {
                     >
                       Home
                     </Link>
+                    
                     <ul className="dropdown-menu">
                       <li>
                         <Link className="dropdown-item" href="/">
@@ -573,7 +574,7 @@ function header() {
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="/">
+                        <Link className="dropdown-item" href="/components/index2">
                           Home 2
                         </Link>
                       </li>
@@ -597,7 +598,7 @@ function header() {
                   <li className="nav-item dropdown">
                     <Link
                       className="nav-link dropdown-toggle"
-                      href="#"
+                      href="/"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
@@ -660,7 +661,7 @@ function header() {
                   <li className="nav-item dropdown">
                     <Link
                       className="nav-link dropdown-toggle"
-                      href="#"
+                      href="/"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
@@ -688,7 +689,7 @@ function header() {
                   <li className="nav-item dropdown dropdown-fullwidth">
                     <Link
                       className="nav-link dropdown-toggle"
-                      href="#"
+                      href="/"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
@@ -809,7 +810,7 @@ function header() {
                   <li className="nav-item dropdown">
                     <Link
                       className="nav-link dropdown-toggle"
-                      href="#"
+                      href="/"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
@@ -947,7 +948,7 @@ function header() {
                     >
                       <Link
                         className="dropdown-item align-items-start"
-                        href="../docs/index.html"
+                        href="/components/docs"
                       >
                         <div>
                           <svg
@@ -969,7 +970,7 @@ function header() {
                       </Link>
                       <Link
                         className="dropdown-item align-items-start"
-                        href="../docs/changelog.html"
+                        href="components/docs/changelog"
                       >
                         <div>
                           <svg
