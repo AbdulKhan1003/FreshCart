@@ -25,21 +25,36 @@ export default function RootLayout({ children }) {
         <link href="/assets/libs/slick-carousel/slick/slick.css" rel="stylesheet" />
         <link href="/assets/libs/slick-carousel/slick/slick-theme.css" rel="stylesheet" />
         <link href="/assets/libs/tiny-slider/dist/tiny-slider.css" rel="stylesheet" />
-        {/* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" /> */}
 
-        {/* <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></Script> */}
-        {/* <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></Script> */}
         <Script src="/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/custom.js" strategy="beforeInteractive" />
-        {/* <Script src="/assets/libs/simplebar/dist/simplebar.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/theme.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/vendors/jquery.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/vendors/countdown.js" strategy="beforeInteractive" />
-        <Script src="/assets/libs/slick-carousel/slick/slick.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/vendors/slick-slider.js" strategy="beforeInteractive" />
-        <Script src="/assets/libs/tiny-slider/dist/min/tiny-slider.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/vendors/tns-slider.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/vendors/zoom.js" strategy="beforeInteractive" /> */}
+        <Script src="/assets/js/custom.js" />
+
+        <Script src="/assets/js/theme.min.js" strategy="beforeInteractive"  ></Script>
+
+        {/* photo upload */}
+        {/* <Script src="/assets/js/vendors/validation.js"></Script>
+		<Script src="/assets/libs/dropzone/dist/min/dropzone.min.js"></Script>
+		<Script src="/assets/js/vendors/dropzone.js"></Script>
+		<Script src="/assets/libs/quill/dist/quill.min.js"></Script>
+		<Script src="/assets/js/vendors/editor.js"></Script> */}
+
+
+        <Script src="/assets/js/vendors/jquery.min.js" ></Script>
+        <Script src="/assets/libs/slick-carousel/slick/slick.min.js"></Script>
+        <Script src="/assets/js/vendors/slick-slider.js"></Script>
+        <Script src="/assets/libs/tiny-slider/dist/min/tiny-slider.js"></Script>
+        <Script src="/assets/js/vendors/tns-slider.js"></Script>
+        <Script src="/assets/js/vendors/zoom.js"></Script>
+
+        <Script src="/assets/js/vendors/countdown.js"></Script>
+        <Script src="/assets/js/vendors/modal.js"></Script>
+
+        {/* dashboard */}
+        <Script src="/assets/libs/simplebar/dist/simplebar.min.js"></Script>
+
+        <Script src="/assets/libs/apexcharts/dist/apexcharts.min.js"></Script>
+        <Script src="/assets/js/vendors/chart.js"></Script>
+
 
       </head>
 

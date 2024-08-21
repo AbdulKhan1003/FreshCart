@@ -33,7 +33,7 @@ function Customers() {
                 </nav>
               </div>
               <div>
-                <a href="create-customers.html" className="btn btn-primary">
+                <a href="/components/dashboard/createcustomers" className="btn btn-primary">
                   Add New Customer
                 </a>
               </div>

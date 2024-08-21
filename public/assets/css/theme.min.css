@@ -8229,10 +8229,10 @@ fieldset:disabled .btn {
 .modal-backdrop.fade {
     opacity: 0
 }
-    /* 
-    .modal-backdrop.show{
-        opacity: var(--fc-backdrop-opacity)
-    } */
+
+.modal-backdrop.show {
+    opacity: var(--fc-backdrop-opacity)
+}
 
 .modal-header {
     align-items: center;
@@ -9057,7 +9057,7 @@ fieldset:disabled .btn {
 .offcanvas-xl,
 .offcanvas-xxl {
     --fc-offcanvas-zindex: 1045;
-    --fc-offcanvas-width: 100vw;
+    --fc-offcanvas-width: 560px;
     --fc-offcanvas-height: 30vh;
     --fc-offcanvas-padding-x: 1rem;
     --fc-offcanvas-padding-y: 1rem;
@@ -13419,11 +13419,6 @@ fieldset:disabled .btn {
 .text-light {
     --fc-text-opacity: 1;
     color: rgba(var(--fc-light-rgb), var(--fc-text-opacity)) !important
-}
-
-.text-dark {
-    --fc-text-opacity: 1;
-    color: rgba(var(--fc-dark-rgb), var(--fc-text-opacity)) !important
 }
 
 .text-gray-400 {

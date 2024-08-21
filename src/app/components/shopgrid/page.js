@@ -132,7 +132,7 @@ function shopGrid() {
                       />
                       <div className="ms-3">
                         {/* title */}
-                        <a href="shop-single.html" className="text-inherit">
+                        <a href="/components/shopgridcolumn" className="text-inherit">
                           <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
                         </a>
                         <span>
@@ -214,7 +214,7 @@ function shopGrid() {
                         className="icon-shape icon-xxl"
                       />
                       <div className="ms-3">
-                        <a href="shop-single.html" className="text-inherit">
+                        <a href="/components/shopgridcolumn" className="text-inherit">
                           <h6 className="mb-0">NutriChoice Digestive</h6>
                         </a>
                         <span>
@@ -300,7 +300,7 @@ function shopGrid() {
                       />
                       <div className="ms-3">
                         {/* title */}
-                        <a href="shop-single.html" className="text-inherit">
+                        <a href="/components/shopgridcolumn" className="text-inherit">
                           <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
                         </a>
                         <span>
@@ -387,7 +387,7 @@ function shopGrid() {
                       <div className="ms-3">
                         {/* title */}
                         {/* title */}
-                        <a href="shop-single.html" className="text-inherit">
+                        <a href="/components/shopgridcolumn" className="text-inherit">
                           <h6 className="mb-0">Onion Flavour Potato</h6>
                         </a>
                         <span>
@@ -473,7 +473,7 @@ function shopGrid() {
                       />
                       <div className="ms-3">
                         {/* title */}
-                        <a href="shop-single.html" className="text-inherit">
+                        <a href="/components/shopgridcolumn" className="text-inherit">
                           <h6 className="mb-0">Salted Instant Popcorn</h6>
                         </a>
                         <span>
@@ -1608,7 +1608,7 @@ function shopGrid() {
                           <div className="position-absolute top-0 start-0">
                             <span className="badge bg-danger">Sale</span>
                           </div>
-                          <a href="shop-single.html">
+                          <a href="/components/shopgridcolumn">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-1.jpg"
@@ -1659,7 +1659,7 @@ function shopGrid() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopgridcolumn"
                             className="text-inherit text-decoration-none"
                           >
                             Haldiram's Sev Bhujia
@@ -1719,7 +1719,7 @@ function shopGrid() {
                           <div className="position-absolute top-0 start-0">
                             <span className="badge bg-success">14%</span>
                           </div>
-                          <a href="shop-single.html">
+                          <a href="/components/shopgridcolumn">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-2.jpg"
@@ -1770,7 +1770,7 @@ function shopGrid() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopgridcolumn"
                             className="text-inherit text-decoration-none"
                           >
                             NutriChoice Digestive
@@ -1824,7 +1824,7 @@ function shopGrid() {
                       <div className="card-body">
                         {/* badge */}
                         <div className="text-center position-relative">
-                          <a href="shop-single.html">
+                          <a href="/components/shopgridcolumn">
                             <img
                               src="../assets/images/products/product-img-3.jpg"
                               alt="Grocery Ecommerce Template"
@@ -1874,7 +1874,7 @@ function shopGrid() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopgridcolumn"
                             className="text-inherit text-decoration-none"
                           >
                             Cadbury 5 Star Chocolate
@@ -1934,7 +1934,7 @@ function shopGrid() {
                           <div className="position-absolute top-0">
                             <span className="badge bg-danger">Hot</span>
                           </div>
-                          <a href="shop-single.html">
+                          <a href="/components/shopgridcolumn">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-4.jpg"
@@ -1985,7 +1985,7 @@ function shopGrid() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopgridcolumn"
                             className="text-inherit text-decoration-none"
                           >
                             Onion Flavour Potato
@@ -2042,7 +2042,7 @@ function shopGrid() {
                       <div className="card-body">
                         {/* badge */}
                         <div className="text-center position-relative">
-                          <a href="shop-single.html">
+                          <a href="/components/shopgridcolumn">
                             <img
                               src="../assets/images/products/product-img-5.jpg"
                               alt="Grocery Ecommerce Template"
@@ -2092,7 +2092,7 @@ function shopGrid() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopgridcolumn"
                             className="text-inherit text-decoration-none"
                           >
                             Salted Instant Popcorn
@@ -2151,7 +2151,7 @@ function shopGrid() {
                           <div className="position-absolute top-0">
                             <span className="badge bg-danger">Sale</span>
                           </div>
-                          <a href="shop-single.html">
+                          <a href="/components/shopgridcolumn">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-6.jpg"
@@ -2202,7 +2202,7 @@ function shopGrid() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopgridcolumn"
                             className="text-inherit text-decoration-none"
                           >
                             Blueberry Greek Yogurt
@@ -2259,7 +2259,7 @@ function shopGrid() {
                       <div className="card-body">
                         {/* badge */}
                         <div className="text-center position-relative">
-                          <a href="shop-single.html">
+                          <a href="/components/shopgridcolumn">
                             <img
                               src="../assets/images/products/product-img-7.jpg"
                               alt="Grocery Ecommerce Template"
@@ -2309,7 +2309,7 @@ function shopGrid() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopgridcolumn"
                             className="text-inherit text-decoration-none"
                           >
                             Britannia Cheese Slices
@@ -2363,7 +2363,7 @@ function shopGrid() {
                       <div className="card-body">
                         {/* badge */}
                         <div className="text-center position-relative">
-                          <a href="shop-single.html">
+                          <a href="/components/shopgridcolumn">
                             <img
                               src="../assets/images/products/product-img-8.jpg"
                               alt="Grocery Ecommerce Template"
@@ -2413,7 +2413,7 @@ function shopGrid() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopgridcolumn"
                             className="text-inherit text-decoration-none"
                           >
                             Kellogg's Original Cereals
@@ -2470,7 +2470,7 @@ function shopGrid() {
                       <div className="card-body">
                         {/* badge */}
                         <div className="text-center position-relative">
-                          <a href="shop-single.html">
+                          <a href="/components/shopgridcolumn">
                             <img
                               src="../assets/images/products/product-img-9.jpg"
                               alt="Grocery Ecommerce Template"
@@ -2520,7 +2520,7 @@ function shopGrid() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopgridcolumn"
                             className="text-inherit text-decoration-none"
                           >
                             Slurrp Millet Chocolate
@@ -2577,7 +2577,7 @@ function shopGrid() {
                       <div className="card-body">
                         {/* badge */}
                         <div className="text-center position-relative">
-                          <a href="shop-single.html">
+                          <a href="/components/shopgridcolumn">
                             <img
                               src="../assets/images/products/product-img-10.jpg"
                               alt="Grocery Ecommerce Template"
@@ -2627,7 +2627,7 @@ function shopGrid() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopgridcolumn"
                             className="text-inherit text-decoration-none"
                           >
                             Amul Butter - 500 g

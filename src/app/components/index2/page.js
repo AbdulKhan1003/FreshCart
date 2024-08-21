@@ -130,7 +130,7 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="pages/shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
                     </a>
                     <span>
@@ -212,7 +212,7 @@ function Index() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="pages/shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
                     </a>
                     <span>
@@ -298,7 +298,7 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="pages/shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
                     </a>
                     <span>
@@ -385,7 +385,7 @@ function Index() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="pages/shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
                     </a>
                     <span>
@@ -471,7 +471,7 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="pages/shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
                     </a>
                     <span>
@@ -748,7 +748,7 @@ function Index() {
         <div className="category-slider">
           <div className="item">
             <a
-              href="pages/shop-grid.html"
+              href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
               <div className="card card-product mb-lg-4">
@@ -765,7 +765,7 @@ function Index() {
           </div>
           <div className="item">
             <a
-              href="pages/shop-grid.html"
+              href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
               <div className="card card-product mb-lg-4">
@@ -782,7 +782,7 @@ function Index() {
           </div>
           <div className="item">
             <a
-              href="pages/shop-grid.html"
+              href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
               <div className="card card-product mb-lg-4">
@@ -799,7 +799,7 @@ function Index() {
           </div>
           <div className="item">
             <a
-              href="pages/shop-grid.html"
+              href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
               <div className="card card-product mb-lg-4">
@@ -816,7 +816,7 @@ function Index() {
           </div>
           <div className="item">
             <a
-              href="pages/shop-grid.html"
+              href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
               <div className="card card-product mb-lg-4">
@@ -833,7 +833,7 @@ function Index() {
           </div>
           <div className="item">
             <a
-              href="pages/shop-grid.html"
+              href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
               <div className="card card-product mb-lg-4">
@@ -850,7 +850,7 @@ function Index() {
           </div>
           <div className="item">
             <a
-              href="pages/shop-grid.html"
+              href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
               <div className="card card-product mb-lg-4">
@@ -867,7 +867,7 @@ function Index() {
           </div>
           <div className="item">
             <a
-              href="pages/shop-grid.html"
+              href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
               <div className="card card-product mb-lg-4">
@@ -884,7 +884,7 @@ function Index() {
           </div>
           <div className="item">
             <a
-              href="pages/shop-grid.html"
+              href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
               <div className="card card-product mb-lg-4">
@@ -901,7 +901,7 @@ function Index() {
           </div>
           <div className="item">
             <a
-              href="pages/shop-grid.html"
+              href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
               <div className="card card-product mb-lg-4">
@@ -1040,7 +1040,7 @@ function Index() {
                 </div>
                 <h2 className="fs-6">
                   <a
-                    href="pages/shop-single.html"
+                    href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Haldiram's Sev Bhujia
@@ -1094,7 +1094,7 @@ function Index() {
                   <div className="position-absolute top-0 start-0">
                     <span className="badge bg-success">14%</span>
                   </div>
-                  <a href="pages/shop-single.html">
+                  <a href="/components/shopsingle">
                     <img
                       src="/assets/images/products/product-img-2.jpg"
                       alt="Grocery Ecommerce Template"
@@ -1116,7 +1116,7 @@ function Index() {
                       />
                     </a>
                     <a
-                      href="pages/shop-wishlist.html"
+                      href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
                       data-bs-html="true"
@@ -1142,7 +1142,7 @@ function Index() {
                 </div>
                 <h2 className="fs-6">
                   <a
-                    href="pages/shop-single.html"
+                    href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     NutriChoice Digestive
@@ -1190,7 +1190,7 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="pages/shop-single.html">
+                  <a href="/components/shopsingle">
                     <img
                       src="/assets/images/products/product-img-3.jpg"
                       alt="Grocery Ecommerce Template"
@@ -1212,7 +1212,7 @@ function Index() {
                       />
                     </a>
                     <a
-                      href="pages/shop-wishlist.html"
+                      href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
                       data-bs-html="true"
@@ -1238,7 +1238,7 @@ function Index() {
                 </div>
                 <h2 className="fs-6">
                   <a
-                    href="pages/shop-single.html"
+                    href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Cadbury 5 Star Chocolate
@@ -1289,7 +1289,7 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="pages/shop-single.html">
+                  <a href="/components/shopsingle">
                     <img
                       src="/assets/images/products/product-img-4.jpg"
                       alt="Grocery Ecommerce Template"
@@ -1311,7 +1311,7 @@ function Index() {
                       />
                     </a>
                     <a
-                      href="pages/shop-wishlist.html"
+                      href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
                       data-bs-html="true"
@@ -1340,7 +1340,7 @@ function Index() {
                 </div>
                 <h2 className="fs-6">
                   <a
-                    href="pages/shop-single.html"
+                    href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Onion Flavour Potato
@@ -1391,7 +1391,7 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="pages/shop-single.html">
+                  <a href="/components/shopsingle">
                     <img
                       src="/assets/images/products/product-img-5.jpg"
                       alt="Grocery Ecommerce Template"
@@ -1413,7 +1413,7 @@ function Index() {
                       />
                     </a>
                     <a
-                      href="pages/shop-wishlist.html"
+                      href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
                       data-bs-html="true"
@@ -1439,7 +1439,7 @@ function Index() {
                 </div>
                 <h2 className="fs-6">
                   <a
-                    href="pages/shop-single.html"
+                    href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Salted Instant Popcorn
@@ -1515,7 +1515,7 @@ function Index() {
                       />
                     </a>
                     <a
-                      href="pages/shop-wishlist.html"
+                      href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
                       data-bs-html="true"
@@ -1541,7 +1541,7 @@ function Index() {
                 </div>
                 <h2 className="fs-6">
                   <a
-                    href="pages/shop-single.html"
+                    href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Blueberry Greek Yogurt
@@ -1592,7 +1592,7 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="pages/shop-single.html">
+                  <a href="/components/shopsingle">
                     <img
                       src="/assets/images/products/product-img-7.jpg"
                       alt="Grocery Ecommerce Template"
@@ -1614,7 +1614,7 @@ function Index() {
                       />
                     </a>
                     <a
-                      href="pages/shop-wishlist.html"
+                      href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
                       data-bs-html="true"
@@ -1640,7 +1640,7 @@ function Index() {
                 </div>
                 <h2 className="fs-6">
                   <a
-                    href="pages/shop-single.html"
+                    href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Britannia Cheese Slices
@@ -1688,7 +1688,7 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="pages/shop-single.html">
+                  <a href="/components/shopsingle">
                     <img
                       src="/assets/images/products/product-img-8.jpg"
                       alt="Grocery Ecommerce Template"
@@ -1710,7 +1710,7 @@ function Index() {
                       />
                     </a>
                     <a
-                      href="pages/shop-wishlist.html"
+                      href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
                       data-bs-html="true"
@@ -1736,7 +1736,7 @@ function Index() {
                 </div>
                 <h2 className="fs-6">
                   <a
-                    href="pages/shop-single.html"
+                    href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Kellogg's Original Cereals
@@ -1787,7 +1787,7 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="pages/shop-single.html">
+                  <a href="/components/shopsingle">
                     <img
                       src="/assets/images/products/product-img-9.jpg"
                       alt="Grocery Ecommerce Template"
@@ -1809,7 +1809,7 @@ function Index() {
                       />
                     </a>
                     <a
-                      href="pages/shop-wishlist.html"
+                      href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
                       data-bs-html="true"
@@ -1835,7 +1835,7 @@ function Index() {
                 </div>
                 <h2 className="fs-6">
                   <a
-                    href="pages/shop-single.html"
+                    href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Slurrp Millet Chocolate
@@ -1886,7 +1886,7 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="pages/shop-single.html">
+                  <a href="/components/shopsingle">
                     <img
                       src="/assets/images/products/product-img-10.jpg"
                       alt="Grocery Ecommerce Template"
@@ -1908,7 +1908,7 @@ function Index() {
                       />
                     </a>
                     <a
-                      href="pages/shop-wishlist.html"
+                      href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
                       data-bs-html="true"
@@ -1934,7 +1934,7 @@ function Index() {
                 </div>
                 <h2 className="fs-6">
                   <a
-                    href="pages/shop-single.html"
+                    href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Amul Butter - 500 g
@@ -2020,7 +2020,7 @@ function Index() {
               <div className="card card-product">
                 <div className="card-body">
                   <div className="text-center position-relative">
-                    <a href="pages/shop-single.html">
+                    <a href="/components/shopsingle">
                       <img
                         src="/assets/images/products/product-img-11.jpg"
                         alt="Grocery Ecommerce Template"
@@ -2068,7 +2068,7 @@ function Index() {
                   </div>
                   <h2 className="fs-6">
                     <a
-                      href="pages/shop-single.html"
+                      href="/components/shopsingle"
                       className="text-inherit text-decoration-none"
                     >
                       Roast Ground Coffee
@@ -2127,7 +2127,7 @@ function Index() {
               <div className="card card-product">
                 <div className="card-body">
                   <div className="text-center position-relative">
-                    <a href="pages/shop-single.html">
+                    <a href="/components/shopsingle">
                       <img
                         src="/assets/images/products/product-img-12.jpg"
                         alt="Grocery Ecommerce Template"
@@ -2175,7 +2175,7 @@ function Index() {
                   </div>
                   <h2 className="fs-6">
                     <a
-                      href="pages/shop-single.html"
+                      href="/components/shopsingle"
                       className="text-inherit text-decoration-none"
                     >
                       Crushed Tomatoes
@@ -2234,7 +2234,7 @@ function Index() {
               <div className="card card-product">
                 <div className="card-body">
                   <div className="text-center position-relative">
-                    <a href="pages/shop-single.html">
+                    <a href="/components/shopsingle">
                       <img
                         src="/assets/images/products/product-img-13.jpg"
                         alt="Grocery Ecommerce Template"
@@ -2282,7 +2282,7 @@ function Index() {
                   </div>
                   <h2 className="fs-6">
                     <a
-                      href="pages/shop-single.html"
+                      href="/components/shopsingle"
                       className="text-inherit text-decoration-none"
                     >
                       Golden Pineapple
@@ -2824,7 +2824,7 @@ function Index() {
                   </a>
                 </li>
                 <li className="nav-item mb-2">
-                  <a href="pages/shop-checkout.html" className="nav-link">
+                  <a href="/components/shopcheckout" className="nav-link">
                     Shop Checkout
                   </a>
                 </li>

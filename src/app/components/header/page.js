@@ -149,7 +149,7 @@ function header() {
               <div className="d-flex align-items-center">
                 <Link className="navbar-brand d-none d-lg-block" href="/">
                   <img
-                    src="../assets/images/logo/freshcart-logo.svg"
+                    src="/assets/images/logo/freshcart-logo.svg"
                     alt="eCommerce HTML Template"
                   />
                 </Link>
@@ -197,7 +197,7 @@ function header() {
                 </div>
               </div>
               <div className="d-flex justify-content-between w-100 d-lg-none">
-                <Link className="navbar-brand" href="../index.html">
+                <Link className="navbar-brand" href="/">
                   <img
                     src="../assets/images/logo/freshcart-logo.svg"
                     alt="eCommerce HTML Template"
@@ -386,7 +386,7 @@ function header() {
             aria-labelledby="navbar-defaultLabel"
           >
             <div className="offcanvas-header pb-1">
-              <Link href="index.html">
+              <Link href="/">
                 <img
                   src="../assets/images/logo/freshcart-logo.svg"
                   alt="eCommerce HTML Template"
@@ -579,17 +579,17 @@ function header() {
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="/">
+                        <Link className="dropdown-item" href="/components/index3">
                           Home 3
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="/">
+                        <Link className="dropdown-item" href="/components/index4">
                           Home 4
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="/">
+                        <Link className="dropdown-item" href="/components/index5">
                           Home 5
                         </Link>
                       </li>
@@ -617,27 +617,27 @@ function header() {
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="shop-list.html">
+                        <Link className="dropdown-item" href="/components/shoplist">
                           Shop List - Filter
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="shop-filter.html">
+                        <Link className="dropdown-item" href="/components/shopfilter">
                           Shop - Filter
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="shop-fullwidth.html">
+                        <Link className="dropdown-item" href="/components/shopwide">
                           Shop Wide
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="shop-single.html">
+                        <Link className="dropdown-item" href="/components/shopsingle">
                           Shop Single
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="shop-single-2.html">
+                        <Link className="dropdown-item" href="/components/shopsingle">
                           Shop Single v2
                         </Link>
                       </li>
@@ -647,12 +647,12 @@ function header() {
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="shop-cart.html">
+                        <Link className="dropdown-item" href="/components/shopcart">
                           Shop Cart
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="shop-checkout.html">
+                        <Link className="dropdown-item" href="/components/shopcheckout">
                           Shop Checkout
                         </Link>
                       </li>
@@ -834,17 +834,17 @@ function header() {
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="about.html">
+                        <Link className="dropdown-item" href="/components/about">
                           About us
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="404error.html">
+                        <Link className="dropdown-item" href="/components/error404">
                           404 Error
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="contact.html">
+                        <Link className="dropdown-item" href="/components/contact">
                           Contact
                         </Link>
                       </li>
@@ -872,7 +872,7 @@ function header() {
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" href="forgot-password.html">
+                        <Link className="dropdown-item" href="/components/forgotpassword">
                           Forgot Password
                         </Link>
                       </li>
@@ -885,14 +885,14 @@ function header() {
                         </Link>
                         <ul className="dropdown-menu">
                           <li>
-                            <Link className="dropdown-item" href="account-orders.html">
+                            <Link className="dropdown-item" href="/components/dashboard/orders">
                               Orders
                             </Link>
                           </li>
                           <li>
                             <Link
                               className="dropdown-item"
-                              href="account-settings.html"
+                              href="/components/account/accountsettings"
                             >
                               Settings
                             </Link>
@@ -900,7 +900,7 @@ function header() {
                           <li>
                             <Link
                               className="dropdown-item"
-                              href="account-address.html"
+                              href="/components/account/accountaddress"
                             >
                               Address
                             </Link>
@@ -908,7 +908,7 @@ function header() {
                           <li>
                             <Link
                               className="dropdown-item"
-                              href="account-payment-method.html"
+                              href="/components/account/accountpayment"
                             >
                               Payment Method
                             </Link>
@@ -916,7 +916,7 @@ function header() {
                           <li>
                             <Link
                               className="dropdown-item"
-                              href="account-notification.html"
+                              href="/components/account/accountnotification"
                             >
                               Notification
                             </Link>

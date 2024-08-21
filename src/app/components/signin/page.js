@@ -8,9 +8,9 @@ function SignIn() {
   <div className="border-bottom shadow-sm">
     <nav className="navbar navbar-light py-2">
       <div className="container justify-content-center justify-content-lg-between">
-        <a className="navbar-brand" href="../index.html">
+        <a className="navbar-brand" href="/">
           <img
-            src="../assets/images/logo/freshcart-logo.svg"
+            src="/assets/images/logo/freshcart-logo.svg"
             alt=""
             className="d-inline-block align-text-top"
           />

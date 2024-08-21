@@ -7,7 +7,7 @@ function Sidebar() {
     <nav className="navbar-vertical-nav d-none d-xl-block">
     <div className="navbar-vertical">
       <div className="px-4 py-5">
-        <Link href="/components/dashboard" className="navbar-brand">
+        <Link href="/" className="navbar-brand">
           <img src="/assets/images/logo/freshcart-logo.svg" alt="" />
         </Link>
       </div>
@@ -78,7 +78,7 @@ function Sidebar() {
                 </li>
                 {/* Nav item */}
                 <li className="nav-item">
-                  <Link className="nav-link " href="/components/dashboard/orders">
+                  <Link className="nav-link " href="/components/dashboard/ordersingle">
                     Single
                   </Link>
                 </li>
@@ -98,7 +98,7 @@ function Sidebar() {
           <li className="nav-item">
             <Link
               className="nav-link  collapsed "
-              href="/components/dashboard/customers"
+              href="/"
               data-bs-toggle="collapse"
               data-bs-target="#navCustomer"
               aria-expanded="false"
@@ -127,13 +127,13 @@ function Sidebar() {
                 </li>
                 {/* Nav item */}
                 <li className="nav-item">
-                  <Link className="nav-link " href="/components/dashboard/customers">
+                  <Link className="nav-link " href="/components/dashboard/createcustomers">
                     Create Customers
                   </Link>
                 </li>
                 {/* Nav item */}
                 <li className="nav-item">
-                  <Link className="nav-link " href="/components/dashboard/customers">
+                  <Link className="nav-link " href="/components/dashboard/editcustomers">
                     Edit Customers
                   </Link>
                 </li>
@@ -286,19 +286,19 @@ function Sidebar() {
             >
               <ul className="nav flex-column">
                 <li className="nav-item">
-                  <Link className="nav-link " href="blog-grid.html">
+                  <Link className="nav-link " href="/components/dashboard/blog">
                     Grid
                   </Link>
                 </li>
                 {/* Nav item */}
                 <li className="nav-item">
-                  <Link className="nav-link " href="blog-list.html">
+                  <Link className="nav-link " href="/components/dashboard/blog/bloglist">
                     List
                   </Link>
                 </li>
                 {/* Nav item */}
                 <li className="nav-item">
-                  <Link className="nav-link " href="blog-new-post.html">
+                  <Link className="nav-link " href="/components/dashboard/blog/addpost">
                     Add Post
                   </Link>
                 </li>
@@ -466,13 +466,13 @@ function Sidebar() {
             >
               <ul className="nav flex-column">
                 <li className="nav-item">
-                  <Link className="nav-link " href="order-list.html">
+                  <Link className="nav-link " href="/components/dashboard/orders">
                     List
                   </Link>
                 </li>
                 {/* Nav item */}
                 <li className="nav-item">
-                  <Link className="nav-link " href="order-single.html">
+                  <Link className="nav-link " href="/components/dashboard/ordersingle">
                     Single
                   </Link>
                 </li>
@@ -480,7 +480,7 @@ function Sidebar() {
             </div>
           </li>
           <li className="nav-item">
-            <Link className="nav-link " href="vendor-grid.html">
+            <Link className="nav-link " href="/components/dashboard/vendorgrid">
               <div className="d-flex align-items-center">
                 <span className="nav-link-icon">
                   <i className="bi bi-shop" />
@@ -490,7 +490,7 @@ function Sidebar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link " href="customers.html">
+            <Link className="nav-link " href="/components/dashboard/customers">
               <div className="d-flex align-items-center">
                 <span className="nav-link-icon">
                   <i className="bi bi-people" />
@@ -500,7 +500,7 @@ function Sidebar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link " href="reviews.html">
+            <Link className="nav-link " href="/components/dashboard/reviews">
               <div className="d-flex align-items-center">
                 <span className="nav-link-icon">
                   <i className="bi bi-star" />
@@ -516,7 +516,7 @@ function Sidebar() {
             </span>
           </li>
           <li className="nav-item">
-            <Link className="nav-link " href="#!">
+            <Link className="nav-link " href="/components/dashboard/blog">
               <div className="d-flex align-items-center">
                 <span className="nav-link-icon">
                   <i className="bi bi-newspaper" />

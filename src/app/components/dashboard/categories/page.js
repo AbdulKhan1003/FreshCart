@@ -39,7 +39,7 @@ function Categories() {
               </div>
               {/* button */}
               <div>
-                <a href="add-category.html" className="btn btn-primary">
+                <a href="/components/dashboard/addcategory" className="btn btn-primary">
                   Add New Category
                 </a>
               </div>
