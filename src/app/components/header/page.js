@@ -15,7 +15,7 @@ function header() {
               <div className="dropdown selectBox">
                 <a
                   className="dropdown-toggle selectValue text-reset"
-                  href="javascript:void(0)"
+                  href="#"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
@@ -62,7 +62,7 @@ function header() {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="javascript:void(0)">
+                    <a className="dropdown-item" href="#">
                       <span className="me-2">
                         <svg
                           width={16}
@@ -106,7 +106,7 @@ function header() {
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="javascript:void(0)">
+                    <a className="dropdown-item" href="#">
                       <span className="me-2">
                         <svg
                           width={16}
@@ -157,7 +157,7 @@ function header() {
                   <form action="#">
                     <div className="input-group">
                       <select className="form-select">
-                        <option selected="">All Categories</option>
+                        <option defaultValue="">All Categories</option>
                         <option value="Milk Drinks">Milk Drinks</option>
                         <option value="Curd & Yogurt">Curd &amp; Yogurt</option>
                         <option value="Eggs">Eggs</option>
@@ -444,15 +444,15 @@ function header() {
                   </button>
                 </div>
               </div>
-              <div class="d-block d-lg-none mb-4">
+              <div className="d-block d-lg-none mb-4">
                      <a
-                        class="btn btn-primary w-100 d-flex justify-content-center align-items-center"
+                        className="btn btn-primary w-100 d-flex justify-content-center align-items-center"
                         data-bs-toggle="collapse"
                         href="#collapseExample"
                         role="button"
                         aria-expanded="false"
                         aria-controls="collapseExample">
-                        <span class="me-2">
+                        <span className="me-2">
                            <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width="16"
@@ -460,10 +460,10 @@ function header() {
                               viewBox="0 0 24 24"
                               fill="none"
                               stroke="currentColor"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="feather feather-grid">
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              className="feather feather-grid">
                               <rect x="3" y="3" width="7" height="7"></rect>
                               <rect x="14" y="3" width="7" height="7"></rect>
                               <rect x="14" y="14" width="7" height="7"></rect>
@@ -472,16 +472,16 @@ function header() {
                         </span>
                         All Departments
                      </a>
-                     <div class="collapse mt-2" id="collapseExample">
-                        <div class="card card-body">
-                           <ul class="mb-0 list-unstyled">
-                              <li><a class="dropdown-item" href="/components/shopgrid">Dairy, Bread & Eggs</a></li>
-                              <li><a class="dropdown-item" href="/components/shopgrid">Snacks & Munchies</a></li>
-                              <li><a class="dropdown-item" href="/components/shopgrid">Fruits & Vegetables</a></li>
-                              <li><a class="dropdown-item" href="/components/shopgrid">Cold Drinks & Juices</a></li>
-                              <li><a class="dropdown-item" href="/components/shopgrid">Breakfast & Instant Food</a></li>
-                              <li><a class="dropdown-item" href="/components/shopgrid">Bakery & Biscuits</a></li>
-                              <li><a class="dropdown-item" href="/components/shopgrid">Chicken, Meat & Fish</a></li>
+                     <div className="collapse mt-2" id="collapseExample">
+                        <div className="card card-body">
+                           <ul className="mb-0 list-unstyled">
+                              <li><a className="dropdown-item" href="/components/shopgrid">Dairy, Bread & Eggs</a></li>
+                              <li><a className="dropdown-item" href="/components/shopgrid">Snacks & Munchies</a></li>
+                              <li><a className="dropdown-item" href="/components/shopgrid">Fruits & Vegetables</a></li>
+                              <li><a className="dropdown-item" href="/components/shopgrid">Cold Drinks & Juices</a></li>
+                              <li><a className="dropdown-item" href="/components/shopgrid">Breakfast & Instant Food</a></li>
+                              <li><a className="dropdown-item" href="/components/shopgrid">Bakery & Biscuits</a></li>
+                              <li><a className="dropdown-item" href="/components/shopgrid">Chicken, Meat & Fish</a></li>
                            </ul>
                         </div>
                      </div>
@@ -970,7 +970,7 @@ function header() {
                       </Link>
                       <Link
                         className="dropdown-item align-items-start"
-                        href="components/docs/changelog"
+                        href="/components/docs/changelog"
                       >
                         <div>
                           <svg

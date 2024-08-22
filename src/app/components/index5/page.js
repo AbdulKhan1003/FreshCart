@@ -51,7 +51,7 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
                     </a>
                     <span>
@@ -133,7 +133,7 @@ function Index() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
                     </a>
                     <span>
@@ -219,7 +219,7 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
                     </a>
                     <span>
@@ -306,7 +306,7 @@ function Index() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
                     </a>
                     <span>
@@ -392,7 +392,7 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
                     </a>
                     <span>
@@ -538,9 +538,9 @@ function Index() {
               />
               <small className="form-text">
                 By Signup, you agree to our
-                <a href="javascript:void(0)">Terms of Service</a>
+                <a href="#">Terms of Service</a>
                 &amp;
-                <a href="javascript:void(0)">Privacy Policy</a>
+                <a href="#">Privacy Policy</a>
               </small>
             </div>
             <button type="submit" className="btn btn-primary">
@@ -609,9 +609,9 @@ function Index() {
           <div>
             <h6 className="px-4 border-bottom py-3 mb-0">Notification</h6>
             <p className="mb-0 px-4 py-3">
-              <a href="signin.html">Sign in</a>
+              <a href="/components/signin">Sign in</a>
               or
-              <a href="signup.html">Register</a>
+              <a href="/components/signup">Register</a>
               in or so you don t have to enter your details every time
             </p>
           </div>
@@ -619,7 +619,7 @@ function Index() {
       </div>
       <div className="w-25 ms-2 py-4 icon-hover">
         <a
-          href="javascript:void(0)"
+          href="#"
           className="text-inherit"
           data-bs-toggle="modal"
           data-bs-target="#userModal"
@@ -645,7 +645,7 @@ function Index() {
         </a>
       </div>
       <div className="w-25 ms-2 py-4 icon-hover">
-        <a href="account-orders.html" className="text-inherit">
+        <a href="/components/orders" className="text-inherit">
           <div className="text-center">
             <div>
               <svg
@@ -826,7 +826,7 @@ function Index() {
                         >
                           <li className="nav-item border-bottom w-100 collapsed px-4 py-1">
                             <a
-                              href="javascript:void(0)"
+                              href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
                               data-bs-target="#categoryFlushOne"
@@ -864,7 +864,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Milk
@@ -873,7 +873,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Milk Drinks
@@ -882,7 +882,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Curd &amp; Yogurt
@@ -891,7 +891,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Eggs
@@ -900,7 +900,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Bread
@@ -909,7 +909,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Buns &amp; Bakery
@@ -918,7 +918,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Butter &amp; More
@@ -927,7 +927,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Cheese
@@ -936,7 +936,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Paneer &amp; Tofu
@@ -945,7 +945,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Cream &amp; Whitener
@@ -954,7 +954,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Condensed Milk
@@ -963,7 +963,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Vegan Drinks
@@ -976,7 +976,7 @@ function Index() {
                           {/* nav item */}
                           <li className="nav-item border-bottom w-100 collapsed px-4 py-1">
                             <a
-                              href="javascript:void(0)"
+                              href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
                               data-bs-target="#flush-collapseTwo"
@@ -1013,7 +1013,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Chips &amp; Crisps
@@ -1022,7 +1022,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Nachos
@@ -1031,7 +1031,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Popcorn
@@ -1040,7 +1040,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Bhujia &amp; Mixtures
@@ -1049,7 +1049,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Namkeen Snacks
@@ -1058,7 +1058,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Healthy Snacks
@@ -1067,7 +1067,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Cakes &amp; Rolls
@@ -1076,7 +1076,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Energy Bars
@@ -1085,7 +1085,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Papad &amp; Fryums
@@ -1094,7 +1094,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Rusks &amp; Wafers
@@ -1106,7 +1106,7 @@ function Index() {
                           </li>
                           <li className="nav-item border-bottom w-100 collapsed px-4 py-1">
                             <a
-                              href="javascript:void(0)"
+                              href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
                               data-bs-target="#flush-collapseThree"
@@ -1145,7 +1145,7 @@ function Index() {
                                     <a
                                       className="nav-link active"
                                       aria-current="page"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Fresh Vegetables
                                     </a>
@@ -1154,7 +1154,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Herbs &amp; Seasonings
                                     </a>
@@ -1163,7 +1163,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Fresh Fruits
                                     </a>
@@ -1172,7 +1172,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Organic Fruits &amp; Vegetables
                                     </a>
@@ -1181,7 +1181,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Cuts &amp; Sprouts
                                     </a>
@@ -1190,7 +1190,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Exotic Fruits &amp; Veggies
                                     </a>
@@ -1199,7 +1199,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Flower Bouquets, Bunches
                                     </a>
@@ -1210,7 +1210,7 @@ function Index() {
                           </li>
                           <li className="nav-item border-bottom w-100 collapsed px-4 py-1">
                             <a
-                              href="javascript:void(0)"
+                              href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
                               data-bs-target="#flush-collapseFour"
@@ -1247,7 +1247,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Soft Drinks
@@ -1256,7 +1256,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Fruit Juices
@@ -1265,7 +1265,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Coldpress
@@ -1274,7 +1274,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Energy Drinks
@@ -1283,7 +1283,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Water &amp; Ice Cubes
@@ -1292,7 +1292,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Soda &amp; Mixers
@@ -1301,7 +1301,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Concentrates &amp; Syrups
@@ -1310,7 +1310,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Detox &amp; Energy Drinks
@@ -1319,7 +1319,7 @@ function Index() {
                                   {/* nav item */}
                                   <li className="nav-item">
                                     <a
-                                      href="javascript:void(0)"
+                                      href="#"
                                       className="nav-link"
                                     >
                                       Juice Collection
@@ -1331,7 +1331,7 @@ function Index() {
                           </li>
                           <li className="nav-item border-bottom w-100 collapsed px-4 py-1">
                             <a
-                              href="javascript:void(0)"
+                              href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
                               data-bs-target="#flush-collapseFive"
@@ -1368,7 +1368,7 @@ function Index() {
                                     <a
                                       className="nav-link active"
                                       aria-current="page"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Diapers, Wipes &amp; More
                                     </a>
@@ -1377,7 +1377,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Baby Food
                                     </a>
@@ -1386,7 +1386,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Bath &amp; Hair Care
                                     </a>
@@ -1395,7 +1395,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Oral &amp; Nasal Care
                                     </a>
@@ -1404,7 +1404,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Baby Skin Care Online
                                     </a>
@@ -1413,7 +1413,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Cleaning Needs Online
                                     </a>
@@ -1422,7 +1422,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Feeding Accessories Online
                                     </a>
@@ -1433,7 +1433,7 @@ function Index() {
                           </li>
                           <li className="nav-item border-bottom w-100 collapsed px-4 py-1">
                             <a
-                              href="javascript:void(0)"
+                              href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
                               data-bs-target="#flush-collapseSix"
@@ -1472,7 +1472,7 @@ function Index() {
                                     <a
                                       className="nav-link active"
                                       aria-current="page"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Cookies
                                     </a>
@@ -1481,7 +1481,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Glucose &amp; Marie
                                     </a>
@@ -1490,7 +1490,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Sweet &amp; Salty
                                     </a>
@@ -1499,7 +1499,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Healthy &amp; Digestive
                                     </a>
@@ -1508,7 +1508,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Cream Biscuits
                                     </a>
@@ -1517,7 +1517,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Rusks &amp; Wafers
                                     </a>
@@ -1526,7 +1526,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Cakes &amp; Rolls
                                     </a>
@@ -1535,7 +1535,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Buns &amp; Bakery
                                     </a>
@@ -1546,7 +1546,7 @@ function Index() {
                           </li>
                           <li className="nav-item w-100 collapsed px-4 py-1">
                             <a
-                              href="javascript:void(0)"
+                              href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
                               data-bs-target="#flush-collapseSeven"
@@ -1585,7 +1585,7 @@ function Index() {
                                     <a
                                       className="nav-link active"
                                       aria-current="page"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Chicken
                                     </a>
@@ -1594,7 +1594,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Sausage, Salami &amp; Ham
                                     </a>
@@ -1603,7 +1603,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Exotic Meat
                                     </a>
@@ -1612,7 +1612,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Eggs
                                     </a>
@@ -1621,7 +1621,7 @@ function Index() {
                                   <li className="nav-item">
                                     <a
                                       className="nav-link"
-                                      href="javascript:void(0)"
+                                      href="#"
                                     >
                                       Frozen Non-Veg Snacks
                                     </a>
@@ -2103,7 +2103,7 @@ function Index() {
               <div className="card border border-danger p-6">
                 <div className="row">
                   <div className="col-lg-5 text-center">
-                    <a href="pages/shop-single.html">
+                    <a href="/components/shopsingle">
                       <img
                         src="../assets/images/products/deal-img.jpg"
                         alt="Grocery Ecommerce Template"
@@ -2126,7 +2126,7 @@ function Index() {
                     </div>
                     <h2 className="fs-4">
                       <a
-                        href="pages/shop-single.html"
+                        href="/components/shopsingle"
                         className="text-inherit text-decoration-none"
                       >
                         Parle Platina Nutricrunch Digestive Cookies
@@ -2141,7 +2141,7 @@ function Index() {
                       </div>
                     </div>
                     <div className="mt-2">
-                      <a href="javascript:void(0)" className="btn btn-primary">
+                      <a href="#" className="btn btn-primary">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -2821,7 +2821,7 @@ function Index() {
             {/* col */}
             <div className="col-12 col-md-6 col-lg-3 mb-8">
               <div className="mb-4">
-                <a href="javascript:void(0)">
+                <a href="#">
                   {/* img */}
                   <div className="img-zoom">
                     <img
@@ -2835,7 +2835,7 @@ function Index() {
               {/* text */}
               <div>
                 <h4 className="h5">
-                  <a href="javascript:void(0)" className="text-inherit">
+                  <a href="#" className="text-inherit">
                     Spaghetti with Crispy Zucchini
                   </a>
                 </h4>
@@ -2865,7 +2865,7 @@ function Index() {
             {/* col */}
             <div className="col-12 col-md-6 col-lg-3 mb-8">
               <div className="mb-4">
-                <a href="javascript:void(0)">
+                <a href="#">
                   <div className="img-zoom">
                     {/* img */}
                     <img
@@ -2879,7 +2879,7 @@ function Index() {
               {/* text */}
               <div>
                 <h4 className="h5">
-                  <a href="javascript:void(0)" className="text-inherit">
+                  <a href="#" className="text-inherit">
                     Almond Butter Chocolate Chip Zucchini Bars
                   </a>
                 </h4>
@@ -2909,7 +2909,7 @@ function Index() {
             {/* col */}
             <div className="col-12 col-md-6 col-lg-3 mb-8">
               <div className="mb-4">
-                <a href="javascript:void(0)">
+                <a href="#">
                   {/* img */}
                   <div className="img-zoom">
                     <img
@@ -2923,7 +2923,7 @@ function Index() {
               {/* text */}
               <div>
                 <h4 className="h5">
-                  <a href="javascript:void(0)" className="text-inherit">
+                  <a href="#" className="text-inherit">
                     Spicy Shrimp Tacos Garlic Cilantro Lime Slaw
                   </a>
                 </h4>
@@ -2953,7 +2953,7 @@ function Index() {
             {/* col */}
             <div className="col-12 col-md-6 col-lg-3 mb-8">
               <div className="mb-4">
-                <a href="javascript:void(0)">
+                <a href="#">
                   {/* img */}
                   <div className="img-zoom">
                     <img
@@ -2966,7 +2966,7 @@ function Index() {
               </div>
               <div>
                 <h4 className="h5">
-                  <a href="javascript:void(0)" className="text-inherit">
+                  <a href="#" className="text-inherit">
                     Simple Homemade Tomato Soup
                   </a>
                 </h4>

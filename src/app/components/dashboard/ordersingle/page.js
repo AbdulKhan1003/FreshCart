@@ -39,7 +39,7 @@ function OrderSingle() {
               </div>
               {/* button */}
               <div>
-                <a href="#" className="btn btn-primary">
+                <a href="/components/dashboard/orders" className="btn btn-primary">
                   Back to all orders
                 </a>
               </div>
@@ -63,7 +63,7 @@ function OrderSingle() {
                   <div className="d-md-flex">
                     <div className="mb-2 mb-md-0">
                       <select className="form-select">
-                        <option selected="">Status</option>
+                        <option defaultValue="">Status</option>
                         <option value="Success">Success</option>
                         <option value="Pending">Pending</option>
                         <option value="Cancel">Cancel</option>

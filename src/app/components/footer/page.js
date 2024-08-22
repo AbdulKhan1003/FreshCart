@@ -167,7 +167,7 @@ function footer() {
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="pages/shop-checkout.html" className="nav-link">
+                <a href="/components/shopcheckout" className="nav-link">
                   Shop Checkout
                 </a>
               </li>

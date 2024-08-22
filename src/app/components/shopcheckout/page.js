@@ -11,7 +11,7 @@ function ShopCheckout() {
   <div
     className="modal fade"
     id="userModal"
-    tabIndex={-1}
+    tabIndex="true"
     aria-labelledby="userModalLabel"
     aria-hidden="true"
   >
@@ -131,7 +131,7 @@ function ShopCheckout() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
                     </a>
                     <span>
@@ -213,7 +213,7 @@ function ShopCheckout() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
                     </a>
                     <span>
@@ -299,7 +299,7 @@ function ShopCheckout() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
                     </a>
                     <span>
@@ -386,7 +386,7 @@ function ShopCheckout() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
                     </a>
                     <span>
@@ -472,7 +472,7 @@ function ShopCheckout() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
                     </a>
                     <span>
@@ -2906,7 +2906,7 @@ function ShopCheckout() {
             <div className="col-12">
               {/* button */}
               <select className="form-select">
-                <option selected="">India</option>
+                <option defaultValue="">India</option>
                 <option value={1}>UK</option>
                 <option value={2}>USA</option>
                 <option value={3}>UAE</option>
@@ -2915,7 +2915,7 @@ function ShopCheckout() {
             <div className="col-12">
               {/* button */}
               <select className="form-select">
-                <option selected="">Gujarat</option>
+                <option defaultValue="">Gujarat</option>
                 <option value={1}>Northern Ireland</option>
                 <option value={2}>Alaska</option>
                 <option value={3}>Abu Dhabi</option>

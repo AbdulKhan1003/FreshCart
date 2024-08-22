@@ -66,7 +66,7 @@ function Categories() {
                   {/* select option */}
                   <div className="col-xl-2 col-md-4 col-12">
                     <select className="form-select">
-                      <option selected="">Status</option>
+                      <option defaultValue="">Status</option>
                       <option value="Published">Published</option>
                       <option value="Unpublished">Unpublished</option>
                     </select>

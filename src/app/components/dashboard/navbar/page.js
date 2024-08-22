@@ -2,7 +2,7 @@ import React from 'react'
 
 function navbarDropdownDocs() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-glass">
+    <nav className="navbar navbar-expand-lg navbar-glass" style={{position:"absolute"}}>
     <div className="container-fluid">
       <div className="d-flex justify-content-between align-items-center w-100">
         <div className="d-flex align-items-center">

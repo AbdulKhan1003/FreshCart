@@ -130,7 +130,7 @@ function About() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
                     </a>
                     <span>
@@ -212,7 +212,7 @@ function About() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
                     </a>
                     <span>
@@ -298,7 +298,7 @@ function About() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
                     </a>
                     <span>
@@ -385,7 +385,7 @@ function About() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
                     </a>
                     <span>
@@ -471,7 +471,7 @@ function About() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
                     </a>
                     <span>

@@ -12,7 +12,7 @@ function categories() {
     <div className="category-slider">
       <div className="item">
         <a
-          href="pages/shop-grid.html"
+          href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
           <div className="card card-product mb-lg-4">
@@ -29,7 +29,7 @@ function categories() {
       </div>
       <div className="item">
         <a
-          href="pages/shop-grid.html"
+          href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
           <div className="card card-product mb-lg-4">
@@ -46,7 +46,7 @@ function categories() {
       </div>
       <div className="item">
         <a
-          href="pages/shop-grid.html"
+          href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
           <div className="card card-product mb-lg-4">
@@ -63,7 +63,7 @@ function categories() {
       </div>
       <div className="item">
         <a
-          href="pages/shop-grid.html"
+          href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
           <div className="card card-product mb-lg-4">
@@ -80,7 +80,7 @@ function categories() {
       </div>
       <div className="item">
         <a
-          href="pages/shop-grid.html"
+          href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
           <div className="card card-product mb-lg-4">
@@ -97,7 +97,7 @@ function categories() {
       </div>
       <div className="item">
         <a
-          href="pages/shop-grid.html"
+          href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
           <div className="card card-product mb-lg-4">
@@ -114,7 +114,7 @@ function categories() {
       </div>
       <div className="item">
         <a
-          href="pages/shop-grid.html"
+          href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
           <div className="card card-product mb-lg-4">
@@ -131,7 +131,7 @@ function categories() {
       </div>
       <div className="item">
         <a
-          href="pages/shop-grid.html"
+          href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
           <div className="card card-product mb-lg-4">
@@ -148,7 +148,7 @@ function categories() {
       </div>
       <div className="item">
         <a
-          href="pages/shop-grid.html"
+          href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
           <div className="card card-product mb-lg-4">
@@ -165,7 +165,7 @@ function categories() {
       </div>
       <div className="item">
         <a
-          href="pages/shop-grid.html"
+          href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
           <div className="card card-product mb-lg-4">
@@ -305,7 +305,7 @@ function categories() {
               </div>
               <h2 className="fs-6">
                 <a
-                  href="pages/shop-single.html"
+                  href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Haldiram's Sev Bhujia
@@ -359,7 +359,7 @@ function categories() {
                 <div className="position-absolute top-0 start-0">
                   <span className="badge bg-success">14%</span>
                 </div>
-                <a href="pages/shop-single.html">
+                <a href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-2.jpg"
                     alt="Grocery Ecommerce Template"
@@ -381,7 +381,7 @@ function categories() {
                     />
                   </a>
                   <a
-                    href="pages/shop-wishlist.html"
+                    href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
                     data-bs-html="true"
@@ -407,7 +407,7 @@ function categories() {
               </div>
               <h2 className="fs-6">
                 <a
-                  href="pages/shop-single.html"
+                  href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   NutriChoice Digestive
@@ -455,7 +455,7 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="pages/shop-single.html">
+                <a href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-3.jpg"
                     alt="Grocery Ecommerce Template"
@@ -477,7 +477,7 @@ function categories() {
                     />
                   </a>
                   <a
-                    href="pages/shop-wishlist.html"
+                    href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
                     data-bs-html="true"
@@ -503,7 +503,7 @@ function categories() {
               </div>
               <h2 className="fs-6">
                 <a
-                  href="pages/shop-single.html"
+                  href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Cadbury 5 Star Chocolate
@@ -554,7 +554,7 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="pages/shop-single.html">
+                <a href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-4.jpg"
                     alt="Grocery Ecommerce Template"
@@ -576,7 +576,7 @@ function categories() {
                     />
                   </a>
                   <a
-                    href="pages/shop-wishlist.html"
+                    href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
                     data-bs-html="true"
@@ -605,7 +605,7 @@ function categories() {
               </div>
               <h2 className="fs-6">
                 <a
-                  href="pages/shop-single.html"
+                  href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Onion Flavour Potato
@@ -656,7 +656,7 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="pages/shop-single.html">
+                <a href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-5.jpg"
                     alt="Grocery Ecommerce Template"
@@ -678,7 +678,7 @@ function categories() {
                     />
                   </a>
                   <a
-                    href="pages/shop-wishlist.html"
+                    href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
                     data-bs-html="true"
@@ -704,7 +704,7 @@ function categories() {
               </div>
               <h2 className="fs-6">
                 <a
-                  href="pages/shop-single.html"
+                  href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Salted Instant Popcorn
@@ -780,7 +780,7 @@ function categories() {
                     />
                   </a>
                   <a
-                    href="pages/shop-wishlist.html"
+                    href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
                     data-bs-html="true"
@@ -806,7 +806,7 @@ function categories() {
               </div>
               <h2 className="fs-6">
                 <a
-                  href="pages/shop-single.html"
+                  href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Blueberry Greek Yogurt
@@ -857,7 +857,7 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="pages/shop-single.html">
+                <a href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-7.jpg"
                     alt="Grocery Ecommerce Template"
@@ -879,7 +879,7 @@ function categories() {
                     />
                   </a>
                   <a
-                    href="pages/shop-wishlist.html"
+                    href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
                     data-bs-html="true"
@@ -905,7 +905,7 @@ function categories() {
               </div>
               <h2 className="fs-6">
                 <a
-                  href="pages/shop-single.html"
+                  href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Britannia Cheese Slices
@@ -953,7 +953,7 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="pages/shop-single.html">
+                <a href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-8.jpg"
                     alt="Grocery Ecommerce Template"
@@ -975,7 +975,7 @@ function categories() {
                     />
                   </a>
                   <a
-                    href="pages/shop-wishlist.html"
+                    href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
                     data-bs-html="true"
@@ -1001,7 +1001,7 @@ function categories() {
               </div>
               <h2 className="fs-6">
                 <a
-                  href="pages/shop-single.html"
+                  href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Kellogg's Original Cereals
@@ -1052,7 +1052,7 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="pages/shop-single.html">
+                <a href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-9.jpg"
                     alt="Grocery Ecommerce Template"
@@ -1074,7 +1074,7 @@ function categories() {
                     />
                   </a>
                   <a
-                    href="pages/shop-wishlist.html"
+                    href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
                     data-bs-html="true"
@@ -1100,7 +1100,7 @@ function categories() {
               </div>
               <h2 className="fs-6">
                 <a
-                  href="pages/shop-single.html"
+                  href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Slurrp Millet Chocolate
@@ -1151,7 +1151,7 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="pages/shop-single.html">
+                <a href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-10.jpg"
                     alt="Grocery Ecommerce Template"
@@ -1173,7 +1173,7 @@ function categories() {
                     />
                   </a>
                   <a
-                    href="pages/shop-wishlist.html"
+                    href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
                     data-bs-html="true"
@@ -1199,7 +1199,7 @@ function categories() {
               </div>
               <h2 className="fs-6">
                 <a
-                  href="pages/shop-single.html"
+                  href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Amul Butter - 500 g
@@ -1285,7 +1285,7 @@ function categories() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="pages/shop-single.html">
+                  <a href="/components/shopsingle">
                     <img
                       src="assets/images/products/product-img-11.jpg"
                       alt="Grocery Ecommerce Template"
@@ -1333,7 +1333,7 @@ function categories() {
                 </div>
                 <h2 className="fs-6">
                   <a
-                    href="pages/shop-single.html"
+                    href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Roast Ground Coffee
@@ -1392,7 +1392,7 @@ function categories() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="pages/shop-single.html">
+                  <a href="/components/shopsingle">
                     <img
                       src="assets/images/products/product-img-12.jpg"
                       alt="Grocery Ecommerce Template"
@@ -1440,7 +1440,7 @@ function categories() {
                 </div>
                 <h2 className="fs-6">
                   <a
-                    href="pages/shop-single.html"
+                    href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Crushed Tomatoes
@@ -1499,7 +1499,7 @@ function categories() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="pages/shop-single.html">
+                  <a href="/components/shopsingle">
                     <img
                       src="assets/images/products/product-img-13.jpg"
                       alt="Grocery Ecommerce Template"
@@ -1547,7 +1547,7 @@ function categories() {
                 </div>
                 <h2 className="fs-6">
                   <a
-                    href="pages/shop-single.html"
+                    href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Golden Pineapple

@@ -131,7 +131,7 @@ function storeSingle() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
                     </a>
                     <span>
@@ -213,7 +213,7 @@ function storeSingle() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
                     </a>
                     <span>
@@ -299,7 +299,7 @@ function storeSingle() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
                     </a>
                     <span>
@@ -386,7 +386,7 @@ function storeSingle() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
                     </a>
                     <span>
@@ -472,7 +472,7 @@ function storeSingle() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
                     </a>
                     <span>
@@ -986,7 +986,7 @@ function storeSingle() {
                 <div className="me-2">
                   {/* select option */}
                   <select className="form-select">
-                    <option selected="">Show: 50</option>
+                    <option defaultValue="">Show: 50</option>
                     <option value={10}>10</option>
                     <option value={20}>20</option>
                     <option value={30}>30</option>
@@ -995,7 +995,7 @@ function storeSingle() {
                 <div>
                   {/* select option */}
                   <select className="form-select">
-                    <option selected="">Sort by: Featured</option>
+                    <option defaultValue="">Sort by: Featured</option>
                     <option value="Low to High">Price: Low to High</option>
                     <option value="High to Low">Price: High to Low</option>
                     <option value="Release Date">Release Date</option>

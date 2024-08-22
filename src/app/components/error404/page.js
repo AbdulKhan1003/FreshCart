@@ -13,7 +13,7 @@ function Error() {
           <div className="offset-lg-1 col-lg-10 py-8 py-xl-0">
             <div className="mb-10 mb-xxl-0">
               {/* img */}
-              <a href="../index.html">
+              <a href="/">
                 <img src="../assets/images/logo/freshcart-logo.svg" alt="" />
               </a>
             </div>

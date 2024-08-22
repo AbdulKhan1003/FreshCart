@@ -65,7 +65,7 @@ function Products() {
                   {/* select option */}
                   <div className="col-lg-2 col-md-4 col-12">
                     <select className="form-select">
-                      <option selected="">Status</option>
+                      <option defaultValue="">Status</option>
                       <option value={1}>Active</option>
                       <option value={2}>Deactive</option>
                       <option value={3}>Draft</option>

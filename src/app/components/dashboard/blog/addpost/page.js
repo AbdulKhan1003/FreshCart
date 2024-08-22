@@ -343,7 +343,7 @@ function AddPost() {
                             id="validationCustom04"
                             required=""
                           >
-                            <option selected="" disabled="" value="">
+                            <option defaultValue="" disabled="" value="">
                               Select Category
                             </option>
                             <option value="Recipes">Recipes</option>

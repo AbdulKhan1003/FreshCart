@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../header/page'
+import Link from 'next/link'
 import Footer from '../../footer/page'
 
 function AccountAddress() {
@@ -70,9 +71,9 @@ function AccountAddress() {
               <div className="invalid-feedback">Please enter password.</div>
               <small className="form-text">
                 By Signup, you agree to our
-                <a href="#!">Terms of Service</a>
+                <Link href="#!">Terms of Service</Link>
                 &amp;
-                <a href="#!">Privacy Policy</a>
+                <Link href="#!">Privacy Policy</Link>
               </small>
             </div>
             <button type="submit" className="btn btn-primary">
@@ -82,7 +83,7 @@ function AccountAddress() {
         </div>
         <div className="modal-footer border-0 justify-content-center">
           Already have an account?
-          <a href="#">Sign in</a>
+          <Link href="#">Sign in</Link>
         </div>
       </div>
     </div>
@@ -113,9 +114,9 @@ function AccountAddress() {
         {/* alert */}
         <div className="alert alert-danger p-2" role="alert">
           You’ve got FREE delivery. Start
-          <a href="#!" className="alert-link">
+          <Link href="#!" className="alert-link">
             checkout now!
-          </a>
+          </Link>
         </div>
         <ul className="list-group list-group-flush">
           {/* list group */}
@@ -131,15 +132,15 @@ function AccountAddress() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">.98 / lb</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -163,7 +164,7 @@ function AccountAddress() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -213,15 +214,15 @@ function AccountAddress() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="shop-single.html" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -245,7 +246,7 @@ function AccountAddress() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -299,15 +300,15 @@ function AccountAddress() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">1 kg</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -331,7 +332,7 @@ function AccountAddress() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -386,15 +387,15 @@ function AccountAddress() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -418,7 +419,7 @@ function AccountAddress() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -472,15 +473,15 @@ function AccountAddress() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">100g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -504,7 +505,7 @@ function AccountAddress() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -548,12 +549,12 @@ function AccountAddress() {
         </ul>
         {/* btn */}
         <div className="d-flex justify-content-between mt-4">
-          <a href="#!" className="btn btn-primary">
+          <Link href="#!" className="btn btn-primary">
             Continue Shopping
-          </a>
-          <a href="#!" className="btn btn-dark">
+          </Link>
+          <Link href="#!" className="btn btn-dark">
             Update Cart
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -594,83 +595,83 @@ function AccountAddress() {
           </div>
           <div className="d-flex justify-content-between align-items-center mb-2">
             <h6 className="mb-0">Select Location</h6>
-            <a href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
+            <Link href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
               Clear All
-            </a>
+            </Link>
           </div>
           <div>
             <div data-simplebar="" style={{ height: 300 }}>
               <div className="list-group list-group-flush">
-                <a
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action active"
                 >
                   <span>Alabama</span>
                   <span>Min:$20</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Alaska</span>
                   <span>Min:$30</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -710,42 +711,42 @@ function AccountAddress() {
                 {/* nav item */}
                 <li className="nav-item">
                   {/* nav link */}
-                  <a
+                  <Link
                     className="nav-link"
                     aria-current="page"
-                    href="account-orders.html"
+                    href="/components/dashboard/orders"
                   >
                     <i className="feather-icon icon-shopping-bag me-2" />
                     Your Orders
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a className="nav-link" href="account-settings.html">
+                  <Link className="nav-link" href="/components/account/accountsettings">
                     <i className="feather-icon icon-settings me-2" />
                     Settings
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a className="nav-link active" href="account-address.html">
+                  <Link className="nav-link active" href="/components/account/accountaddress">
                     <i className="feather-icon icon-map-pin me-2" />
                     Address
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a className="nav-link" href="account-payment-method.html">
+                  <Link className="nav-link" href="/components/account/accountpayment">
                     <i className="feather-icon icon-credit-card me-2" />
                     Payment Method
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a className="nav-link" href="account-notification.html">
+                  <Link className="nav-link" href="/components/account/accountnotification">
                     <i className="feather-icon icon-bell me-2" />
                     Notification
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
@@ -753,10 +754,10 @@ function AccountAddress() {
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a className="nav-link" href="../index.html">
+                  <Link className="nav-link" href="/">
                     <i className="feather-icon icon-log-out me-2" />
                     Log out
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -767,14 +768,14 @@ function AccountAddress() {
                 {/* heading */}
                 <h2 className="mb-0">Address</h2>
                 {/* button */}
-                <a
+                <Link
                   href="#"
                   className="btn btn-outline-primary"
                   data-bs-toggle="modal"
                   data-bs-target="#addAddressModal"
                 >
                   Add a new address
-                </a>
+                </Link>
               </div>
               <div className="row">
                 {/* col */}
@@ -808,21 +809,21 @@ function AccountAddress() {
                         402-776-1106
                       </p>
                       {/* btn */}
-                      <a href="#" className="btn btn-info btn-sm">
+                      <Link href="#" className="btn btn-info btn-sm">
                         Default address
-                      </a>
+                      </Link>
                       <div className="mt-4">
-                        <a href="#" className="text-inherit">
+                        <Link href="#" className="text-inherit">
                           Edit
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#"
                           className="text-danger ms-3"
                           data-bs-toggle="modal"
                           data-bs-target="#deleteModal"
                         >
                           Delete
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -856,22 +857,22 @@ function AccountAddress() {
                         402-776-1106
                       </p>
                       {/* link */}
-                      <a href="#" className="link-primary">
+                      <Link href="#" className="link-primary">
                         Set as Default
-                      </a>
+                      </Link>
                       <div className="mt-4">
-                        <a href="#" className="text-inherit">
+                        <Link href="#" className="text-inherit">
                           Edit
-                        </a>
+                        </Link>
                         {/* btn */}
-                        <a
+                        <Link
                           href="#"
                           className="text-danger ms-3"
                           data-bs-toggle="modal"
                           data-bs-target="#deleteModal"
                         >
                           Delete
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1020,7 +1021,7 @@ function AccountAddress() {
             <div className="col-12">
               {/* form select */}
               <select className="form-select">
-                <option selected="">India</option>
+                <option defaultValue="">India</option>
                 <option value={1}>UK</option>
                 <option value={2}>USA</option>
                 <option value={3}>UAE</option>
@@ -1030,7 +1031,7 @@ function AccountAddress() {
             <div className="col-12">
               {/* form select */}
               <select className="form-select">
-                <option selected="">Gujarat</option>
+                <option defaultValue="">Gujarat</option>
                 <option value={1}>Northern Ireland</option>
                 <option value={2}>Alaska</option>
                 <option value={3}>Abu Dhabi</option>
@@ -1112,42 +1113,42 @@ function AccountAddress() {
       <ul className="nav flex-column nav-pills nav-pills-dark">
         {/* nav item */}
         <li className="nav-item">
-          <a
+          <Link
             className="nav-link"
             aria-current="page"
-            href="account-orders.html"
+            href="/components/dashboard/orders"
           >
             <i className="feather-icon icon-shopping-bag me-2" />
             Your Orders
-          </a>
+          </Link>
         </li>
         {/* nav item */}
         <li className="nav-item">
-          <a className="nav-link" href="account-settings.html">
+          <Link className="nav-link" href="/components/account/accountsettings">
             <i className="feather-icon icon-settings me-2" />
             Settings
-          </a>
+          </Link>
         </li>
         {/* nav item */}
         <li className="nav-item">
-          <a className="nav-link active" href="account-address.html">
+          <Link className="nav-link active" href="/components/account/accountaddress">
             <i className="feather-icon icon-map-pin me-2" />
             Address
-          </a>
+          </Link>
         </li>
         {/* nav item */}
         <li className="nav-item">
-          <a className="nav-link" href="account-payment-method.html">
+          <Link className="nav-link" href="/components/account/accountpayment">
             <i className="feather-icon icon-credit-card me-2" />
             Payment Method
-          </a>
+          </Link>
         </li>
         {/* nav item */}
         <li className="nav-item">
-          <a className="nav-link" href="account-notification.html">
+          <Link className="nav-link" href="/components/account/accountnotification">
             <i className="feather-icon icon-bell me-2" />
             Notification
-          </a>
+          </Link>
         </li>
       </ul>
       <hr className="my-6" />
@@ -1156,10 +1157,10 @@ function AccountAddress() {
         <ul className="nav flex-column nav-pills nav-pills-dark">
           {/* nav item */}
           <li className="nav-item">
-            <a className="nav-link" href="../index.html">
+            <Link className="nav-link" href="/">
               <i className="feather-icon icon-log-out me-2" />
               Log out
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

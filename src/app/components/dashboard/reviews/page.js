@@ -57,7 +57,7 @@ function Reviews() {
                   <div className="col-lg-2 col-md-4 col-12">
                     {/* main */}
                     <select className="form-select">
-                      <option selected="">Select Rating</option>
+                      <option defaultValue="">Select Rating</option>
                       <option value={1}>One</option>
                       <option value={2}>Two</option>
                       <option value={3}>Three</option>

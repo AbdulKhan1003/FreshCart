@@ -16,8 +16,8 @@ function SignIn() {
           />
         </a>
         <span className="navbar-text">
-          Already have an account?
-          <a href="signin.html">Sign in</a>
+          Don't have an account?
+          <a href="/components/signup"> Sign Up</a>
         </span>
       </div>
     </nav>
@@ -107,7 +107,7 @@ function SignIn() {
                   </div>
                   <div>
                     Forgot password?
-                    <a href="forgot-password.html">Reset It</a>
+                    <a href="/components/forgotpassword">Reset It</a>
                   </div>
                 </div>
                 {/* btn */}
@@ -119,7 +119,7 @@ function SignIn() {
                 {/* link */}
                 <div>
                   Don’t have an account?
-                  <a href="signup.html">Sign Up</a>
+                  <a href="/components/signup">Sign Up</a>
                 </div>
               </div>
             </form>

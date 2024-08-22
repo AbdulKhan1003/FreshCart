@@ -131,7 +131,7 @@ function ShopList() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
                     </a>
                     <span>
@@ -213,7 +213,7 @@ function ShopList() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
                     </a>
                     <span>
@@ -299,7 +299,7 @@ function ShopList() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
                     </a>
                     <span>
@@ -386,7 +386,7 @@ function ShopList() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
                     </a>
                     <span>
@@ -472,7 +472,7 @@ function ShopList() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
                     </a>
                     <span>
@@ -1575,7 +1575,7 @@ function ShopList() {
                   <div className="me-2 flex-grow-1">
                     {/* select option */}
                     <select className="form-select">
-                      <option selected="">Show: 50</option>
+                      <option defaultValue="">Show: 50</option>
                       <option value={10}>10</option>
                       <option value={20}>20</option>
                       <option value={30}>30</option>
@@ -1584,7 +1584,7 @@ function ShopList() {
                   <div>
                     {/* select option */}
                     <select className="form-select">
-                      <option selected="">Sort by: Featured</option>
+                      <option defaultValue="">Sort by: Featured</option>
                       <option value="Low to High">Price: Low to High</option>
                       <option value="High to Low">Price: High to Low</option>
                       <option value="Release Date">Release Date</option>
@@ -1609,7 +1609,7 @@ function ShopList() {
                             {/* badge */}
                             <span className="badge bg-danger">Sale</span>
                           </div>
-                          <a href="shop-single.html">
+                          <a href="/components/shopsingle">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-1.jpg"
@@ -1631,7 +1631,7 @@ function ShopList() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopsingle"
                             className="text-inherit text-decoration-none"
                           >
                             Haldiram's Sev Bhujia
@@ -1726,7 +1726,7 @@ function ShopList() {
                     <div className="row align-items-center">
                       <div className="col-md-4 col-12">
                         <div className="text-center position-relative">
-                          <a href="shop-single.html">
+                          <a href="/components/shopsingle">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-2.jpg"
@@ -1748,7 +1748,7 @@ function ShopList() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopsingle"
                             className="text-inherit text-decoration-none"
                           >
                             NutriChoice Digestive
@@ -1844,7 +1844,7 @@ function ShopList() {
                             {/* badge */}
                             <span className="badge bg-success">14%</span>
                           </div>
-                          <a href="shop-single.html">
+                          <a href="/components/shopsingle">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-10.jpg"
@@ -1866,7 +1866,7 @@ function ShopList() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopsingle"
                             className="text-inherit text-decoration-none"
                           >
                             Cadbury 5 Star Chocolate
@@ -1958,7 +1958,7 @@ function ShopList() {
                     <div className="row align-items-center">
                       <div className="col-md-4 col-12">
                         <div className="text-center position-relative">
-                          <a href="shop-single.html">
+                          <a href="/components/shopsingle">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-4.jpg"
@@ -1980,7 +1980,7 @@ function ShopList() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopsingle"
                             className="text-inherit text-decoration-none"
                           >
                             Onion Flavour Potato
@@ -2075,7 +2075,7 @@ function ShopList() {
                     <div className="row align-items-center">
                       <div className="col-md-4 col-12">
                         <div className="text-center position-relative">
-                          <a href="shop-single.html">
+                          <a href="/components/shopsingle">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-5.jpg"
@@ -2097,7 +2097,7 @@ function ShopList() {
                         </div>
                         <h2 className="fs-6">
                           <a
-                            href="shop-single.html"
+                            href="/components/shopsingle"
                             className="text-inherit text-decoration-none"
                           >
                             Salted Instant Popcorn

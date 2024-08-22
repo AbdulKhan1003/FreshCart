@@ -131,7 +131,7 @@ function ShopFilter() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
                     </a>
                     <span>
@@ -213,7 +213,7 @@ function ShopFilter() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
                     </a>
                     <span>
@@ -299,7 +299,7 @@ function ShopFilter() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
                     </a>
                     <span>
@@ -386,7 +386,7 @@ function ShopFilter() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
                     </a>
                     <span>
@@ -472,7 +472,7 @@ function ShopFilter() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="shop-single.html" className="text-inherit">
+                    <a href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
                     </a>
                     <span>
@@ -1086,7 +1086,7 @@ function ShopFilter() {
                 <div className="me-2">
                   {/* select */}
                   <select className="form-select">
-                    <option selected="">Show: 50</option>
+                    <option defaultValue="">Show: 50</option>
                     <option value={10}>10</option>
                     <option value={20}>20</option>
                     <option value={30}>30</option>
@@ -1095,7 +1095,7 @@ function ShopFilter() {
                 {/* select */}
                 <div>
                   <select className="form-select">
-                    <option selected="">Sort by: Featured</option>
+                    <option defaultValue="">Sort by: Featured</option>
                     <option value="Low to High">Price: Low to High</option>
                     <option value="High to Low">Price: High to Low</option>
                     <option value="Release Date">Release Date</option>
@@ -1115,7 +1115,7 @@ function ShopFilter() {
                       <div className="position-absolute top-0 start-0">
                         <span className="badge bg-danger">Sale</span>
                       </div>
-                      <a href="shop-single.html">
+                      <a href="/components/shopsingle">
                         {/* img */}
                         <img
                           src="/assets/images/products/product-img-1.jpg"
@@ -1166,7 +1166,7 @@ function ShopFilter() {
                     </div>
                     <h2 className="fs-6">
                       <a
-                        href="shop-single.html"
+                        href="/components/shopsingle"
                         className="text-inherit text-decoration-none"
                       >
                         Haldiram's Sev Bhujia
@@ -1223,7 +1223,7 @@ function ShopFilter() {
                       <div className="position-absolute top-0 start-0">
                         <span className="badge bg-success">14%</span>
                       </div>
-                      <a href="shop-single.html">
+                      <a href="/components/shopsingle">
                         {/* img */}
                         <img
                           src="/assets/images/products/product-img-2.jpg"
@@ -1274,7 +1274,7 @@ function ShopFilter() {
                     </div>
                     <h2 className="fs-6">
                       <a
-                        href="shop-single.html"
+                        href="/components/shopsingle"
                         className="text-inherit text-decoration-none"
                       >
                         NutriChoice Digestive
@@ -1326,7 +1326,7 @@ function ShopFilter() {
                 <div className="card card-product">
                   <div className="card-body">
                     <div className="text-center position-relative">
-                      <a href="shop-single.html">
+                      <a href="/components/shopsingle">
                         <img
                           src="/assets/images/products/product-img-3.jpg"
                           alt="Grocery Ecommerce Template"
@@ -1376,7 +1376,7 @@ function ShopFilter() {
                     </div>
                     <h2 className="fs-6">
                       <a
-                        href="shop-single.html"
+                        href="/components/shopsingle"
                         className="text-inherit text-decoration-none"
                       >
                         Cadbury 5 Star Chocolate
@@ -1434,7 +1434,7 @@ function ShopFilter() {
                       <div className="position-absolute top-0">
                         <span className="badge bg-danger">Hot</span>
                       </div>
-                      <a href="shop-single.html">
+                      <a href="/components/shopsingle">
                         {/* img */}
                         <img
                           src="/assets/images/products/product-img-4.jpg"
@@ -1485,7 +1485,7 @@ function ShopFilter() {
                     </div>
                     <h2 className="fs-6">
                       <a
-                        href="shop-single.html"
+                        href="/components/shopsingle"
                         className="text-inherit text-decoration-none"
                       >
                         Onion Flavour Potato
@@ -1540,7 +1540,7 @@ function ShopFilter() {
                 <div className="card card-product">
                   <div className="card-body">
                     <div className="text-center position-relative">
-                      <a href="shop-single.html">
+                      <a href="/components/shopsingle">
                         <img
                           src="/assets/images/products/product-img-5.jpg"
                           alt="Grocery Ecommerce Template"
@@ -1590,7 +1590,7 @@ function ShopFilter() {
                     </div>
                     <h2 className="fs-6">
                       <a
-                        href="shop-single.html"
+                        href="/components/shopsingle"
                         className="text-inherit text-decoration-none"
                       >
                         Salted Instant Popcorn
@@ -1648,7 +1648,7 @@ function ShopFilter() {
                       <div className="position-absolute top-0">
                         <span className="badge bg-danger">Sale</span>
                       </div>
-                      <a href="shop-single.html">
+                      <a href="/components/shopsingle">
                         {/* img */}
                         <img
                           src="/assets/images/products/product-img-6.jpg"
@@ -1699,7 +1699,7 @@ function ShopFilter() {
                     </div>
                     <h2 className="fs-6">
                       <a
-                        href="shop-single.html"
+                        href="/components/shopsingle"
                         className="text-inherit text-decoration-none"
                       >
                         Blueberry Greek Yogurt
@@ -1753,7 +1753,7 @@ function ShopFilter() {
                 <div className="card card-product">
                   <div className="card-body">
                     <div className="text-center position-relative">
-                      <a href="shop-single.html">
+                      <a href="/components/shopsingle">
                         <img
                           src="/assets/images/products/product-img-7.jpg"
                           alt="Grocery Ecommerce Template"
@@ -1803,7 +1803,7 @@ function ShopFilter() {
                     </div>
                     <h2 className="fs-6">
                       <a
-                        href="shop-single.html"
+                        href="/components/shopsingle"
                         className="text-inherit text-decoration-none"
                       >
                         Britannia Cheese Slices
@@ -1855,7 +1855,7 @@ function ShopFilter() {
                 <div className="card card-product">
                   <div className="card-body">
                     <div className="text-center position-relative">
-                      <a href="shop-single.html">
+                      <a href="/components/shopsingle">
                         <img
                           src="/assets/images/products/product-img-8.jpg"
                           alt="Grocery Ecommerce Template"
@@ -1905,7 +1905,7 @@ function ShopFilter() {
                     </div>
                     <h2 className="fs-6">
                       <a
-                        href="shop-single.html"
+                        href="/components/shopsingle"
                         className="text-inherit text-decoration-none"
                       >
                         Kellogg's Original Cereals
@@ -1960,7 +1960,7 @@ function ShopFilter() {
                 <div className="card card-product">
                   <div className="card-body">
                     <div className="text-center position-relative">
-                      <a href="shop-single.html">
+                      <a href="/components/shopsingle">
                         <img
                           src="/assets/images/products/product-img-9.jpg"
                           alt="Grocery Ecommerce Template"
@@ -2010,7 +2010,7 @@ function ShopFilter() {
                     </div>
                     <h2 className="fs-6">
                       <a
-                        href="shop-single.html"
+                        href="/components/shopsingle"
                         className="text-inherit text-decoration-none"
                       >
                         Slurrp Millet Chocolate
@@ -2065,7 +2065,7 @@ function ShopFilter() {
                 <div className="card card-product">
                   <div className="card-body">
                     <div className="text-center position-relative">
-                      <a href="shop-single.html">
+                      <a href="/components/shopsingle">
                         <img
                           src="/assets/images/products/product-img-10.jpg"
                           alt="Grocery Ecommerce Template"
@@ -2115,7 +2115,7 @@ function ShopFilter() {
                     </div>
                     <h2 className="fs-6">
                       <a
-                        href="shop-single.html"
+                        href="/components/shopsingle"
                         className="text-inherit text-decoration-none"
                       >
                         Amul Butter - 500 g

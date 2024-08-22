@@ -1577,7 +1577,7 @@ function shopGrid() {
                       <div className="me-2 flex-grow-1">
                         {/* select option */}
                         <select className="form-select">
-                          <option selected="">Show: 50</option>
+                          <option defaultValue="">Show: 50</option>
                           <option value={10}>10</option>
                           <option value={20}>20</option>
                           <option value={30}>30</option>
@@ -1586,7 +1586,7 @@ function shopGrid() {
                       <div>
                         {/* select option */}
                         <select className="form-select">
-                          <option selected="">Sort by: Featured</option>
+                          <option defaultValue="">Sort by: Featured</option>
                           <option value="Low to High">Price: Low to High</option>
                           <option value="High to Low">Price: High to Low</option>
                           <option value="Release Date">Release Date</option>

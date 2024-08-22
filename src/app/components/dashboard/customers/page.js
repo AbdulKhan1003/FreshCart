@@ -151,7 +151,7 @@ function Customers() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="customers-edits.html"
+                                  href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
@@ -220,7 +220,7 @@ function Customers() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="customers-edits.html"
+                                  href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
@@ -289,7 +289,7 @@ function Customers() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="customers-edits.html"
+                                  href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
@@ -358,7 +358,7 @@ function Customers() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="customers-edits.html"
+                                  href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
@@ -427,7 +427,7 @@ function Customers() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="customers-edits.html"
+                                  href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
@@ -496,7 +496,7 @@ function Customers() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="customers-edits.html"
+                                  href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
@@ -565,7 +565,7 @@ function Customers() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="customers-edits.html"
+                                  href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
@@ -634,7 +634,7 @@ function Customers() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="customers-edits.html"
+                                  href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
@@ -703,7 +703,7 @@ function Customers() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="customers-edits.html"
+                                  href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
@@ -772,7 +772,7 @@ function Customers() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="customers-edits.html"
+                                  href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
@@ -841,7 +841,7 @@ function Customers() {
                               <li>
                                 <a
                                   className="dropdown-item"
-                                  href="customers-edits.html"
+                                  href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit

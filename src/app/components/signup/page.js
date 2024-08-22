@@ -17,7 +17,7 @@ function SignUp() {
         </a>
         <span className="navbar-text">
           Already have an account?
-          <a href="signin.html">Sign in</a>
+          <a href="/components/signin"> Sign in</a>
         </span>
       </div>
     </nav>

@@ -56,7 +56,7 @@ function Orders() {
                   <div className="col-lg-2 col-md-4 col-12">
                     {/* select */}
                     <select className="form-select">
-                      <option selected="">Status</option>
+                      <option defaultValue="">Status</option>
                       <option value="Success">Success</option>
                       <option value="Pending">Pending</option>
                       <option value="Cancel">Cancel</option>

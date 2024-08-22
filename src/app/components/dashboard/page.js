@@ -136,7 +136,7 @@ function Dashboard() {
                     <div>
                       {/* select option */}
                       <select className="form-select">
-                        <option selected="">2019</option>
+                        <option defaultValue="">2019</option>
                         <option value={2023}>2020</option>
                         <option value={2024}>2021</option>
                         <option value={2025}>2022</option>
