@@ -1,30 +1,11 @@
 'use client'
 import Link from "next/link"
 import React from "react";
-import { useState } from "react";
 import Header from "./header/page";
 import Footer from './footer/page'
-import { useRouter } from 'next/navigation'
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 
-function Index() {
-  const [ingredients, setIngredients] = useState([]);
-  const router = useRouter()
-  const navigate = (link) => {
-    router.push(link)
-  }
-
-  //   const onIngredientsChange = (e) => {
-  //     let _ingredients = [...ingredients];
-
-  //     if (e.checked)
-  //         _ingredients.push(e.value);
-  //     else
-  //         _ingredients.splice(_ingredients.indexOf(e.value), 1);
-
-  //     setIngredients(_ingredients);
-  // }
-
+function Index() {  
   return (
 <>
   {/* navigation */}

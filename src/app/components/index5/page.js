@@ -795,7 +795,7 @@ function Index() {
         {/* row */}
         <div className="row">
           {/* col */}
-          <Linkside className="col-xl-3 col-lg-4 col-md-4 mb-6 mb-md-0">
+          <aside className="col-xl-3 col-lg-4 col-md-4 mb-6 mb-md-0">
             <div id="sidebar">
               <div className="sidebar__inner">
                 <div

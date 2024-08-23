@@ -711,7 +711,7 @@ function ShopList() {
       <div className="container">
         <div className="row gx-10">
           {/* col */}
-          <Linkside className="col-lg-3 col-md-4 mb-6 mb-md-0">
+          <aside className="col-lg-3 col-md-4 mb-6 mb-md-0">
             <div
               className="offcanvas offcanvas-start offcanvas-collapse w-md-50"
               tabIndex={-1}

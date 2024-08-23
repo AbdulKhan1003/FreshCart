@@ -785,14 +785,14 @@ function ShopCheckout() {
                               </label>
                             </div>
                             {/* address */}
-                            <Linkddress>
+                            <address>
                               <strong>Jitu Chauhan</strong>
                               <br />
                               4450 North Avenue Oakland,
                               <br />
                               Nebraska, United States,
                               <br />
-                              <Linkbbr title="Phone">P: 402-776-1106</abbr>
+                              <abbr title="Phone">P: 402-776-1106</abbr>
                             </address>
                             <span className="text-danger">Default address</span>
                           </div>
@@ -814,14 +814,14 @@ function ShopCheckout() {
                                 Office
                               </label>
                             </div>
-                            <Linkddress>
+                            <address>
                               <strong>Nitu Chauhan</strong>
                               <br />
                               3853 Coal Road,
                               <br />
                               Tannersville, Pennsylvania, 18372, USA,
                               <br />
-                              <Linkbbr title="Phone">P: 402-776-1106</abbr>
+                              <abbr title="Phone">P: 402-776-1106</abbr>
                             </address>
                           </div>
                         </div>
