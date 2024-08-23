@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar/page'
 import Sidebar from '../sidebar/page'
+import Link from 'next/link'
 
 function OrderSingle() {
   return (
@@ -27,9 +28,9 @@ function OrderSingle() {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb mb-0">
                     <li className="breadcrumb-item">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Dashboard
-                      </a>
+                      </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Order Single
@@ -39,9 +40,9 @@ function OrderSingle() {
               </div>
               {/* button */}
               <div>
-                <a href="/components/dashboard/orders" className="btn btn-primary">
+                <Link href="/components/dashboard/orders" className="btn btn-primary">
                   Back to all orders
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -71,12 +72,12 @@ function OrderSingle() {
                     </div>
                     {/* button */}
                     <div className="ms-md-3">
-                      <a href="#" className="btn btn-primary">
+                      <Link href="#" className="btn btn-primary">
                         Save
-                      </a>
-                      <a href="#" className="btn btn-secondary">
+                      </Link>
+                      <Link href="#" className="btn btn-secondary">
                         Download Invoice
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -93,7 +94,7 @@ function OrderSingle() {
                           <br />
                           +998 99 22123456
                         </p>
-                        <a href="#">View Profile</a>
+                        <Link href="#">View Profile</Link>
                       </div>
                     </div>
                     {/* address */}
@@ -148,7 +149,7 @@ function OrderSingle() {
                       <tbody>
                         <tr>
                           <td>
-                            <a href="#" className="text-inherit">
+                            <Link href="#" className="text-inherit">
                               <div className="d-flex align-items-center">
                                 <div>
                                   <img
@@ -163,7 +164,7 @@ function OrderSingle() {
                                   </h5>
                                 </div>
                               </div>
-                            </a>
+                            </Link>
                           </td>
                           <td>
                             <span className="text-body">$18.0</span>
@@ -173,7 +174,7 @@ function OrderSingle() {
                         </tr>
                         <tr>
                           <td>
-                            <a href="#" className="text-inherit">
+                            <Link href="#" className="text-inherit">
                               <div className="d-flex align-items-center">
                                 <div>
                                   <img
@@ -188,7 +189,7 @@ function OrderSingle() {
                                   </h5>
                                 </div>
                               </div>
-                            </a>
+                            </Link>
                           </td>
                           <td>
                             <span className="text-body">$24.0</span>
@@ -198,7 +199,7 @@ function OrderSingle() {
                         </tr>
                         <tr>
                           <td>
-                            <a href="#" className="text-inherit">
+                            <Link href="#" className="text-inherit">
                               <div className="d-flex align-items-center">
                                 <div>
                                   <img
@@ -213,7 +214,7 @@ function OrderSingle() {
                                   </h5>
                                 </div>
                               </div>
-                            </a>
+                            </Link>
                           </td>
                           <td>
                             <span className="text-body">$32.0</span>
@@ -223,7 +224,7 @@ function OrderSingle() {
                         </tr>
                         <tr>
                           <td>
-                            <a href="#" className="text-inherit">
+                            <Link href="#" className="text-inherit">
                               <div className="d-flex align-items-center">
                                 <div>
                                   <img
@@ -238,7 +239,7 @@ function OrderSingle() {
                                   </h5>
                                 </div>
                               </div>
-                            </a>
+                            </Link>
                           </td>
                           <td>
                             <span className="text-body">$3.0</span>
@@ -301,9 +302,9 @@ function OrderSingle() {
                       placeholder="Write note for order"
                       defaultValue={""}
                     />
-                    <a href="#" className="btn btn-primary">
+                    <Link href="#" className="btn btn-primary">
                       Save Notes
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../sidebar/page'
 import Navbar from '../navbar/page'
+import Link from 'next/link'
 
 function Orders() {
   return (
@@ -25,7 +26,7 @@ function Orders() {
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb mb-0">
                   <li className="breadcrumb-item">
-                    <a href="#">Dashboard</a>
+                    <Link href="#">Dashboard</Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
                     Order List
@@ -112,18 +113,18 @@ function Orders() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/products/product-img-1.jpg"
                               alt=""
                               className="icon-shape icon-md"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             FC#1007
-                          </a>
+                          </Link>
                         </td>
                         <td>Jennifer Sullivan</td>
                         <td>01 May 2023 (10:12 am)</td>
@@ -136,26 +137,26 @@ function Orders() {
                         <td>$12.99</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -177,18 +178,18 @@ function Orders() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/products/product-img-2.jpg"
                               alt=""
                               className="icon-shape icon-md"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             FC#1006
-                          </a>
+                          </Link>
                         </td>
                         <td>Willie Hanson</td>
                         <td>20 April 2023 (9:20 am)</td>
@@ -201,26 +202,26 @@ function Orders() {
                         <td>$8.19</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -242,18 +243,18 @@ function Orders() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/products/product-img-3.jpg"
                               alt=""
                               className="icon-shape icon-md"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             FC#1005
-                          </a>
+                          </Link>
                         </td>
                         <td>Dori Stewart</td>
                         <td>11 March 2023 (7:12 pm)</td>
@@ -266,26 +267,26 @@ function Orders() {
                         <td>$8.19</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -307,18 +308,18 @@ function Orders() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/products/product-img-4.jpg"
                               alt=""
                               className="icon-shape icon-md"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             FC#1004
-                          </a>
+                          </Link>
                         </td>
                         <td>Ezekiel Rogerson</td>
                         <td>09 March 2023 (6:23 pm)</td>
@@ -331,26 +332,26 @@ function Orders() {
                         <td>$23.11</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -372,18 +373,18 @@ function Orders() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/products/product-img-5.jpg"
                               alt=""
                               className="icon-shape icon-md"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             FC#1003
-                          </a>
+                          </Link>
                         </td>
                         <td>Maria Roux</td>
                         <td>18 Feb 2022 (12:20 pm)</td>
@@ -396,26 +397,26 @@ function Orders() {
                         <td>$2.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -437,18 +438,18 @@ function Orders() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/products/product-img-6.jpg"
                               alt=""
                               className="icon-shape icon-md"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             FC#1002
-                          </a>
+                          </Link>
                         </td>
                         <td>Robert Donald</td>
                         <td>12 Feb 2022 (4:56 pm)</td>
@@ -461,26 +462,26 @@ function Orders() {
                         <td>$56.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -502,18 +503,18 @@ function Orders() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/products/product-img-7.jpg"
                               alt=""
                               className="icon-shape icon-md"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             FC#1001
-                          </a>
+                          </Link>
                         </td>
                         <td>Diann Watson</td>
                         <td>22 Jan 2023 (1:20 pm)</td>
@@ -526,26 +527,26 @@ function Orders() {
                         <td>$23.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -560,29 +561,29 @@ function Orders() {
                 <nav className="mt-2 mt-md-0">
                   <ul className="pagination mb-0">
                     <li className="page-item disabled">
-                      <a className="page-link" href="#!">
+                      <Link className="page-link" href="#!">
                         Previous
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link active" href="#!">
+                      <Link className="page-link active" href="#!">
                         1
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#!">
+                      <Link className="page-link" href="#!">
                         2
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#!">
+                      <Link className="page-link" href="#!">
                         3
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#!">
+                      <Link className="page-link" href="#!">
                         Next
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>

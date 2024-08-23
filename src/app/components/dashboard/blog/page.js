@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar/page'
 import Sidebar from '../sidebar/page'
+import Link from 'next/link'
 
 function Blog() {
   return (
@@ -22,9 +23,9 @@ function Blog() {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb mb-0">
                     <li className="breadcrumb-item">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Dashboard
-                      </a>
+                      </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Blog
@@ -33,9 +34,9 @@ function Blog() {
                 </nav>
               </div>
               <div>
-                <a href="/components/dashboard/blog/addpost" className="btn btn-primary">
+                <Link href="/components/dashboard/blog/addpost" className="btn btn-primary">
                   New Post
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -80,7 +81,7 @@ function Blog() {
         <div className="row g-6">
           <div className="col-lg-4 col-md-6 col-12">
             <div className="card card-lg rounded-4 border-0 card-lift h-100">
-              <a
+              <Link
                 href="/components/blogsingle"
                 className="img-zoom rounded-bottom-0"
               >
@@ -89,7 +90,7 @@ function Blog() {
                   alt="blog img"
                   className="img-fluid rounded-top-4"
                 />
-              </a>
+              </Link>
               <div className="card-body d-flex flex-column gap-4 p-6">
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <span className="badge bg-light-danger text-dark-danger">
@@ -97,41 +98,41 @@ function Blog() {
                   </span>
                   <div>
                     <div className="dropdown">
-                      <a
+                      <Link
                         href="#"
                         className="text-reset"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="feather-icon icon-more-vertical fs-5" />
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-eye-fill me-3" />
                             View
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-pencil-square me-3" />
                             Edit
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item text-danger" href="#">
+                          <Link className="dropdown-item text-danger" href="#">
                             <i className="bi bi-trash me-3" />
                             Delete
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <h3 className="mb-0 h5">
-                  <a href="/components/blogsingle" className="text-reset">
+                  <Link href="/components/blogsingle" className="text-reset">
                     Garlic Cream Bucatini with Peas and Asparagus
-                  </a>
+                  </Link>
                 </h3>
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <small className="text-black-50">05 June, 2024</small>
@@ -145,7 +146,7 @@ function Blog() {
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="card card-lg rounded-4 border-0 card-lift h-100">
-              <a
+              <Link
                 href="/components/blogsingle"
                 className="img-zoom rounded-bottom-0"
               >
@@ -154,7 +155,7 @@ function Blog() {
                   alt="blog img"
                   className="img-fluid rounded-top-4"
                 />
-              </a>
+              </Link>
               <div className="card-body d-flex flex-column gap-4 p-6">
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <span className="badge bg-light-success text-dark-success">
@@ -162,41 +163,41 @@ function Blog() {
                   </span>
                   <div>
                     <div className="dropdown">
-                      <a
+                      <Link
                         href="#"
                         className="text-reset"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="feather-icon icon-more-vertical fs-5" />
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-eye-fill me-3" />
                             View
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-pencil-square me-3" />
                             Edit
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item text-danger" href="#">
+                          <Link className="dropdown-item text-danger" href="#">
                             <i className="bi bi-trash me-3" />
                             Delete
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <h3 className="mb-0 h5">
-                  <a href="/components/blogsingle" className="text-reset">
+                  <Link href="/components/blogsingle" className="text-reset">
                     Harissa Chickpeas with Whipped Feta
-                  </a>
+                  </Link>
                 </h3>
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <small className="text-black-50">02 June, 2024</small>
@@ -210,7 +211,7 @@ function Blog() {
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="card card-lg rounded-4 border-0 card-lift h-100">
-              <a
+              <Link
                 href="/components/blogsingle"
                 className="img-zoom rounded-bottom-0"
               >
@@ -219,7 +220,7 @@ function Blog() {
                   alt="blog img"
                   className="img-fluid rounded-top-4"
                 />
-              </a>
+              </Link>
               <div className="card-body d-flex flex-column gap-4 p-6">
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <span className="badge bg-light-success text-dark-success">
@@ -227,41 +228,41 @@ function Blog() {
                   </span>
                   <div>
                     <div className="dropdown">
-                      <a
+                      <Link
                         href="#"
                         className="text-reset"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="feather-icon icon-more-vertical fs-5" />
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-eye-fill me-3" />
                             View
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-pencil-square me-3" />
                             Edit
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item text-danger" href="#">
+                          <Link className="dropdown-item text-danger" href="#">
                             <i className="bi bi-trash me-3" />
                             Delete
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <h3 className="mb-0 h5">
-                  <a href="/components/blogsingle" className="text-reset">
+                  <Link href="/components/blogsingle" className="text-reset">
                     Almond Butter Chocolate Chip Zucchini Bars
-                  </a>
+                  </Link>
                 </h3>
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <small className="text-black-50">1 June, 2024</small>
@@ -275,7 +276,7 @@ function Blog() {
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="card card-lg rounded-4 border-0 card-lift h-100">
-              <a
+              <Link
                 href="/components/blogsingle"
                 className="img-zoom rounded-bottom-0"
               >
@@ -284,7 +285,7 @@ function Blog() {
                   alt="blog img"
                   className="img-fluid rounded-top-4"
                 />
-              </a>
+              </Link>
               <div className="card-body d-flex flex-column gap-4 p-6">
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <span className="badge bg-light-success text-dark-success">
@@ -292,41 +293,41 @@ function Blog() {
                   </span>
                   <div>
                     <div className="dropdown">
-                      <a
+                      <Link
                         href="#"
                         className="text-reset"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="feather-icon icon-more-vertical fs-5" />
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-eye-fill me-3" />
                             View
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-pencil-square me-3" />
                             Edit
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item text-danger" href="#">
+                          <Link className="dropdown-item text-danger" href="#">
                             <i className="bi bi-trash me-3" />
                             Delete
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <h3 className="mb-0 h5">
-                  <a href="/components/blogsingle" className="text-reset">
+                  <Link href="/components/blogsingle" className="text-reset">
                     Spicy Shrimp Tacos Garlic Cilantro Lime Slaw
-                  </a>
+                  </Link>
                 </h3>
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <small className="text-black-50">26 May, 2024</small>
@@ -340,7 +341,7 @@ function Blog() {
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="card card-lg rounded-4 border-0 card-lift h-100">
-              <a
+              <Link
                 href="/components/blogsingle"
                 className="img-zoom rounded-bottom-0"
               >
@@ -349,7 +350,7 @@ function Blog() {
                   alt="blog img"
                   className="img-fluid rounded-top-4"
                 />
-              </a>
+              </Link>
               <div className="card-body d-flex flex-column gap-4 p-6">
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <span className="badge bg-light-success text-dark-success">
@@ -357,41 +358,41 @@ function Blog() {
                   </span>
                   <div>
                     <div className="dropdown">
-                      <a
+                      <Link
                         href="#"
                         className="text-reset"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="feather-icon icon-more-vertical fs-5" />
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-eye-fill me-3" />
                             View
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-pencil-square me-3" />
                             Edit
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item text-danger" href="#">
+                          <Link className="dropdown-item text-danger" href="#">
                             <i className="bi bi-trash me-3" />
                             Delete
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <h3 className="mb-0 h5">
-                  <a href="/components/blogsingle" className="text-reset">
+                  <Link href="/components/blogsingle" className="text-reset">
                     Red Chile Chicken Tacos with Creamy Corn
-                  </a>
+                  </Link>
                 </h3>
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <small className="text-black-50">24 May, 2024</small>
@@ -405,7 +406,7 @@ function Blog() {
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="card card-lg rounded-4 border-0 card-lift h-100">
-              <a
+              <Link
                 href="/components/blogsingle"
                 className="img-zoom rounded-bottom-0"
               >
@@ -414,7 +415,7 @@ function Blog() {
                   alt="blog img"
                   className="img-fluid rounded-top-4"
                 />
-              </a>
+              </Link>
               <div className="card-body d-flex flex-column gap-4 p-6">
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <span className="badge bg-light-success text-dark-success">
@@ -422,41 +423,41 @@ function Blog() {
                   </span>
                   <div>
                     <div className="dropdown">
-                      <a
+                      <Link
                         href="#"
                         className="text-reset"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="feather-icon icon-more-vertical fs-5" />
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-eye-fill me-3" />
                             View
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-pencil-square me-3" />
                             Edit
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item text-danger" href="#">
+                          <Link className="dropdown-item text-danger" href="#">
                             <i className="bi bi-trash me-3" />
                             Delete
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <h3 className="mb-0 h5">
-                  <a href="/components/blogsingle" className="text-reset">
+                  <Link href="/components/blogsingle" className="text-reset">
                     Basic + Awesome Broccoli Cheese Soup
-                  </a>
+                  </Link>
                 </h3>
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <small className="text-black-50">20 May, 2024</small>
@@ -470,7 +471,7 @@ function Blog() {
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="card card-lg rounded-4 border-0 card-lift h-100">
-              <a
+              <Link
                 href="/components/blogsingle"
                 className="img-zoom rounded-bottom-0"
               >
@@ -479,7 +480,7 @@ function Blog() {
                   alt="blog img"
                   className="img-fluid rounded-top-4"
                 />
-              </a>
+              </Link>
               <div className="card-body d-flex flex-column gap-4 p-6">
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <span className="badge bg-light-danger text-dark-danger">
@@ -487,41 +488,41 @@ function Blog() {
                   </span>
                   <div>
                     <div className="dropdown">
-                      <a
+                      <Link
                         href="#"
                         className="text-reset"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="feather-icon icon-more-vertical fs-5" />
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-eye-fill me-3" />
                             View
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-pencil-square me-3" />
                             Edit
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item text-danger" href="#">
+                          <Link className="dropdown-item text-danger" href="#">
                             <i className="bi bi-trash me-3" />
                             Delete
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <h3 className="mb-0 h5">
-                  <a href="/components/blogsingle" className="text-reset">
+                  <Link href="/components/blogsingle" className="text-reset">
                     No-Boil Baked Penne with Meatballs
-                  </a>
+                  </Link>
                 </h3>
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <small className="text-black-50">20 May, 2024</small>
@@ -535,7 +536,7 @@ function Blog() {
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="card card-lg rounded-4 border-0 card-lift h-100">
-              <a
+              <Link
                 href="/components/blogsingle"
                 className="img-zoom rounded-bottom-0"
               >
@@ -544,7 +545,7 @@ function Blog() {
                   alt="blog img"
                   className="img-fluid rounded-top-4"
                 />
-              </a>
+              </Link>
               <div className="card-body d-flex flex-column gap-4 p-6">
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <span className="badge bg-light-success text-dark-success">
@@ -552,41 +553,41 @@ function Blog() {
                   </span>
                   <div>
                     <div className="dropdown">
-                      <a
+                      <Link
                         href="#"
                         className="text-reset"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="feather-icon icon-more-vertical fs-5" />
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-eye-fill me-3" />
                             View
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-pencil-square me-3" />
                             Edit
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item text-danger" href="#">
+                          <Link className="dropdown-item text-danger" href="#">
                             <i className="bi bi-trash me-3" />
                             Delete
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <h3 className="mb-0 h5">
-                  <a href="/components/blogsingle" className="text-reset">
+                  <Link href="/components/blogsingle" className="text-reset">
                     Red Chile Chicken Tacos with Creamy Corn
-                  </a>
+                  </Link>
                 </h3>
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <small className="text-black-50">10 May, 2024</small>
@@ -600,7 +601,7 @@ function Blog() {
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="card card-lg rounded-4 border-0 card-lift h-100">
-              <a
+              <Link
                 href="/components/blogsingle"
                 className="img-zoom rounded-bottom-0"
               >
@@ -609,7 +610,7 @@ function Blog() {
                   alt="blog img"
                   className="img-fluid rounded-top-4"
                 />
-              </a>
+              </Link>
               <div className="card-body d-flex flex-column gap-4 p-6">
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <span className="badge bg-light-success text-dark-success">
@@ -617,41 +618,41 @@ function Blog() {
                   </span>
                   <div>
                     <div className="dropdown">
-                      <a
+                      <Link
                         href="#"
                         className="text-reset"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="feather-icon icon-more-vertical fs-5" />
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-eye-fill me-3" />
                             View
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="#">
                             <i className="bi bi-pencil-square me-3" />
                             Edit
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item text-danger" href="#">
+                          <Link className="dropdown-item text-danger" href="#">
                             <i className="bi bi-trash me-3" />
                             Delete
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <h3 className="mb-0 h5">
-                  <a href="/components/blogsingle" className="text-reset">
+                  <Link href="/components/blogsingle" className="text-reset">
                     Basic + Awesome Broccoli Cheese Soup
-                  </a>
+                  </Link>
                 </h3>
                 <div className="d-flex flex-row justify-content-between align-items-center">
                   <small className="text-black-50">08 May, 2024</small>
@@ -668,29 +669,29 @@ function Blog() {
               <nav className="mt-7 mt-lg-10">
                 <ul className="pagination mb-0">
                   <li className="page-item disabled">
-                    <a className="page-link" href="#!">
+                    <Link className="page-link" href="#!">
                       Previous
-                    </a>
+                    </Link>
                   </li>
                   <li className="page-item">
-                    <a className="page-link active" href="#!">
+                    <Link className="page-link active" href="#!">
                       1
-                    </a>
+                    </Link>
                   </li>
                   <li className="page-item">
-                    <a className="page-link" href="#!">
+                    <Link className="page-link" href="#!">
                       2
-                    </a>
+                    </Link>
                   </li>
                   <li className="page-item">
-                    <a className="page-link" href="#!">
+                    <Link className="page-link" href="#!">
                       3
-                    </a>
+                    </Link>
                   </li>
                   <li className="page-item">
-                    <a className="page-link" href="#!">
+                    <Link className="page-link" href="#!">
                       Next
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </nav>

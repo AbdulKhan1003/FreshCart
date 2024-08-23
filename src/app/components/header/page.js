@@ -13,7 +13,7 @@ function header() {
 
             <div className="col-6 text-end d-none d-md-block">
               <div className="dropdown selectBox">
-                <a
+                <Link
                   className="dropdown-toggle selectValue text-reset"
                   href="#"
                   data-bs-toggle="dropdown"
@@ -59,10 +59,10 @@ function header() {
                     </svg>
                   </span>
                   English
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       <span className="me-2">
                         <svg
                           width={16}
@@ -103,10 +103,10 @@ function header() {
                         </svg>
                       </span>
                       English
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       <span className="me-2">
                         <svg
                           width={16}
@@ -133,7 +133,7 @@ function header() {
                         </svg>
                       </span>
                       Deutsch
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -445,7 +445,7 @@ function header() {
                 </div>
               </div>
               <div className="d-block d-lg-none mb-4">
-                     <a
+                     <Link
                         className="btn btn-primary w-100 d-flex justify-content-center align-items-center"
                         data-bs-toggle="collapse"
                         href="#collapseExample"
@@ -471,17 +471,17 @@ function header() {
                            </svg>
                         </span>
                         All Departments
-                     </a>
+                     </Link>
                      <div className="collapse mt-2" id="collapseExample">
                         <div className="card card-body">
                            <ul className="mb-0 list-unstyled">
-                              <li><a className="dropdown-item" href="/components/shopgrid">Dairy, Bread & Eggs</a></li>
-                              <li><a className="dropdown-item" href="/components/shopgrid">Snacks & Munchies</a></li>
-                              <li><a className="dropdown-item" href="/components/shopgrid">Fruits & Vegetables</a></li>
-                              <li><a className="dropdown-item" href="/components/shopgrid">Cold Drinks & Juices</a></li>
-                              <li><a className="dropdown-item" href="/components/shopgrid">Breakfast & Instant Food</a></li>
-                              <li><a className="dropdown-item" href="/components/shopgrid">Bakery & Biscuits</a></li>
-                              <li><a className="dropdown-item" href="/components/shopgrid">Chicken, Meat & Fish</a></li>
+                              <li><Link className="dropdown-item" href="/components/shopgrid">Dairy, Bread & Eggs</Link></li>
+                              <li><Link className="dropdown-item" href="/components/shopgrid">Snacks & Munchies</Link></li>
+                              <li><Link className="dropdown-item" href="/components/shopgrid">Fruits & Vegetables</Link></li>
+                              <li><Link className="dropdown-item" href="/components/shopgrid">Cold Drinks & Juices</Link></li>
+                              <li><Link className="dropdown-item" href="/components/shopgrid">Breakfast & Instant Food</Link></li>
+                              <li><Link className="dropdown-item" href="/components/shopgrid">Bakery & Biscuits</Link></li>
+                              <li><Link className="dropdown-item" href="/components/shopgrid">Chicken, Meat & Fish</Link></li>
                            </ul>
                         </div>
                      </div>
@@ -517,39 +517,39 @@ function header() {
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li>
-                    <a className="dropdown-item" href="/components/shopgrid">
+                    <Link className="dropdown-item" href="/components/shopgrid">
                       Dairy, Bread &amp; Eggs
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/components/shopgrid">
+                    <Link className="dropdown-item" href="/components/shopgrid">
                       Snacks &amp; Munchies
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/components/shopgrid">
+                    <Link className="dropdown-item" href="/components/shopgrid">
                       Fruits &amp; Vegetables
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/components/shopgrid">
+                    <Link className="dropdown-item" href="/components/shopgrid">
                       Cold Drinks &amp; Juices
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/components/shopgrid">
+                    <Link className="dropdown-item" href="/components/shopgrid">
                       Breakfast &amp; Instant Food
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/components/shopgrid">
+                    <Link className="dropdown-item" href="/components/shopgrid">
                       Bakery &amp; Biscuits
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/components/shopgrid">
+                    <Link className="dropdown-item" href="/components/shopgrid">
                       Chicken, Meat &amp; Fish
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

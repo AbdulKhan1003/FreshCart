@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../sidebar/page'
 import Navbar from '../navbar/page'
+import Link from 'next/link'
 
 function Reviews() {
   return (
@@ -24,9 +25,9 @@ function Reviews() {
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb mb-0">
                   <li className="breadcrumb-item">
-                    <a href="#" className="text-inherit">
+                    <Link href="#" className="text-inherit">
                       Dashboard
-                    </a>
+                    </Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
                     Reviews
@@ -113,9 +114,9 @@ function Reviews() {
                           </div>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Haldiram's Sev Bhujia
-                          </a>
+                          </Link>
                         </td>
                         <td>Barry McKenzie</td>
                         <td>
@@ -145,26 +146,26 @@ function Reviews() {
                         <td>23 Nov,2022</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -186,9 +187,9 @@ function Reviews() {
                           </div>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             NutriChoice Digestive
-                          </a>
+                          </Link>
                         </td>
                         <td>Dale Jenkins</td>
                         <td>
@@ -218,26 +219,26 @@ function Reviews() {
                         <td>23 Nov,2022</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -259,9 +260,9 @@ function Reviews() {
                           </div>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Cadbury 5 Star Chocolate
-                          </a>
+                          </Link>
                         </td>
                         <td>Michael Phillips</td>
                         <td>
@@ -291,26 +292,26 @@ function Reviews() {
                         <td>23 Nov,2022</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -332,9 +333,9 @@ function Reviews() {
                           </div>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Onion Flavour Potato
-                          </a>
+                          </Link>
                         </td>
                         <td>James Parker</td>
                         <td>
@@ -364,26 +365,26 @@ function Reviews() {
                         <td>23 Nov,2022</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -405,9 +406,9 @@ function Reviews() {
                           </div>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Salted Instant Popcorn
-                          </a>
+                          </Link>
                         </td>
                         <td>William Hansen</td>
                         <td>
@@ -437,26 +438,26 @@ function Reviews() {
                         <td>23 Nov,2022</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -478,9 +479,9 @@ function Reviews() {
                           </div>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Blueberry Greek Yogurt
-                          </a>
+                          </Link>
                         </td>
                         <td>Helen Speller</td>
                         <td>
@@ -510,26 +511,26 @@ function Reviews() {
                         <td>23 Nov,2022</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -551,9 +552,9 @@ function Reviews() {
                           </div>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Britannia Cheese Slices
-                          </a>
+                          </Link>
                         </td>
                         <td>Larry Anderson</td>
                         <td>
@@ -583,26 +584,26 @@ function Reviews() {
                         <td>23 Nov,2022</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -624,9 +625,9 @@ function Reviews() {
                           </div>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Kellogg's Original Cereals
-                          </a>
+                          </Link>
                         </td>
                         <td>William McCulloch</td>
                         <td>
@@ -656,26 +657,26 @@ function Reviews() {
                         <td>23 Nov,2022</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -697,9 +698,9 @@ function Reviews() {
                           </div>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Slurrp Millet Chocolate
-                          </a>
+                          </Link>
                         </td>
                         <td>Louise Brown</td>
                         <td>
@@ -729,26 +730,26 @@ function Reviews() {
                         <td>23 Nov,2022</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -770,9 +771,9 @@ function Reviews() {
                           </div>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Amul Butter - 500 g
-                          </a>
+                          </Link>
                         </td>
                         <td>John Meyer</td>
                         <td>
@@ -802,26 +803,26 @@ function Reviews() {
                         <td>23 Nov,2022</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -835,29 +836,29 @@ function Reviews() {
                   <nav className="mt-2 mt-md-0">
                     <ul className="pagination mb-0">
                       <li className="page-item disabled">
-                        <a className="page-link" href="#!">
+                        <Link className="page-link" href="#!">
                           Previous
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link active" href="#!">
+                        <Link className="page-link active" href="#!">
                           1
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#!">
+                        <Link className="page-link" href="#!">
                           2
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#!">
+                        <Link className="page-link" href="#!">
                           3
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#!">
+                        <Link className="page-link" href="#!">
                           Next
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>

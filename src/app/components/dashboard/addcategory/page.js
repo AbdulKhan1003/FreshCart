@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from '../sidebar/page'
+import Link from 'next/link'
 
 function AddCategory() {
   return (
@@ -10,7 +11,7 @@ function AddCategory() {
     <div className="container-fluid">
       <div className="d-flex justify-content-between align-items-center w-100">
         <div className="d-flex align-items-center">
-          <a
+          <Link
             className="text-inherit d-block d-xl-none me-4"
             data-bs-toggle="offcanvas"
             href="#offcanvasExample"
@@ -27,7 +28,7 @@ function AddCategory() {
             >
               <path d="M2 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm10.646 2.146a.5.5 0 0 1 .708.708L11.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zM2 6.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
             </svg>
-          </a>
+          </Link>
           <form role="search">
             <label htmlFor="search" className="form-label visually-hidden">
               Search
@@ -44,7 +45,7 @@ function AddCategory() {
         <div>
           <ul className="list-unstyled d-flex align-items-center mb-0 ms-5 ms-lg-0">
             <li className="dropdown-center">
-              <a
+              <Link
                 className="position-relative btn-icon btn-ghost-secondary btn rounded-circle"
                 href="#"
                 role="button"
@@ -55,15 +56,15 @@ function AddCategory() {
                 <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger mt-2 ms-n2">
                   2<span className="visually-hidden">unread messages</span>
                 </span>
-              </a>
+              </Link>
               <div className="dropdown-menu dropdown-menu-end dropdown-menu-lg p-0 border-0">
                 <div className="border-bottom p-5 d-flex justify-content-between align-items-center">
                   <div>
                     <h5 className="mb-1">Notifications</h5>
                     <p className="mb-0 small">You have 2 unread messages</p>
                   </div>
-                  <a href="#!" className="text-muted"></a>
-                  <a
+                  <Link href="#!" className="text-muted"></Link>
+                  <Link
                     href="#"
                     className="btn btn-ghost-secondary btn-icon rounded-circle"
                     data-bs-toggle="tooltip"
@@ -81,14 +82,14 @@ function AddCategory() {
                       <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
                       <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
                 <div data-simplebar="" style={{ height: 250 }}>
                   {/* List group */}
                   <ul className="list-group list-group-flush notification-list-scroll fs-6">
                     {/* List group item */}
                     <li className="list-group-item px-5 py-4 list-group-item-action active">
-                      <a href="#!" className="text-muted">
+                      <Link href="#!" className="text-muted">
                         <div className="d-flex">
                           <img
                             src="/assets/images/avatar/avatar-1.jpg"
@@ -118,10 +119,10 @@ function AddCategory() {
                             </span>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li className="list-group-item px-5 py-4 list-group-item-action">
-                      <a href="#!" className="text-muted">
+                      <Link href="#!" className="text-muted">
                         <div className="d-flex">
                           <img
                             src="/assets/images/avatar/avatar-5.jpg"
@@ -149,10 +150,10 @@ function AddCategory() {
                             </span>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li className="list-group-item px-5 py-4 list-group-item-action">
-                      <a href="#!" className="text-muted">
+                      <Link href="#!" className="text-muted">
                         <div className="d-flex">
                           <img
                             src="/assets/images/avatar/avatar-2.jpg"
@@ -182,17 +183,17 @@ function AddCategory() {
                             </span>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
                 <div className="border-top px-5 py-4 text-center">
-                  <a href="#!">View All</a>
+                  <Link href="#!">View All</Link>
                 </div>
               </div>
             </li>
             <li className="dropdown ms-4">
-              <a
+              <Link
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -203,7 +204,7 @@ function AddCategory() {
                   alt=""
                   className="avatar avatar-md rounded-circle"
                 />
-              </a>
+              </Link>
               <div className="dropdown-menu dropdown-menu-end p-0">
                 <div className="lh-1 px-5 py-4 border-bottom">
                   <h5 className="mb-1 h6">FreshCart Admin</h5>
@@ -211,23 +212,23 @@ function AddCategory() {
                 </div>
                 <ul className="list-unstyled px-2 py-3">
                   <li>
-                    <a className="dropdown-item" href="#!">
+                    <Link className="dropdown-item" href="#!">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#!">
+                    <Link className="dropdown-item" href="#!">
                       Profile
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#!">
+                    <Link className="dropdown-item" href="#!">
                       Settings
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <div className="border-top px-5 py-3">
-                  <a href="#">Log Out</a>
+                  <Link href="#">Log Out</Link>
                 </div>
               </div>
             </li>
@@ -255,14 +256,14 @@ function AddCategory() {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb mb-0">
                     <li className="breadcrumb-item">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Dashboard
-                      </a>
+                      </Link>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Categories
-                      </a>
+                      </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Add New Category
@@ -271,9 +272,9 @@ function AddCategory() {
                 </nav>
               </div>
               <div>
-                <a href="/components/dashboard/categories" className="btn btn-light">
+                <Link href="/components/dashboard/categories" className="btn btn-light">
                   Back to Categories
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -424,12 +425,12 @@ function AddCategory() {
                     </div>
                   </div>
                   <div className="col-lg-12">
-                    <a href="#" className="btn btn-primary">
+                    <Link href="#" className="btn btn-primary">
                       Create Product
-                    </a>
-                    <a href="#" className="btn btn-secondary ms-2">
+                    </Link>
+                    <Link href="#" className="btn btn-secondary ms-2">
                       Save
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

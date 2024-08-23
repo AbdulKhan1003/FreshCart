@@ -1,4 +1,6 @@
 'use client'
+import Link from 'next/link'
+
 function slider() {
     return (
 <section className="mt-8">
@@ -23,10 +25,10 @@ function slider() {
             Introduced a new model for online grocery shopping and convenient
             home delivery.
           </p>
-          <a href="#!" className="btn btn-dark mt-3">
+          <Link href="#!" className="btn btn-dark mt-3">
             Shop Now
             <i className="feather-icon icon-arrow-right ms-1" />
-          </a>
+          </Link>
         </div>
       </div>
       <div
@@ -51,10 +53,10 @@ function slider() {
             Free Shipping to First-Time Customers Only, After promotions and
             discounts are applied.
           </p>
-          <a href="#!" className="btn btn-dark mt-3">
+          <Link href="#!" className="btn btn-dark mt-3">
             Shop Now
             <i className="feather-icon icon-arrow-right ms-1" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

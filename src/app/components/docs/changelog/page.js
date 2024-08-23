@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function ChangeLog() {
   return (
@@ -9,15 +10,15 @@ function ChangeLog() {
     <div className="docs-header">
       <nav className="navbar navbar-expand-lg bg-white border-bottom">
         <div className="container-fluid">
-          <a className="navbar-brand me-0" href="../index.html">
+          <Link className="navbar-brand me-0" href="../index.html">
             <img src="../assets/images/logo/freshcart-logo.svg" alt="" />
-          </a>
+          </Link>
           <ul className="navbar-nav ms-auto flex-row align-items-center">
             <li className="nav-item d-none d-md-block">
-              <a className="nav-link me-4 border-bottom-0" href="../index.html">
+              <Link className="nav-link me-4 border-bottom-0" href="../index.html">
                 <i className="feather-icon icon-monitor me-2" />
                 Live Preview
-              </a>
+              </Link>
             </li>
             <li className="nav-item d-md-none me-2">
               <button
@@ -44,10 +45,10 @@ function ChangeLog() {
               </button>
             </li>
             <li className="nav-item docs-header-btn">
-              <a className="btn btn-primary" href="https://bit.ly/freshcart">
+              <Link className="btn btn-primary" href="https://bit.ly/freshcart">
                 <i className="feather-icon icon-shopping-cart me-2 d-none d-md-inline-block" />
                 Buy now
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -64,39 +65,39 @@ function ChangeLog() {
                 <h5 className="heading">Getting Started</h5>
               </li>
               <li className="nav-item">
-                <a href="index.html" className="nav-link">
+                <Link href="index.html" className="nav-link">
                   Introduction
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="environment-setup.html" className="nav-link">
+                <Link href="environment-setup.html" className="nav-link">
                   Environment setup
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="working-with-gulp.html" className="nav-link">
+                <Link href="working-with-gulp.html" className="nav-link">
                   Working with Gulp
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="compiled-files.html" className="nav-link">
+                <Link href="compiled-files.html" className="nav-link">
                   Compiled Files
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="file-structure.html" className="nav-link">
+                <Link href="file-structure.html" className="nav-link">
                   File Structure
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="resources-assets.html" className="nav-link">
+                <Link href="resources-assets.html" className="nav-link">
                   Resources &amp; assets
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="changelog.html" className="nav-link">
+                <Link href="changelog.html" className="nav-link">
                   Changelog
-                </a>
+                </Link>
               </li>
               <li>
                 <div className="navbar-border" />
@@ -105,19 +106,19 @@ function ChangeLog() {
                 <h5 className="heading">Foundation</h5>
               </li>
               <li className="nav-item">
-                <a href="typography.html" className="nav-link">
+                <Link href="typography.html" className="nav-link">
                   Typography
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="colors.html" className="nav-link">
+                <Link href="colors.html" className="nav-link">
                   Colors
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="shadows.html" className="nav-link">
+                <Link href="shadows.html" className="nav-link">
                   Shadows
-                </a>
+                </Link>
               </li>
               <li>
                 <div className="navbar-border" />
@@ -129,79 +130,79 @@ function ChangeLog() {
                 </h5>
               </li>
               <li className="nav-item">
-                <a href="components/card.html" className="nav-link">
+                <Link href="components/card.html" className="nav-link">
                   Card
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/counter.html" className="nav-link">
+                <Link href="components/counter.html" className="nav-link">
                   Counter
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/call-to-action.html" className="nav-link">
+                <Link href="components/call-to-action.html" className="nav-link">
                   CTA
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/ecommerce.html" className="nav-link">
+                <Link href="components/ecommerce.html" className="nav-link">
                   Ecommerce
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/features.html" className="nav-link">
+                <Link href="components/features.html" className="nav-link">
                   Features
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/filter.html" className="nav-link">
+                <Link href="components/filter.html" className="nav-link">
                   Filter
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/footer.html" className="nav-link">
+                <Link href="components/footer.html" className="nav-link">
                   Footer
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/form.html" className="nav-link">
+                <Link href="components/form.html" className="nav-link">
                   Form
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/list.html" className="nav-link">
+                <Link href="components/list.html" className="nav-link">
                   List
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/navbar.html" className="nav-link">
+                <Link href="components/navbar.html" className="nav-link">
                   Navbar
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/testimonials.html" className="nav-link">
+                <Link href="components/testimonials.html" className="nav-link">
                   Testimonials
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/review.html" className="nav-link">
+                <Link href="components/review.html" className="nav-link">
                   Review
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/sidebar.html" className="nav-link">
+                <Link href="components/sidebar.html" className="nav-link">
                   Sidebar
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/slider.html" className="nav-link">
+                <Link href="components/slider.html" className="nav-link">
                   Slider
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="components/table.html" className="nav-link">
+                <Link href="components/table.html" className="nav-link">
                   Table
-                </a>
+                </Link>
               </li>
               <li>
                 <div className="navbar-border" />
@@ -210,129 +211,129 @@ function ChangeLog() {
                 <h5 className="heading">Components</h5>
               </li>
               <li className="nav-item">
-                <a href="accordions.html" className="nav-link">
+                <Link href="accordions.html" className="nav-link">
                   Accordions
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="alerts.html" className="nav-link">
+                <Link href="alerts.html" className="nav-link">
                   Alerts
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="badge.html" className="nav-link">
+                <Link href="badge.html" className="nav-link">
                   Badge
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="breadcrumb.html" className="nav-link">
+                <Link href="breadcrumb.html" className="nav-link">
                   Breadcrumb
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="buttons.html" className="nav-link">
+                <Link href="buttons.html" className="nav-link">
                   Buttons
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="button-group.html" className="nav-link">
+                <Link href="button-group.html" className="nav-link">
                   Button group
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="card.html" className="nav-link">
+                <Link href="card.html" className="nav-link">
                   Card
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="carousel.html" className="nav-link">
+                <Link href="carousel.html" className="nav-link">
                   Carousel
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="close-button.html" className="nav-link">
+                <Link href="close-button.html" className="nav-link">
                   Close Button
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="collapse.html" className="nav-link">
+                <Link href="collapse.html" className="nav-link">
                   Collapse
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="dropdowns.html" className="nav-link">
+                <Link href="dropdowns.html" className="nav-link">
                   Dropdowns
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="list-group.html" className="nav-link">
+                <Link href="list-group.html" className="nav-link">
                   List group
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="modal.html" className="nav-link">
+                <Link href="modal.html" className="nav-link">
                   Modal
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="navs-tabs.html" className="nav-link">
+                <Link href="navs-tabs.html" className="nav-link">
                   Navs and tabs
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="navbar.html" className="nav-link">
+                <Link href="navbar.html" className="nav-link">
                   Navbar
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="offcanvas.html" className="nav-link">
+                <Link href="offcanvas.html" className="nav-link">
                   Offcanvas
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="pagination.html" className="nav-link">
+                <Link href="pagination.html" className="nav-link">
                   Pagination
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="placeholders.html" className="nav-link">
+                <Link href="placeholders.html" className="nav-link">
                   Placeholders
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="popovers.html" className="nav-link">
+                <Link href="popovers.html" className="nav-link">
                   Popovers
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="progress.html" className="nav-link">
+                <Link href="progress.html" className="nav-link">
                   Progress
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="scrollspy.html" className="nav-link">
+                <Link href="scrollspy.html" className="nav-link">
                   Scrollspy
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="spinners.html" className="nav-link">
+                <Link href="spinners.html" className="nav-link">
                   Spinners
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="tables.html" className="nav-link">
+                <Link href="tables.html" className="nav-link">
                   Tables
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="toasts.html" className="nav-link">
+                <Link href="toasts.html" className="nav-link">
                   Toasts
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="tooltips.html" className="nav-link">
+                <Link href="tooltips.html" className="nav-link">
                   Tooltips
-                </a>
+                </Link>
               </li>
               <li>
                 <div className="navbar-border" />
@@ -341,14 +342,14 @@ function ChangeLog() {
                 <h5 className="heading">Forms</h5>
               </li>
               <li className="nav-item">
-                <a href="forms.html" className="nav-link">
+                <Link href="forms.html" className="nav-link">
                   Basic Forms
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="input-group.html" className="nav-link">
+                <Link href="input-group.html" className="nav-link">
                   Input Group
-                </a>
+                </Link>
               </li>
               <li>
                 <div className="navbar-border" />
@@ -357,54 +358,54 @@ function ChangeLog() {
                 <h5 className="heading">Utilities</h5>
               </li>
               <li className="nav-item">
-                <a href="background.html" className="nav-link">
+                <Link href="background.html" className="nav-link">
                   Background
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="borders.html" className="nav-link">
+                <Link href="borders.html" className="nav-link">
                   Borders
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="colored-links.html" className="nav-link">
+                <Link href="colored-links.html" className="nav-link">
                   Colored Links
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="opacity.html" className="nav-link">
+                <Link href="opacity.html" className="nav-link">
                   Opacity
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="ratio.html" className="nav-link">
+                <Link href="ratio.html" className="nav-link">
                   Ratio
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="stacks.html" className="nav-link">
+                <Link href="stacks.html" className="nav-link">
                   Stacks
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="text-color.html" className="nav-link">
+                <Link href="text-color.html" className="nav-link">
                   Colors
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="text.html" className="nav-link">
+                <Link href="text.html" className="nav-link">
                   Text
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="text-truncation.html" className="nav-link">
+                <Link href="text-truncation.html" className="nav-link">
                   Text truncation
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="vertical-rule.html" className="nav-link">
+                <Link href="vertical-rule.html" className="nav-link">
                   Vertical rule
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -413,9 +414,9 @@ function ChangeLog() {
       <div className="nav-footer">
         <p className="mb-0">
           Developed by
-          <a href="https://codescandy.com/" target="_blank">
+          <Link href="https://codescandy.com/" target="_blank">
             Codescandy
-          </a>
+          </Link>
         </p>
       </div>
     </div>
@@ -456,33 +457,33 @@ function ChangeLog() {
                         <ul>
                           <li>
                             Added Blog
-                            <a href="../dashboard/blog-grid.html">Grid</a>
+                            <Link href="../dashboard/blog-grid.html">Grid</Link>
                           </li>
                           <li>
                             Added Blog
-                            <a href="../dashboard/blog-list.html">List</a>
+                            <Link href="../dashboard/blog-list.html">List</Link>
                           </li>
                           <li>
                             Added
-                            <a href="../dashboard/blog-new-post.html">
+                            <Link href="../dashboard/blog-new-post.html">
                               Add New Post
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             Updated
-                            <a href="../dashboard/customers.html">Customers</a>
+                            <Link href="../dashboard/customers.html">Customers</Link>
                           </li>
                           <li>
                             Added
-                            <a href="../dashboard/create-customers.html">
+                            <Link href="../dashboard/create-customers.html">
                               Create Customers
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             Added
-                            <a href="../dashboard/customers-edits.html">
+                            <Link href="../dashboard/customers-edits.html">
                               Edit Customer
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -551,13 +552,13 @@ function ChangeLog() {
                         <ul>
                           <li>
                             Added
-                            <a
+                            <Link
                               href="../pages/index-5.html"
                               target="_blank"
                               title="homepage v5"
                             >
                               Homepage v5
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -708,27 +709,27 @@ function ChangeLog() {
               </span>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#intro" className="active">
+                  <Link href="#intro" className="active">
                     Introduction
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#v130">v.1.3.0</a>
+                  <Link href="#v130">v.1.3.0</Link>
                 </li>
                 <li>
-                  <a href="#v121">v.1.2.1</a>
+                  <Link href="#v121">v.1.2.1</Link>
                 </li>
                 <li>
-                  <a href="#v120">v.1.2.0</a>
+                  <Link href="#v120">v.1.2.0</Link>
                 </li>
                 <li>
-                  <a href="#v101">v.1.1.0</a>
+                  <Link href="#v101">v.1.1.0</Link>
                 </li>
                 <li>
-                  <a href="#v101">v.1.0.1</a>
+                  <Link href="#v101">v.1.0.1</Link>
                 </li>
                 <li>
-                  <a href="#initial">v.1.0.0</a>
+                  <Link href="#initial">v.1.0.0</Link>
                 </li>
               </ul>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../sidebar/page'
 import Navbar from '../navbar/page'
+import Link from 'next/link'
 
 function Categories() {
   return (
@@ -27,9 +28,9 @@ function Categories() {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb mb-0">
                     <li className="breadcrumb-item">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Dashboard
-                      </a>
+                      </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Categories
@@ -39,9 +40,9 @@ function Categories() {
               </div>
               {/* button */}
               <div>
-                <a href="/components/dashboard/addcategory" className="btn btn-primary">
+                <Link href="/components/dashboard/addcategory" className="btn btn-primary">
                   Add New Category
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -118,18 +119,18 @@ function Categories() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/icons/snacks.svg"
                               alt=""
                               className="icon-shape icon-sm"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Snack &amp; Munchies
-                          </a>
+                          </Link>
                         </td>
                         <td>12</td>
                         <td>
@@ -139,26 +140,26 @@ function Categories() {
                         </td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -180,18 +181,18 @@ function Categories() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/icons/bakery.svg"
                               alt=""
                               className="icon-shape icon-sm"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Bakery &amp; Biscuits
-                          </a>
+                          </Link>
                         </td>
                         <td>8</td>
                         <td>
@@ -201,26 +202,26 @@ function Categories() {
                         </td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -242,18 +243,18 @@ function Categories() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/icons/baby-food.svg"
                               alt=""
                               className="icon-shape icon-sm"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Baby Care
-                          </a>
+                          </Link>
                         </td>
                         <td>32</td>
                         <td>
@@ -263,26 +264,26 @@ function Categories() {
                         </td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -304,18 +305,18 @@ function Categories() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/icons/wine.svg"
                               alt=""
                               className="icon-shape icon-sm"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Cold Drinks &amp; Juices
-                          </a>
+                          </Link>
                         </td>
                         <td>34</td>
                         <td>
@@ -325,26 +326,26 @@ function Categories() {
                         </td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -366,18 +367,18 @@ function Categories() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/icons/toiletries.svg"
                               alt=""
                               className="icon-shape icon-sm"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Toiletries
-                          </a>
+                          </Link>
                         </td>
                         <td>23</td>
                         <td>
@@ -387,26 +388,26 @@ function Categories() {
                         </td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -428,18 +429,18 @@ function Categories() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/icons/dairy.svg"
                               alt=""
                               className="icon-shape icon-sm"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Dairy, Bread &amp; Eggs
-                          </a>
+                          </Link>
                         </td>
                         <td>16</td>
                         <td>
@@ -449,26 +450,26 @@ function Categories() {
                         </td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -490,18 +491,18 @@ function Categories() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/icons/fish.svg"
                               alt=""
                               className="icon-shape icon-sm"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Chicken, Meat &amp; Fish
-                          </a>
+                          </Link>
                         </td>
                         <td>14</td>
                         <td>
@@ -511,26 +512,26 @@ function Categories() {
                         </td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -552,18 +553,18 @@ function Categories() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/icons/fruit.svg"
                               alt=""
                               className="icon-shape icon-sm"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Fruits &amp; Vegetables
-                          </a>
+                          </Link>
                         </td>
                         <td>32</td>
                         <td>
@@ -573,26 +574,26 @@ function Categories() {
                         </td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -614,18 +615,18 @@ function Categories() {
                           </div>
                         </td>
                         <td>
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="/assets/images/icons/petfoods.svg"
                               alt=""
                               className="icon-shape icon-sm"
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Pet Food
-                          </a>
+                          </Link>
                         </td>
                         <td>25</td>
                         <td>
@@ -635,26 +636,26 @@ function Categories() {
                         </td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -669,29 +670,29 @@ function Categories() {
                 <nav>
                   <ul className="pagination mb-0">
                     <li className="page-item disabled">
-                      <a className="page-link" href="#!">
+                      <Link className="page-link" href="#!">
                         Previous
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link active" href="#!">
+                      <Link className="page-link active" href="#!">
                         1
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#!">
+                      <Link className="page-link" href="#!">
                         2
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#!">
+                      <Link className="page-link" href="#!">
                         3
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#!">
+                      <Link className="page-link" href="#!">
                         Next
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>

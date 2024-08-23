@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../header/page'
 import Footer from '../footer/page'
+import Link from 'next/link'
 
 function ShopList() {
   return (
@@ -70,9 +71,9 @@ function ShopList() {
               <div className="invalid-feedback">Please enter password.</div>
               <small className="form-text">
                 By Signup, you agree to our
-                <a href="#!">Terms of Service</a>
+                <Link href="#!">Terms of Service</Link>
                 &amp;
-                <a href="#!">Privacy Policy</a>
+                <Link href="#!">Privacy Policy</Link>
               </small>
             </div>
             <button type="submit" className="btn btn-primary">
@@ -82,7 +83,7 @@ function ShopList() {
         </div>
         <div className="modal-footer border-0 justify-content-center">
           Already have an account?
-          <a href="#">Sign in</a>
+          <Link href="#">Sign in</Link>
         </div>
       </div>
     </div>
@@ -113,9 +114,9 @@ function ShopList() {
         {/* alert */}
         <div className="alert alert-danger p-2" role="alert">
           You’ve got FREE delivery. Start
-          <a href="#!" className="alert-link">
+          <Link href="#!" className="alert-link">
             checkout now!
-          </a>
+          </Link>
         </div>
         <ul className="list-group list-group-flush">
           {/* list group */}
@@ -131,15 +132,15 @@ function ShopList() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">.98 / lb</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -163,7 +164,7 @@ function ShopList() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -213,15 +214,15 @@ function ShopList() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -245,7 +246,7 @@ function ShopList() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -299,15 +300,15 @@ function ShopList() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">1 kg</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -331,7 +332,7 @@ function ShopList() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -386,15 +387,15 @@ function ShopList() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -418,7 +419,7 @@ function ShopList() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -472,15 +473,15 @@ function ShopList() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">100g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -504,7 +505,7 @@ function ShopList() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -548,12 +549,12 @@ function ShopList() {
         </ul>
         {/* btn */}
         <div className="d-flex justify-content-between mt-4">
-          <a href="#!" className="btn btn-primary">
+          <Link href="#!" className="btn btn-primary">
             Continue Shopping
-          </a>
-          <a href="#!" className="btn btn-dark">
+          </Link>
+          <Link href="#!" className="btn btn-dark">
             Update Cart
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -594,83 +595,83 @@ function ShopList() {
           </div>
           <div className="d-flex justify-content-between align-items-center mb-2">
             <h6 className="mb-0">Select Location</h6>
-            <a href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
+            <Link href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
               Clear All
-            </a>
+            </Link>
           </div>
           <div>
             <div data-simplebar="" style={{ height: 300 }}>
               <div className="list-group list-group-flush">
-                <a
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action active"
                 >
                   <span>Alabama</span>
                   <span>Min:$20</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Alaska</span>
                   <span>Min:$30</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -690,10 +691,10 @@ function ShopList() {
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb mb-0">
                 <li className="breadcrumb-item">
-                  <a href="#!">Home</a>
+                  <Link href="#!">Home</Link>
                 </li>
                 <li className="breadcrumb-item">
-                  <a href="#!">Shop</a>
+                  <Link href="#!">Shop</Link>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
                   Snacks &amp; Munchies
@@ -710,7 +711,7 @@ function ShopList() {
       <div className="container">
         <div className="row gx-10">
           {/* col */}
-          <aside className="col-lg-3 col-md-4 mb-6 mb-md-0">
+          <Linkside className="col-lg-3 col-md-4 mb-6 mb-md-0">
             <div
               className="offcanvas offcanvas-start offcanvas-collapse w-md-50"
               tabIndex={-1}
@@ -735,7 +736,7 @@ function ShopList() {
                   {/* nav */}
                   <ul className="nav nav-category" id="categoryCollapseMenu">
                     <li className="nav-item border-bottom w-100">
-                      <a
+                      <Link
                         href="#"
                         className="nav-link collapsed"
                         data-bs-toggle="collapse"
@@ -745,7 +746,7 @@ function ShopList() {
                       >
                         Dairy, Bread &amp; Eggs
                         <i className="feather-icon icon-chevron-right" />
-                      </a>
+                      </Link>
                       {/* accordion collapse */}
                       <div
                         id="categoryFlushOne"
@@ -757,75 +758,75 @@ function ShopList() {
                           <ul className="nav flex-column ms-3">
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Milk
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Milk Drinks
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Curd &amp; Yogurt
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Eggs
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Bread
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Buns &amp; Bakery
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Butter &amp; More
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Cheese
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Paneer &amp; Tofu
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Cream &amp; Whitener
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Condensed Milk
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Vegan Drinks
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -833,7 +834,7 @@ function ShopList() {
                     </li>
                     {/* nav item */}
                     <li className="nav-item border-bottom w-100">
-                      <a
+                      <Link
                         href="#"
                         className="nav-link collapsed"
                         data-bs-toggle="collapse"
@@ -843,7 +844,7 @@ function ShopList() {
                       >
                         Snacks &amp; Munchies
                         <i className="feather-icon icon-chevron-right" />
-                      </a>
+                      </Link>
                       {/* collapse */}
                       <div
                         id="flush-collapseTwo"
@@ -854,70 +855,70 @@ function ShopList() {
                           <ul className="nav flex-column ms-3">
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Chips &amp; Crisps
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Nachos
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Popcorn
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Bhujia &amp; Mixtures
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Namkeen Snacks
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Healthy Snacks
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Cakes &amp; Rolls
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Energy Bars
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Papad &amp; Fryums
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Rusks &amp; Wafers
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                       </div>
                     </li>
                     <li className="nav-item border-bottom w-100">
-                      <a
+                      <Link
                         href="#"
                         className="nav-link collapsed"
                         data-bs-toggle="collapse"
@@ -927,7 +928,7 @@ function ShopList() {
                       >
                         Fruits &amp; Vegetables
                         <i className="feather-icon icon-chevron-right" />
-                      </a>
+                      </Link>
                       {/* collapse */}
                       <div
                         id="flush-collapseThree"
@@ -938,56 +939,56 @@ function ShopList() {
                           <ul className="nav flex-column ms-3">
                             {/* nav item */}
                             <li className="nav-item">
-                              <a
+                              <Link
                                 className="nav-link active"
                                 aria-current="page"
                                 href="#!"
                               >
                                 Fresh Vegetables
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Herbs &amp; Seasonings
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Fresh Fruits
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Organic Fruits &amp; Vegetables
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Cuts &amp; Sprouts
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Exotic Fruits &amp; Veggies
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Flower Bouquets, Bunches
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                       </div>
                     </li>
                     <li className="nav-item border-bottom w-100">
-                      <a
+                      <Link
                         href="#"
                         className="nav-link collapsed"
                         data-bs-toggle="collapse"
@@ -997,7 +998,7 @@ function ShopList() {
                       >
                         Cold Drinks &amp; Juices
                         <i className="feather-icon icon-chevron-right" />
-                      </a>
+                      </Link>
                       {/* collapse */}
                       <div
                         id="flush-collapseFour"
@@ -1008,64 +1009,64 @@ function ShopList() {
                           <ul className="nav flex-column ms-3">
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Soft Drinks
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Fruit Juices
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Coldpress
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Energy Drinks
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Water &amp; Ice Cubes
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Soda &amp; Mixers
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Concentrates &amp; Syrups
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Detox &amp; Energy Drinks
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a href="#!" className="nav-link">
+                              <Link href="#!" className="nav-link">
                                 Juice Collection
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                       </div>
                     </li>
                     <li className="nav-item border-bottom w-100">
-                      <a
+                      <Link
                         href="#"
                         className="nav-link collapsed"
                         data-bs-toggle="collapse"
@@ -1075,7 +1076,7 @@ function ShopList() {
                       >
                         Breakfast &amp; Instant Food
                         <i className="feather-icon icon-chevron-right" />
-                      </a>
+                      </Link>
                       {/* collapse */}
                       <div
                         id="flush-collapseFive"
@@ -1086,56 +1087,56 @@ function ShopList() {
                           <ul className="nav flex-column ms-3">
                             {/* nav item */}
                             <li className="nav-item">
-                              <a
+                              <Link
                                 className="nav-link active"
                                 aria-current="page"
                                 href="#!"
                               >
                                 Batter
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Breakfast Cereal
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Noodles, Pasta &amp; Soup
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Frozen Non-Veg Snackss
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Frozen Veg
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Vermicelli
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Instant Mixes
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                       </div>
                     </li>
                     <li className="nav-item border-bottom w-100">
-                      <a
+                      <Link
                         href="#"
                         className="nav-link collapsed"
                         data-bs-toggle="collapse"
@@ -1145,7 +1146,7 @@ function ShopList() {
                       >
                         Bakery &amp; Biscuits
                         <i className="feather-icon icon-chevron-right" />
-                      </a>
+                      </Link>
                       {/* collapse */}
                       <div
                         id="flush-collapseSix"
@@ -1156,62 +1157,62 @@ function ShopList() {
                           <ul className="nav flex-column ms-3">
                             {/* nav item */}
                             <li className="nav-item">
-                              <a
+                              <Link
                                 className="nav-link active"
                                 aria-current="page"
                                 href="#!"
                               >
                                 Cookies
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Glucose &amp; Marie
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Sweet &amp; Salty
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Healthy &amp; Digestive
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Cream Biscuits
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Rusks &amp; Wafers
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Cakes &amp; Rolls
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Buns &amp; Bakery
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                       </div>
                     </li>
                     <li className="nav-item border-bottom w-100">
-                      <a
+                      <Link
                         href="#"
                         className="nav-link collapsed"
                         data-bs-toggle="collapse"
@@ -1221,7 +1222,7 @@ function ShopList() {
                       >
                         Chicken, Meat &amp; Fish
                         <i className="feather-icon icon-chevron-right" />
-                      </a>
+                      </Link>
                       {/* collapse */}
                       <div
                         id="flush-collapseSeven"
@@ -1232,37 +1233,37 @@ function ShopList() {
                           <ul className="nav flex-column ms-3">
                             {/* nav item */}
                             <li className="nav-item">
-                              <a
+                              <Link
                                 className="nav-link active"
                                 aria-current="page"
                                 href="#!"
                               >
                                 Chicken
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Sausage, Salami &amp; Ham
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Exotic Meat
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Eggs
-                              </a>
+                              </Link>
                             </li>
                             {/* nav item */}
                             <li className="nav-item">
-                              <a className="nav-link" href="#!">
+                              <Link className="nav-link" href="#!">
                                 Frozen Non-Veg Snacks
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1494,10 +1495,10 @@ function ShopList() {
                   <div className="position-absolute p-5 py-8">
                     <h3 className="mb-0">Fresh Fruits</h3>
                     <p>Get Upto 25% Off</p>
-                    <a href="#" className="btn btn-dark">
+                    <Link href="#" className="btn btn-dark">
                       Shop Now
                       <i className="feather-icon icon-arrow-right ms-1" />
-                    </a>
+                    </Link>
                   </div>
                   {/* Banner Content */}
                   {/* Banner Image */}
@@ -1532,21 +1533,21 @@ function ShopList() {
               <div className="d-md-flex justify-content-between align-items-center">
                 <div className="d-flex align-items-center justify-content-between">
                   <div>
-                    <a href="shop-list.html" className="active me-3">
+                    <Link href="shop-list.html" className="active me-3">
                       <i className="bi bi-list-ul" />
-                    </a>
-                    <a href="shop-grid.html" className="me-3 text-muted">
+                    </Link>
+                    <Link href="shop-grid.html" className="me-3 text-muted">
                       <i className="bi bi-grid" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="shop-grid-3-column.html"
                       className="me-3 text-muted"
                     >
                       <i className="bi bi-grid-3x3-gap" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="ms-2 d-lg-none">
-                    <a
+                    <Link
                       className="btn btn-outline-gray-400 text-muted"
                       data-bs-toggle="offcanvas"
                       href="#offcanvasCategory"
@@ -1568,7 +1569,7 @@ function ShopList() {
                         <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3" />
                       </svg>
                       Filters
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="d-flex mt-2 mt-lg-0">
@@ -1609,33 +1610,33 @@ function ShopList() {
                             {/* badge */}
                             <span className="badge bg-danger">Sale</span>
                           </div>
-                          <a href="/components/shopsingle">
+                          <Link href="/components/shopsingle">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-1.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-md-8 col-12 flex-grow-1">
                         {/* heading */}
                         <div className="text-small mb-1">
-                          <a
+                          <Link
                             href="#!"
                             className="text-decoration-none text-muted"
                           >
                             <small>Snack &amp; Munchies</small>
-                          </a>
+                          </Link>
                         </div>
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="/components/shopsingle"
                             className="text-inherit text-decoration-none"
                           >
                             Haldiram's Sev Bhujia
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -1658,7 +1659,7 @@ function ShopList() {
                           </div>
                           {/* btn */}
                           <div className="mt-3">
-                            <a
+                            <Link
                               href="#!"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="modal"
@@ -1670,8 +1671,8 @@ function ShopList() {
                                 data-bs-html="true"
                                 title="Quick View"
                               />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="shop-wishlist.html"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="tooltip"
@@ -1679,8 +1680,8 @@ function ShopList() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="tooltip"
@@ -1688,11 +1689,11 @@ function ShopList() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                           {/* btn */}
                           <div className="mt-2">
-                            <a href="#!" className="btn btn-primary">
+                            <Link href="#!" className="btn btn-primary">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={16}
@@ -1710,7 +1711,7 @@ function ShopList() {
                                 <path d="M16 10a4 4 0 0 1-8 0" />
                               </svg>
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1726,33 +1727,33 @@ function ShopList() {
                     <div className="row align-items-center">
                       <div className="col-md-4 col-12">
                         <div className="text-center position-relative">
-                          <a href="/components/shopsingle">
+                          <Link href="/components/shopsingle">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-2.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-md-8 col-12 flex-grow-1">
                         {/* heading */}
                         <div className="text-small mb-1">
-                          <a
+                          <Link
                             href="#!"
                             className="text-decoration-none text-muted"
                           >
                             <small>Bakery &amp; Biscuits</small>
-                          </a>
+                          </Link>
                         </div>
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="/components/shopsingle"
                             className="text-inherit text-decoration-none"
                           >
                             NutriChoice Digestive
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -1772,7 +1773,7 @@ function ShopList() {
                           </div>
                           {/* btn */}
                           <div className="mt-3">
-                            <a
+                            <Link
                               href="#!"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="modal"
@@ -1784,8 +1785,8 @@ function ShopList() {
                                 data-bs-html="true"
                                 title="Quick View"
                               />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="shop-wishlist.html"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="tooltip"
@@ -1793,8 +1794,8 @@ function ShopList() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="tooltip"
@@ -1802,11 +1803,11 @@ function ShopList() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                           {/* btn */}
                           <div className="mt-2">
-                            <a href="#!" className="btn btn-primary">
+                            <Link href="#!" className="btn btn-primary">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={16}
@@ -1824,7 +1825,7 @@ function ShopList() {
                                 <path d="M16 10a4 4 0 0 1-8 0" />
                               </svg>
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1844,33 +1845,33 @@ function ShopList() {
                             {/* badge */}
                             <span className="badge bg-success">14%</span>
                           </div>
-                          <a href="/components/shopsingle">
+                          <Link href="/components/shopsingle">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-10.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-md-8 col-12 flex-grow-1">
                         {/* heading */}
                         <div className="text-small mb-1">
-                          <a
+                          <Link
                             href="#!"
                             className="text-decoration-none text-muted"
                           >
                             <small>Bakery &amp; Biscuits</small>
-                          </a>
+                          </Link>
                         </div>
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="/components/shopsingle"
                             className="text-inherit text-decoration-none"
                           >
                             Cadbury 5 Star Chocolate
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -1890,7 +1891,7 @@ function ShopList() {
                           </div>
                           {/* btn */}
                           <div className="mt-3">
-                            <a
+                            <Link
                               href="#!"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="modal"
@@ -1902,8 +1903,8 @@ function ShopList() {
                                 data-bs-html="true"
                                 title="Quick View"
                               />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="shop-wishlist.html"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="tooltip"
@@ -1911,8 +1912,8 @@ function ShopList() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="tooltip"
@@ -1920,11 +1921,11 @@ function ShopList() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                           {/* btn */}
                           <div className="mt-2">
-                            <a href="#!" className="btn btn-primary">
+                            <Link href="#!" className="btn btn-primary">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={16}
@@ -1942,7 +1943,7 @@ function ShopList() {
                                 <path d="M16 10a4 4 0 0 1-8 0" />
                               </svg>
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1958,33 +1959,33 @@ function ShopList() {
                     <div className="row align-items-center">
                       <div className="col-md-4 col-12">
                         <div className="text-center position-relative">
-                          <a href="/components/shopsingle">
+                          <Link href="/components/shopsingle">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-4.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-md-8 col-12 flex-grow-1">
                         {/* heading */}
                         <div className="text-small mb-1">
-                          <a
+                          <Link
                             href="#!"
                             className="text-decoration-none text-muted"
                           >
                             <small>Snack &amp; Munchies</small>
-                          </a>
+                          </Link>
                         </div>
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="/components/shopsingle"
                             className="text-inherit text-decoration-none"
                           >
                             Onion Flavour Potato
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -2007,7 +2008,7 @@ function ShopList() {
                           </div>
                           {/* btn */}
                           <div className="mt-3">
-                            <a
+                            <Link
                               href="#!"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="modal"
@@ -2019,8 +2020,8 @@ function ShopList() {
                                 data-bs-html="true"
                                 title="Quick View"
                               />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="shop-wishlist.html"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="tooltip"
@@ -2028,8 +2029,8 @@ function ShopList() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="tooltip"
@@ -2037,11 +2038,11 @@ function ShopList() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                           {/* btn */}
                           <div className="mt-2">
-                            <a href="#!" className="btn btn-primary">
+                            <Link href="#!" className="btn btn-primary">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={16}
@@ -2059,7 +2060,7 @@ function ShopList() {
                                 <path d="M16 10a4 4 0 0 1-8 0" />
                               </svg>
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2075,33 +2076,33 @@ function ShopList() {
                     <div className="row align-items-center">
                       <div className="col-md-4 col-12">
                         <div className="text-center position-relative">
-                          <a href="/components/shopsingle">
+                          <Link href="/components/shopsingle">
                             {/* img */}
                             <img
                               src="../assets/images/products/product-img-5.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-md-8 col-12 flex-grow-1">
                         {/* heading */}
                         <div className="text-small mb-1">
-                          <a
+                          <Link
                             href="#!"
                             className="text-decoration-none text-muted"
                           >
                             <small>Instant Food</small>
-                          </a>
+                          </Link>
                         </div>
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="/components/shopsingle"
                             className="text-inherit text-decoration-none"
                           >
                             Salted Instant Popcorn
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -2124,7 +2125,7 @@ function ShopList() {
                           </div>
                           {/* btn */}
                           <div className="mt-3">
-                            <a
+                            <Link
                               href="#!"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="modal"
@@ -2136,8 +2137,8 @@ function ShopList() {
                                 data-bs-html="true"
                                 title="Quick View"
                               />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="shop-wishlist.html"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="tooltip"
@@ -2145,8 +2146,8 @@ function ShopList() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                               data-bs-toggle="tooltip"
@@ -2154,11 +2155,11 @@ function ShopList() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                           {/* btn */}
                           <div className="mt-2">
-                            <a href="#!" className="btn btn-primary">
+                            <Link href="#!" className="btn btn-primary">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={16}
@@ -2176,7 +2177,7 @@ function ShopList() {
                                 <path d="M16 10a4 4 0 0 1-8 0" />
                               </svg>
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2192,38 +2193,38 @@ function ShopList() {
                 <nav>
                   <ul className="pagination">
                     <li className="page-item disabled">
-                      <a
+                      <Link
                         className="page-link mx-1"
                         href="#"
                         aria-label="Previous"
                       >
                         <i className="feather-icon icon-chevron-left" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link mx-1 active" href="#">
+                      <Link className="page-link mx-1 active" href="#">
                         1
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link mx-1" href="#">
+                      <Link className="page-link mx-1" href="#">
                         2
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link mx-1" href="#">
+                      <Link className="page-link mx-1" href="#">
                         ...
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link mx-1" href="#">
+                      <Link className="page-link mx-1" href="#">
                         12
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link mx-1" href="#" aria-label="Next">
+                      <Link className="page-link mx-1" href="#" aria-label="Next">
                         <i className="feather-icon icon-chevron-right" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>
@@ -2364,9 +2365,9 @@ function ShopList() {
             </div>
             <div className="col-lg-6">
               <div className="ps-lg-8 mt-6 mt-lg-0">
-                <a href="#!" className="mb-4 d-block">
+                <Link href="#!" className="mb-4 d-block">
                   Bakery Biscuits
-                </a>
+                </Link>
                 <h2 className="mb-1 h1">Napolitanke Ljesnjak</h2>
                 <div className="mb-4">
                   <small className="text-warning">
@@ -2376,9 +2377,9 @@ function ShopList() {
                     <i className="bi bi-star-fill" />
                     <i className="bi bi-star-half" />
                   </small>
-                  <a href="#" className="ms-2">
+                  <Link href="#" className="ms-2">
                     (30 reviews)
-                  </a>
+                  </Link>
                 </div>
                 <div className="fs-4">
                   <span className="fw-bold text-dark">$32</span>
@@ -2438,7 +2439,7 @@ function ShopList() {
                   </div>
                   <div className="col-md-4 col-5">
                     {/* btn */}
-                    <a
+                    <Link
                       className="btn btn-light"
                       href="#"
                       data-bs-toggle="tooltip"
@@ -2446,8 +2447,8 @@ function ShopList() {
                       aria-label="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="btn btn-light"
                       href="#!"
                       data-bs-toggle="tooltip"
@@ -2455,7 +2456,7 @@ function ShopList() {
                       aria-label="Wishlist"
                     >
                       <i className="feather-icon icon-heart" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <hr className="my-6" />

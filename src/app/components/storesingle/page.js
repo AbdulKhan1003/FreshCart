@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../header/page'
 import Footer from '../footer/page'
+import Link from 'next/link'
 
 function storeSingle() {
   return (
@@ -70,9 +71,9 @@ function storeSingle() {
               <div className="invalid-feedback">Please enter password.</div>
               <small className="form-text">
                 By Signup, you agree to our
-                <a href="#!">Terms of Service</a>
+                <Link href="#!">Terms of Service</Link>
                 &amp;
-                <a href="#!">Privacy Policy</a>
+                <Link href="#!">Privacy Policy</Link>
               </small>
             </div>
             <button type="submit" className="btn btn-primary">
@@ -82,7 +83,7 @@ function storeSingle() {
         </div>
         <div className="modal-footer border-0 justify-content-center">
           Already have an account?
-          <a href="#">Sign in</a>
+          <Link href="#">Sign in</Link>
         </div>
       </div>
     </div>
@@ -113,9 +114,9 @@ function storeSingle() {
         {/* alert */}
         <div className="alert alert-danger p-2" role="alert">
           You’ve got FREE delivery. Start
-          <a href="#!" className="alert-link">
+          <Link href="#!" className="alert-link">
             checkout now!
-          </a>
+          </Link>
         </div>
         <ul className="list-group list-group-flush">
           {/* list group */}
@@ -131,15 +132,15 @@ function storeSingle() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">.98 / lb</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -163,7 +164,7 @@ function storeSingle() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -213,15 +214,15 @@ function storeSingle() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -245,7 +246,7 @@ function storeSingle() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -299,15 +300,15 @@ function storeSingle() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">1 kg</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -331,7 +332,7 @@ function storeSingle() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -386,15 +387,15 @@ function storeSingle() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -418,7 +419,7 @@ function storeSingle() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -472,15 +473,15 @@ function storeSingle() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">100g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -504,7 +505,7 @@ function storeSingle() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -548,12 +549,12 @@ function storeSingle() {
         </ul>
         {/* btn */}
         <div className="d-flex justify-content-between mt-4">
-          <a href="#!" className="btn btn-primary">
+          <Link href="#!" className="btn btn-primary">
             Continue Shopping
-          </a>
-          <a href="#!" className="btn btn-dark">
+          </Link>
+          <Link href="#!" className="btn btn-dark">
             Update Cart
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -594,83 +595,83 @@ function storeSingle() {
           </div>
           <div className="d-flex justify-content-between align-items-center mb-2">
             <h6 className="mb-0">Select Location</h6>
-            <a href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
+            <Link href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
               Clear All
-            </a>
+            </Link>
           </div>
           <div>
             <div data-simplebar="" style={{ height: 300 }}>
               <div className="list-group list-group-flush">
-                <a
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action active"
                 >
                   <span>Alabama</span>
                   <span>Min:$20</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Alaska</span>
                   <span>Min:$30</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -690,10 +691,10 @@ function storeSingle() {
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb mb-0">
                 <li className="breadcrumb-item">
-                  <a href="#!">Home</a>
+                  <Link href="#!">Home</Link>
                 </li>
                 <li className="breadcrumb-item">
-                  <a href="#!">Stores</a>
+                  <Link href="#!">Stores</Link>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
                   E-Grocery Super Market
@@ -729,7 +730,7 @@ function storeSingle() {
                 <div>
                   <span>
                     <small>
-                      <a href="#!">100% satisfaction guarantee</a>
+                      <Link href="#!">100% satisfaction guarantee</Link>
                     </small>
                   </span>
                 </div>
@@ -754,52 +755,52 @@ function storeSingle() {
             <ul className="nav flex-column nav-pills nav-pills-dark">
               {/* nav item */}
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" href="#">
                   <i className="feather-icon icon-shopping-bag me-2" />
                   Shop
-                </a>
+                </Link>
               </li>
               {/* nav item */}
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" href="#">
                   <i className="feather-icon icon-gift me-2" />
                   Deals
-                </a>
+                </Link>
               </li>
               {/* nav item */}
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" href="#">
                   <i className="feather-icon icon-map-pin me-2" />
                   Buy It Again
-                </a>
+                </Link>
               </li>
               {/* nav item */}
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" href="#">
                   <i className="feather-icon icon-star me-2" />
                   Reviews
-                </a>
+                </Link>
               </li>
               {/* nav item */}
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" href="#">
                   <i className="feather-icon icon-book me-2" />
                   Recipes
-                </a>
+                </Link>
               </li>
               {/* nav item */}
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" href="#">
                   <i className="feather-icon icon-phone-call me-2" />
                   Contact
-                </a>
+                </Link>
               </li>
               {/* nav item */}
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" href="#">
                   <i className="feather-icon icon-clipboard me-2" />
                   Policy
-                </a>
+                </Link>
               </li>
             </ul>
             <hr />
@@ -807,129 +808,129 @@ function storeSingle() {
               <ul className="nav flex-column nav-links">
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Produce
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Dairy &amp; Eggs
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Beverages
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Meat &amp; Seafood
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Snacks &amp; Candy
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Frozen
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Bakery
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Prepared Foods
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Alcohol
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Dry Goods &amp; Pasta
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Condiments &amp; Sauces
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Canned Goods &amp; Soups
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Breakfast
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Household
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Baking Essentials
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Oils, Vinegars, &amp; Spices
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Health Care
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Personal Care
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Kitchen Supplies
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Floral
-                  </a>
+                  </Link>
                 </li>
                 {/* nav item */}
                 <li className="nav-item">
-                  <a href="#!" className="nav-link">
+                  <Link href="#!" className="nav-link">
                     Party &amp; Gift Supplies
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -1015,17 +1016,17 @@ function storeSingle() {
                       <div className="position-absolute top-0 start-0">
                         <span className="badge bg-danger">Sale</span>
                       </div>
-                      <a href="#!">
+                      <Link href="#!">
                         {/* img */}
                         <img
                           src="../assets/images/products/product-img-1.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3 img-fluid"
                         />
-                      </a>
+                      </Link>
                       {/* btn action */}
                       <div className="card-product-action">
-                        <a
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="modal"
@@ -1037,8 +1038,8 @@ function storeSingle() {
                             data-bs-html="true"
                             title="Quick View"
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1046,8 +1047,8 @@ function storeSingle() {
                           title="Wishlist"
                         >
                           <i className="bi bi-heart" />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1055,21 +1056,21 @@ function storeSingle() {
                           title="Compare"
                         >
                           <i className="bi bi-arrow-left-right" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="text-small mb-1">
-                      <a href="#!" className="text-decoration-none text-muted">
+                      <Link href="#!" className="text-decoration-none text-muted">
                         <small>Snack &amp; Munchies</small>
-                      </a>
+                      </Link>
                     </div>
                     <h2 className="fs-6">
-                      <a
+                      <Link
                         href="#!"
                         className="text-inherit text-decoration-none"
                       >
                         Haldiram's Sev Bhujia
-                      </a>
+                      </Link>
                     </h2>
                     <div>
                       {/* rating */}
@@ -1093,7 +1094,7 @@ function storeSingle() {
                       </div>
                       <div>
                         {/* btn */}
-                        <a href="#!" className="btn btn-primary btn-sm">
+                        <Link href="#!" className="btn btn-primary btn-sm">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={16}
@@ -1110,7 +1111,7 @@ function storeSingle() {
                             <line x1={5} y1={12} x2={19} y2={12} />
                           </svg>
                           Add
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1122,17 +1123,17 @@ function storeSingle() {
                   <div className="card-body">
                     <div className="text-center position-relative">
                       {/* badge */}
-                      <a href="#!">
+                      <Link href="#!">
                         {/* img */}
                         <img
                           src="../assets/images/products/product-img-2.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3 img-fluid"
                         />
-                      </a>
+                      </Link>
                       {/* btn action */}
                       <div className="card-product-action">
-                        <a
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="modal"
@@ -1144,8 +1145,8 @@ function storeSingle() {
                             data-bs-html="true"
                             title="Quick View"
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1153,8 +1154,8 @@ function storeSingle() {
                           title="Wishlist"
                         >
                           <i className="bi bi-heart" />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1162,21 +1163,21 @@ function storeSingle() {
                           title="Compare"
                         >
                           <i className="bi bi-arrow-left-right" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="text-small mb-1">
-                      <a href="#!" className="text-decoration-none text-muted">
+                      <Link href="#!" className="text-decoration-none text-muted">
                         <small>Bakery &amp; Biscuits</small>
-                      </a>
+                      </Link>
                     </div>
                     <h2 className="fs-6">
-                      <a
+                      <Link
                         href="#!"
                         className="text-inherit text-decoration-none"
                       >
                         NutriChoice Digestive
-                      </a>
+                      </Link>
                     </h2>
                     <div className="text-warning">
                       <small>
@@ -1196,7 +1197,7 @@ function storeSingle() {
                       </div>
                       <div>
                         {/* btn */}
-                        <a href="#!" className="btn btn-primary btn-sm">
+                        <Link href="#!" className="btn btn-primary btn-sm">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={16}
@@ -1213,7 +1214,7 @@ function storeSingle() {
                             <line x1={5} y1={12} x2={19} y2={12} />
                           </svg>
                           Add
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1225,17 +1226,17 @@ function storeSingle() {
                   <div className="card-body">
                     <div className="text-center position-relative">
                       {/* badge */}
-                      <a href="#!">
+                      <Link href="#!">
                         {/* img */}
                         <img
                           src="../assets/images/products/product-img-3.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3 img-fluid"
                         />
-                      </a>
+                      </Link>
                       {/* btn action */}
                       <div className="card-product-action">
-                        <a
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="modal"
@@ -1247,8 +1248,8 @@ function storeSingle() {
                             data-bs-html="true"
                             title="Quick View"
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1256,8 +1257,8 @@ function storeSingle() {
                           title="Wishlist"
                         >
                           <i className="bi bi-heart" />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1265,21 +1266,21 @@ function storeSingle() {
                           title="Compare"
                         >
                           <i className="bi bi-arrow-left-right" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="text-small mb-1">
-                      <a href="#!" className="text-decoration-none text-muted">
+                      <Link href="#!" className="text-decoration-none text-muted">
                         <small>Bakery &amp; Biscuits</small>
-                      </a>
+                      </Link>
                     </div>
                     <h2 className="fs-6">
-                      <a
+                      <Link
                         href="#!"
                         className="text-inherit text-decoration-none"
                       >
                         Cadbury 5 Star Chocolate
-                      </a>
+                      </Link>
                     </h2>
                     <div className="text-warning">
                       <small>
@@ -1302,7 +1303,7 @@ function storeSingle() {
                       </div>
                       <div>
                         {/* btn */}
-                        <a href="#!" className="btn btn-primary btn-sm">
+                        <Link href="#!" className="btn btn-primary btn-sm">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={16}
@@ -1319,7 +1320,7 @@ function storeSingle() {
                             <line x1={5} y1={12} x2={19} y2={12} />
                           </svg>
                           Add
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1331,17 +1332,17 @@ function storeSingle() {
                   <div className="card-body">
                     <div className="text-center position-relative">
                       {/* badge */}
-                      <a href="#!">
+                      <Link href="#!">
                         {/* img */}
                         <img
                           src="../assets/images/products/product-img-4.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3 img-fluid"
                         />
-                      </a>
+                      </Link>
                       {/* btn action */}
                       <div className="card-product-action">
-                        <a
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="modal"
@@ -1353,8 +1354,8 @@ function storeSingle() {
                             data-bs-html="true"
                             title="Quick View"
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1362,8 +1363,8 @@ function storeSingle() {
                           title="Wishlist"
                         >
                           <i className="bi bi-heart" />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1371,21 +1372,21 @@ function storeSingle() {
                           title="Compare"
                         >
                           <i className="bi bi-arrow-left-right" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="text-small mb-1">
-                      <a href="#!" className="text-decoration-none text-muted">
+                      <Link href="#!" className="text-decoration-none text-muted">
                         <small>Snack &amp; Munchies</small>
-                      </a>
+                      </Link>
                     </div>
                     <h2 className="fs-6">
-                      <a
+                      <Link
                         href="#!"
                         className="text-inherit text-decoration-none"
                       >
                         Onion Flavour Potato
-                      </a>
+                      </Link>
                     </h2>
                     <div className="text-warning">
                       <small>
@@ -1408,7 +1409,7 @@ function storeSingle() {
                       </div>
                       <div>
                         {/* btn */}
-                        <a href="#!" className="btn btn-primary btn-sm">
+                        <Link href="#!" className="btn btn-primary btn-sm">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={16}
@@ -1425,7 +1426,7 @@ function storeSingle() {
                             <line x1={5} y1={12} x2={19} y2={12} />
                           </svg>
                           Add
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1437,17 +1438,17 @@ function storeSingle() {
                   <div className="card-body">
                     <div className="text-center position-relative">
                       {/* badge */}
-                      <a href="#!">
+                      <Link href="#!">
                         {/* img */}
                         <img
                           src="../assets/images/products/product-img-5.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3 img-fluid"
                         />
-                      </a>
+                      </Link>
                       {/* btn action */}
                       <div className="card-product-action">
-                        <a
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="modal"
@@ -1459,8 +1460,8 @@ function storeSingle() {
                             data-bs-html="true"
                             title="Quick View"
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1468,8 +1469,8 @@ function storeSingle() {
                           title="Wishlist"
                         >
                           <i className="bi bi-heart" />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1477,21 +1478,21 @@ function storeSingle() {
                           title="Compare"
                         >
                           <i className="bi bi-arrow-left-right" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="text-small mb-1">
-                      <a href="#!" className="text-decoration-none text-muted">
+                      <Link href="#!" className="text-decoration-none text-muted">
                         <small>Instant Food</small>
-                      </a>
+                      </Link>
                     </div>
                     <h2 className="fs-6">
-                      <a
+                      <Link
                         href="#!"
                         className="text-inherit text-decoration-none"
                       >
                         Salted Instant Popcorn
-                      </a>
+                      </Link>
                     </h2>
                     <div className="text-warning">
                       <small>
@@ -1513,7 +1514,7 @@ function storeSingle() {
                       </div>
                       <div>
                         {/* btn */}
-                        <a href="#!" className="btn btn-primary btn-sm">
+                        <Link href="#!" className="btn btn-primary btn-sm">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={16}
@@ -1530,7 +1531,7 @@ function storeSingle() {
                             <line x1={5} y1={12} x2={19} y2={12} />
                           </svg>
                           Add
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1545,17 +1546,17 @@ function storeSingle() {
                       <div className="position-absolute top-0 start-0">
                         <span className="badge bg-danger">Sale</span>
                       </div>
-                      <a href="#!">
+                      <Link href="#!">
                         {/* img */}
                         <img
                           src="../assets/images/products/product-img-6.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3 img-fluid"
                         />
-                      </a>
+                      </Link>
                       {/* btn action */}
                       <div className="card-product-action">
-                        <a
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="modal"
@@ -1567,8 +1568,8 @@ function storeSingle() {
                             data-bs-html="true"
                             title="Quick View"
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1576,8 +1577,8 @@ function storeSingle() {
                           title="Wishlist"
                         >
                           <i className="bi bi-heart" />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1585,21 +1586,21 @@ function storeSingle() {
                           title="Compare"
                         >
                           <i className="bi bi-arrow-left-right" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="text-small mb-1">
-                      <a href="#!" className="text-decoration-none text-muted">
+                      <Link href="#!" className="text-decoration-none text-muted">
                         <small>Dairy, Bread &amp; Eggs</small>
-                      </a>
+                      </Link>
                     </div>
                     <h2 className="fs-6">
-                      <a
+                      <Link
                         href="#!"
                         className="text-inherit text-decoration-none"
                       >
                         Blueberry Greek Yogurt
-                      </a>
+                      </Link>
                     </h2>
                     <div>
                       {/* rating */}
@@ -1623,7 +1624,7 @@ function storeSingle() {
                       </div>
                       <div>
                         {/* btn */}
-                        <a href="#!" className="btn btn-primary btn-sm">
+                        <Link href="#!" className="btn btn-primary btn-sm">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={16}
@@ -1640,7 +1641,7 @@ function storeSingle() {
                             <line x1={5} y1={12} x2={19} y2={12} />
                           </svg>
                           Add
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1652,17 +1653,17 @@ function storeSingle() {
                   <div className="card-body">
                     <div className="text-center position-relative">
                       {/* badge */}
-                      <a href="#!">
+                      <Link href="#!">
                         {/* img */}
                         <img
                           src="../assets/images/products/product-img-7.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3 img-fluid"
                         />
-                      </a>
+                      </Link>
                       {/* btn action */}
                       <div className="card-product-action">
-                        <a
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="modal"
@@ -1674,8 +1675,8 @@ function storeSingle() {
                             data-bs-html="true"
                             title="Quick View"
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1683,8 +1684,8 @@ function storeSingle() {
                           title="Wishlist"
                         >
                           <i className="bi bi-heart" />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1692,21 +1693,21 @@ function storeSingle() {
                           title="Compare"
                         >
                           <i className="bi bi-arrow-left-right" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="text-small mb-1">
-                      <a href="#!" className="text-decoration-none text-muted">
+                      <Link href="#!" className="text-decoration-none text-muted">
                         <small>Dairy, Bread &amp; Eggs</small>
-                      </a>
+                      </Link>
                     </div>
                     <h2 className="fs-6">
-                      <a
+                      <Link
                         href="#!"
                         className="text-inherit text-decoration-none"
                       >
                         Britannia Cheese Slices
-                      </a>
+                      </Link>
                     </h2>
                     <div className="text-warning">
                       <small>
@@ -1726,7 +1727,7 @@ function storeSingle() {
                       </div>
                       <div>
                         {/* btn */}
-                        <a href="#!" className="btn btn-primary btn-sm">
+                        <Link href="#!" className="btn btn-primary btn-sm">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={16}
@@ -1743,7 +1744,7 @@ function storeSingle() {
                             <line x1={5} y1={12} x2={19} y2={12} />
                           </svg>
                           Add
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1755,17 +1756,17 @@ function storeSingle() {
                   <div className="card-body">
                     <div className="text-center position-relative">
                       {/* badge */}
-                      <a href="#!">
+                      <Link href="#!">
                         {/* img */}
                         <img
                           src="../assets/images/products/product-img-8.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3 img-fluid"
                         />
-                      </a>
+                      </Link>
                       {/* btn action */}
                       <div className="card-product-action">
-                        <a
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="modal"
@@ -1777,8 +1778,8 @@ function storeSingle() {
                             data-bs-html="true"
                             title="Quick View"
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1786,8 +1787,8 @@ function storeSingle() {
                           title="Wishlist"
                         >
                           <i className="bi bi-heart" />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1795,21 +1796,21 @@ function storeSingle() {
                           title="Compare"
                         >
                           <i className="bi bi-arrow-left-right" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="text-small mb-1">
-                      <a href="#!" className="text-decoration-none text-muted">
+                      <Link href="#!" className="text-decoration-none text-muted">
                         <small>Instant Food</small>
-                      </a>
+                      </Link>
                     </div>
                     <h2 className="fs-6">
-                      <a
+                      <Link
                         href="#!"
                         className="text-inherit text-decoration-none"
                       >
                         Kellogg's Original Cereals
-                      </a>
+                      </Link>
                     </h2>
                     <div className="text-warning">
                       <small>
@@ -1832,7 +1833,7 @@ function storeSingle() {
                       </div>
                       <div>
                         {/* btn */}
-                        <a href="#!" className="btn btn-primary btn-sm">
+                        <Link href="#!" className="btn btn-primary btn-sm">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={16}
@@ -1849,7 +1850,7 @@ function storeSingle() {
                             <line x1={5} y1={12} x2={19} y2={12} />
                           </svg>
                           Add
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1861,17 +1862,17 @@ function storeSingle() {
                   <div className="card-body">
                     <div className="text-center position-relative">
                       {/* badge */}
-                      <a href="#!">
+                      <Link href="#!">
                         {/* img */}
                         <img
                           src="../assets/images/products/product-img-9.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3 img-fluid"
                         />
-                      </a>
+                      </Link>
                       {/* btn action */}
                       <div className="card-product-action">
-                        <a
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="modal"
@@ -1883,8 +1884,8 @@ function storeSingle() {
                             data-bs-html="true"
                             title="Quick View"
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1892,8 +1893,8 @@ function storeSingle() {
                           title="Wishlist"
                         >
                           <i className="bi bi-heart" />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1901,21 +1902,21 @@ function storeSingle() {
                           title="Compare"
                         >
                           <i className="bi bi-arrow-left-right" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="text-small mb-1">
-                      <a href="#!" className="text-decoration-none text-muted">
+                      <Link href="#!" className="text-decoration-none text-muted">
                         <small>Snack &amp; Munchies</small>
-                      </a>
+                      </Link>
                     </div>
                     <h2 className="fs-6">
-                      <a
+                      <Link
                         href="#!"
                         className="text-inherit text-decoration-none"
                       >
                         Slurrp Millet Chocolate
-                      </a>
+                      </Link>
                     </h2>
                     <div className="text-warning">
                       <small>
@@ -1938,7 +1939,7 @@ function storeSingle() {
                       </div>
                       <div>
                         {/* btn */}
-                        <a href="#!" className="btn btn-primary btn-sm">
+                        <Link href="#!" className="btn btn-primary btn-sm">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={16}
@@ -1955,7 +1956,7 @@ function storeSingle() {
                             <line x1={5} y1={12} x2={19} y2={12} />
                           </svg>
                           Add
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1967,17 +1968,17 @@ function storeSingle() {
                   <div className="card-body">
                     <div className="text-center position-relative">
                       {/* badge */}
-                      <a href="#!">
+                      <Link href="#!">
                         {/* img */}
                         <img
                           src="../assets/images/products/product-img-10.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3 img-fluid"
                         />
-                      </a>
+                      </Link>
                       {/* btn action */}
                       <div className="card-product-action">
-                        <a
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="modal"
@@ -1989,8 +1990,8 @@ function storeSingle() {
                             data-bs-html="true"
                             title="Quick View"
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -1998,8 +1999,8 @@ function storeSingle() {
                           title="Wishlist"
                         >
                           <i className="bi bi-heart" />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="#!"
                           className="btn-action"
                           data-bs-toggle="tooltip"
@@ -2007,21 +2008,21 @@ function storeSingle() {
                           title="Compare"
                         >
                           <i className="bi bi-arrow-left-right" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="text-small mb-1">
-                      <a href="#!" className="text-decoration-none text-muted">
+                      <Link href="#!" className="text-decoration-none text-muted">
                         <small>Dairy, Bread &amp; Eggs</small>
-                      </a>
+                      </Link>
                     </div>
                     <h2 className="fs-6">
-                      <a
+                      <Link
                         href="#!"
                         className="text-inherit text-decoration-none"
                       >
                         Amul Butter - 500 g
-                      </a>
+                      </Link>
                     </h2>
                     <div className="text-warning">
                       <small>
@@ -2043,7 +2044,7 @@ function storeSingle() {
                       </div>
                       <div>
                         {/* btn */}
-                        <a href="#!" className="btn btn-primary btn-sm">
+                        <Link href="#!" className="btn btn-primary btn-sm">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={16}
@@ -2060,7 +2061,7 @@ function storeSingle() {
                             <line x1={5} y1={12} x2={19} y2={12} />
                           </svg>
                           Add
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -2074,38 +2075,38 @@ function storeSingle() {
                 <nav>
                   <ul className="pagination">
                     <li className="page-item disabled">
-                      <a
+                      <Link
                         className="page-link mx-1"
                         href="#"
                         aria-label="Previous"
                       >
                         <i className="feather-icon icon-chevron-left" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link mx-1 active" href="#">
+                      <Link className="page-link mx-1 active" href="#">
                         1
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link mx-1" href="#">
+                      <Link className="page-link mx-1" href="#">
                         2
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link mx-1" href="#">
+                      <Link className="page-link mx-1" href="#">
                         ...
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link mx-1" href="#">
+                      <Link className="page-link mx-1" href="#">
                         12
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link mx-1" href="#" aria-label="Next">
+                      <Link className="page-link mx-1" href="#" aria-label="Next">
                         <i className="feather-icon icon-chevron-right" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>
@@ -2246,9 +2247,9 @@ function storeSingle() {
             </div>
             <div className="col-lg-6">
               <div className="ps-lg-8 mt-6 mt-lg-0">
-                <a href="#!" className="mb-4 d-block">
+                <Link href="#!" className="mb-4 d-block">
                   Bakery Biscuits
-                </a>
+                </Link>
                 <h2 className="mb-1 h1">Napolitanke Ljesnjak</h2>
                 <div className="mb-4">
                   <small className="text-warning">
@@ -2258,9 +2259,9 @@ function storeSingle() {
                     <i className="bi bi-star-fill" />
                     <i className="bi bi-star-half" />
                   </small>
-                  <a href="#" className="ms-2">
+                  <Link href="#" className="ms-2">
                     (30 reviews)
-                  </a>
+                  </Link>
                 </div>
                 <div className="fs-4">
                   <span className="fw-bold text-dark">$32</span>
@@ -2320,7 +2321,7 @@ function storeSingle() {
                   </div>
                   <div className="col-md-4 col-5">
                     {/* btn */}
-                    <a
+                    <Link
                       className="btn btn-light"
                       href="#"
                       data-bs-toggle="tooltip"
@@ -2328,8 +2329,8 @@ function storeSingle() {
                       aria-label="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="btn btn-light"
                       href="#!"
                       data-bs-toggle="tooltip"
@@ -2337,7 +2338,7 @@ function storeSingle() {
                       aria-label="Wishlist"
                     >
                       <i className="feather-icon icon-heart" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <hr className="my-6" />

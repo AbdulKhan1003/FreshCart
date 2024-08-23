@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../header/page'
 import Footer from '../footer/page'
+import Link from 'next/link'
 
 function Index() {
   return (
@@ -67,9 +68,9 @@ function Index() {
               />
               <small className="form-text">
                 By Signup, you agree to our
-                <a href="#!">Terms of Service</a>
+                <Link href="#!">Terms of Service</Link>
                 &amp;
-                <a href="#!">Privacy Policy</a>
+                <Link href="#!">Privacy Policy</Link>
               </small>
             </div>
             <button type="submit" className="btn btn-primary">
@@ -79,7 +80,7 @@ function Index() {
         </div>
         <div className="modal-footer border-0 justify-content-center">
           Already have an account?
-          <a href="#">Sign in</a>
+          <Link href="#">Sign in</Link>
         </div>
       </div>
     </div>
@@ -110,9 +111,9 @@ function Index() {
         {/* alert */}
         <div className="alert alert-danger p-2" role="alert">
           You’ve got FREE delivery. Start
-          <a href="#!" className="alert-link">
+          <Link href="#!" className="alert-link">
             checkout now!
-          </a>
+          </Link>
         </div>
         <ul className="list-group list-group-flush">
           {/* list group */}
@@ -128,15 +129,15 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">.98 / lb</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -160,7 +161,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -210,15 +211,15 @@ function Index() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -242,7 +243,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -296,15 +297,15 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">1 kg</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -328,7 +329,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -383,15 +384,15 @@ function Index() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -415,7 +416,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -469,15 +470,15 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">100g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -501,7 +502,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -545,12 +546,12 @@ function Index() {
         </ul>
         {/* btn */}
         <div className="d-flex justify-content-between mt-4">
-          <a href="#!" className="btn btn-primary">
+          <Link href="#!" className="btn btn-primary">
             Continue Shopping
-          </a>
-          <a href="#!" className="btn btn-dark">
+          </Link>
+          <Link href="#!" className="btn btn-dark">
             Update Cart
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -591,83 +592,83 @@ function Index() {
           </div>
           <div className="d-flex justify-content-between align-items-center mb-2">
             <h6 className="mb-0">Select Location</h6>
-            <a href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
+            <Link href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
               Clear All
-            </a>
+            </Link>
           </div>
           <div>
             <div data-simplebar="" style={{ height: 300 }}>
               <div className="list-group list-group-flush">
-                <a
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action active"
                 >
                   <span>Alabama</span>
                   <span>Min:$20</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Alaska</span>
                   <span>Min:$30</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -713,10 +714,10 @@ function Index() {
                     </span>
                   </div>
                   {/* btn */}
-                  <a href="#!" className="btn btn-primary">
+                  <Link href="#!" className="btn btn-primary">
                     Get Best Deal
                     <i className="feather-icon icon-arrow-right ms-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* img */}
@@ -749,10 +750,10 @@ function Index() {
                     </span>
                   </div>
                   {/* btn */}
-                  <a href="#!" className="btn btn-primary">
+                  <Link href="#!" className="btn btn-primary">
                     Shop Deals Now
                     <i className="feather-icon icon-arrow-right ms-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* img */}
@@ -785,10 +786,10 @@ function Index() {
                     </span>
                   </div>
                   {/* btn */}
-                  <a href="#!" className="btn btn-primary">
+                  <Link href="#!" className="btn btn-primary">
                     Shop This Week Offer
                     <i className="feather-icon icon-arrow-right ms-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -815,9 +816,9 @@ function Index() {
                     <span className="fw-bold text-dark">CARE12</span>
                   </span>
                 </div>
-                <a href="#" className="btn btn-dark">
+                <Link href="#" className="btn btn-dark">
                   Shop Now
-                </a>
+                </Link>
               </div>
             </div>
             <div
@@ -843,9 +844,9 @@ function Index() {
                     the fruity way
                   </p>
                 </div>
-                <a href="#" className="btn btn-dark">
+                <Link href="#" className="btn btn-dark">
                   Shop Now
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -867,19 +868,19 @@ function Index() {
             <div className="col-lg-2 col-md-4 col-6">
               <div className="text-center mb-10">
                 {/* img */}
-                <a href="#">
+                <Link href="#">
                   <img
                     src="../assets/images/category/dairy-bread-eggs.png"
                     alt=""
                     className="card-image rounded-circle"
                   />
-                </a>
+                </Link>
                 {/* text */}
                 <div className="mt-4">
                   <h5 className="fs-6 mb-0">
-                    <a href="/components/shopgrid" className="text-inherit">
+                    <Link href="/components/shopgrid" className="text-inherit">
                       Dairy, Bread &amp; Eggs
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
@@ -888,19 +889,19 @@ function Index() {
             <div className="col-lg-2 col-md-4 col-6">
               <div className="text-center mb-10">
                 {/* img */}
-                <a href="#">
+                <Link href="#">
                   <img
                     src="../assets/images/category/fruits-vegetables.png"
                     alt=""
                     className="card-image rounded-circle"
                   />
-                </a>
+                </Link>
                 <div className="mt-4">
                   {/* text */}
                   <h5 className="fs-6 mb-0">
-                    <a href="/components/shopgrid" className="text-inherit">
+                    <Link href="/components/shopgrid" className="text-inherit">
                       Fruits &amp; Vegetables
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
@@ -909,19 +910,19 @@ function Index() {
             <div className="col-lg-2 col-md-4 col-6">
               <div className="text-center mb-10">
                 {/* img */}
-                <a href="#">
+                <Link href="#">
                   <img
                     src="../assets/images/category/snack-munchies.png"
                     alt=""
                     className="card-image rounded-circle"
                   />
-                </a>
+                </Link>
                 {/* text */}
                 <div className="mt-4">
                   <h5 className="fs-6 mb-0">
-                    <a href="/components/shopgrid" className="text-inherit">
+                    <Link href="/components/shopgrid" className="text-inherit">
                       Snack &amp; Munchies
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
@@ -930,19 +931,19 @@ function Index() {
             <div className="col-lg-2 col-md-4 col-6">
               <div className="text-center mb-10">
                 {/* img */}
-                <a href="#">
+                <Link href="#">
                   <img
                     src="../assets/images/category/bakery-biscuits.png"
                     alt=""
                     className="card-image rounded-circle"
                   />
-                </a>
+                </Link>
                 {/* text */}
                 <div className="mt-4">
                   <h5 className="fs-6 mb-0">
-                    <a href="/components/shopgrid" className="text-inherit">
+                    <Link href="/components/shopgrid" className="text-inherit">
                       Bakery &amp; Biscuits
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
@@ -951,19 +952,19 @@ function Index() {
             <div className="col-lg-2 col-md-4 col-6">
               <div className="text-center mb-10">
                 {/* img */}
-                <a href="#">
+                <Link href="#">
                   <img
                     src="../assets/images/category/instant-food.png"
                     alt=""
                     className="card-image rounded-circle"
                   />
-                </a>
+                </Link>
                 {/* text */}
                 <div className="mt-4">
                   <h5 className="fs-6 mb-0">
-                    <a href="/components/shopgrid" className="text-inherit">
+                    <Link href="/components/shopgrid" className="text-inherit">
                       Instant Food
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
@@ -972,19 +973,19 @@ function Index() {
             <div className="col-lg-2 col-md-4 col-6">
               <div className="text-center mb-10">
                 {/* img */}
-                <a href="#">
+                <Link href="#">
                   <img
                     src="../assets/images/category/tea-coffee-drinks.png"
                     alt=""
                     className="card-image rounded-circle"
                   />
-                </a>
+                </Link>
                 {/* text */}
                 <div className="mt-4">
                   <h5 className="fs-6 mb-0">
-                    <a href="/components/shopgrid" className="text-inherit">
+                    <Link href="/components/shopgrid" className="text-inherit">
                       Tea, Coffee &amp; Drinks
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
@@ -993,19 +994,19 @@ function Index() {
             <div className="col-lg-2 col-md-4 col-6">
               <div className="text-center mb-10">
                 {/* img */}
-                <a href="#">
+                <Link href="#">
                   <img
                     src="../assets/images/category/cold-drinks-juices.png"
                     alt=""
                     className="card-image rounded-circle"
                   />
-                </a>
+                </Link>
                 {/* text */}
                 <div className="mt-4">
                   <h5 className="fs-6 mb-0">
-                    <a href="/components/shopgrid" className="text-inherit">
+                    <Link href="/components/shopgrid" className="text-inherit">
                       Cold Drinks &amp; Juices
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
@@ -1014,19 +1015,19 @@ function Index() {
             <div className="col-lg-2 col-md-4 col-6">
               <div className="text-center mb-10">
                 {/* img */}
-                <a href="#">
+                <Link href="#">
                   <img
                     src="../assets/images/category/chicken-meat-fish.png"
                     alt=""
                     className="card-image rounded-circle"
                   />
-                </a>
+                </Link>
                 {/* text */}
                 <div className="mt-4">
                   <h5 className="fs-6 mb-0">
-                    <a href="/components/shopgrid" className="text-inherit">
+                    <Link href="/components/shopgrid" className="text-inherit">
                       Chicken, Meat &amp; Fish
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
@@ -1036,19 +1037,19 @@ function Index() {
               {/* text */}
               <div className="text-center mb-10">
                 {/* img */}
-                <a href="#">
+                <Link href="#">
                   <img
                     src="../assets/images/category/baby-care.png"
                     alt=""
                     className="card-image rounded-circle"
                   />
-                </a>
+                </Link>
                 {/* text */}
                 <div className="mt-4">
                   <h5 className="fs-6 mb-0">
-                    <a href="/components/shopgrid" className="text-inherit">
+                    <Link href="/components/shopgrid" className="text-inherit">
                       Baby Care
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
@@ -1057,19 +1058,19 @@ function Index() {
             <div className="col-lg-2 col-md-4 col-6">
               <div className="text-center mb-10">
                 {/* img */}
-                <a href="#">
+                <Link href="#">
                   <img
                     src="../assets/images/category/cleaning-essentials.png"
                     alt=""
                     className="card-image rounded-circle"
                   />
-                </a>
+                </Link>
                 {/* img */}
                 <div className="mt-4">
                   <h5 className="fs-6 mb-0">
-                    <a href="/components/shopgrid" className="text-inherit">
+                    <Link href="/components/shopgrid" className="text-inherit">
                       Cleaning Essentials
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
@@ -1078,19 +1079,19 @@ function Index() {
             <div className="col-lg-2 col-md-4 col-6">
               <div className="text-center mb-10">
                 {/* img */}
-                <a href="#">
+                <Link href="#">
                   <img
                     src="../assets/images/category/pet-care.png"
                     alt=""
                     className="card-image rounded-circle"
                   />
-                </a>
+                </Link>
                 {/* text */}
                 <div className="mt-4">
                   <h5 className="fs-6 mb-0">
-                    <a href="/components/shopgrid" className="text-inherit">
+                    <Link href="/components/shopgrid" className="text-inherit">
                       Pet Care
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
@@ -1099,19 +1100,19 @@ function Index() {
             <div className="col-lg-2 col-md-4 col-6">
               <div className="text-center mb-10">
                 {/* img */}
-                <a href="#">
+                <Link href="#">
                   <img
                     src="../assets/images/category/atta-rice-dal.png"
                     alt=""
                     className="card-image rounded-circle"
                   />
-                </a>
+                </Link>
                 {/* text */}
                 <div className="mt-4">
                   <h5 className="fs-6 mb-0">
-                    <a href="/components/shopgrid" className="text-inherit">
+                    <Link href="/components/shopgrid" className="text-inherit">
                       Atta, Rice &amp; Dal
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
@@ -1143,7 +1144,7 @@ function Index() {
                     {/* nav item */}
                     <li className="nav-item">
                       {/* nav link */}
-                      <a
+                      <Link
                         href="#"
                         className="nav-link active"
                         id="nav-fruitsandveg-tab"
@@ -1154,12 +1155,12 @@ function Index() {
                         aria-selected="true"
                       >
                         Fruits &amp; Vegetables
-                      </a>
+                      </Link>
                     </li>
                     {/* nav item */}
                     <li className="nav-item">
                       {/* nav link */}
-                      <a
+                      <Link
                         href="#"
                         className="nav-link"
                         id="nav-snackMunchies-tab"
@@ -1170,12 +1171,12 @@ function Index() {
                         aria-selected="false"
                       >
                         Snack &amp; Munchies
-                      </a>
+                      </Link>
                     </li>
                     {/* nav item */}
                     <li className="nav-item">
                       {/* nav link */}
-                      <a
+                      <Link
                         href="#"
                         className="nav-link"
                         id="nav-bakery-tab"
@@ -1186,12 +1187,12 @@ function Index() {
                         aria-selected="false"
                       >
                         Bakery &amp; Biscuits
-                      </a>
+                      </Link>
                     </li>
                     {/* nav item */}
                     <li className="nav-item">
                       {/* nav link */}
-                      <a
+                      <Link
                         href="#"
                         className="nav-link"
                         id="nav-tea-tab"
@@ -1202,12 +1203,12 @@ function Index() {
                         aria-selected="false"
                       >
                         Tea, Coffee &amp; Drinks
-                      </a>
+                      </Link>
                     </li>
                     {/* nav item */}
                     <li className="nav-item">
                       {/* nav link */}
-                      <a
+                      <Link
                         href="#"
                         className="nav-link"
                         id="nav-drinks-tab"
@@ -1218,7 +1219,7 @@ function Index() {
                         aria-selected="false"
                       >
                         Cold Drinks &amp; Juices
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>
@@ -1250,24 +1251,24 @@ function Index() {
                             <span className="badge bg-danger">Sale</span>
                           </div>
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-1.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -1275,8 +1276,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -1284,17 +1285,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Haldiram's Sev Bhujia
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -1324,12 +1325,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1347,24 +1348,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-2.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -1372,8 +1373,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -1381,17 +1382,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Britannia NutriChoice Digestive Biscuits
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -1418,12 +1419,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1441,24 +1442,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-3.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -1466,8 +1467,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -1475,17 +1476,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Cadbury 5 star chocolate
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -1512,12 +1513,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1535,24 +1536,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-4.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -1560,8 +1561,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -1569,17 +1570,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Onion Flavour Potato
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -1609,12 +1610,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1637,24 +1638,24 @@ function Index() {
                             </span>
                           </div>
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-5.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -1662,8 +1663,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -1671,17 +1672,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Salted Instant Popcorn
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -1711,12 +1712,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1734,24 +1735,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-6.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -1759,8 +1760,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -1768,17 +1769,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Epigamia Blueberry Greek Yogurt, 90g
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -1805,12 +1806,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1828,24 +1829,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-8.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -1853,8 +1854,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -1862,17 +1863,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Kellogg's Special K Original Cereal
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -1902,12 +1903,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1925,24 +1926,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-9.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -1950,8 +1951,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -1959,17 +1960,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Slurrp Farm No Maida Millet Pancake Mix
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -1999,12 +2000,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2022,24 +2023,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-2.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -2047,8 +2048,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -2056,17 +2057,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Britannia NutriChoice Digestive Biscuits
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -2093,12 +2094,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2116,24 +2117,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-3.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -2141,8 +2142,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -2150,17 +2151,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Cadbury 5 star chocolate
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -2187,12 +2188,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2220,24 +2221,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-4.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -2245,8 +2246,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -2254,17 +2255,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Onion Flavour Potato
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -2294,12 +2295,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2320,24 +2321,24 @@ function Index() {
                             <span className="badge bg-danger">Sale</span>
                           </div>
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-1.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -2345,8 +2346,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -2354,17 +2355,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Haldiram's Sev Bhujia
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -2394,12 +2395,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2417,24 +2418,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-2.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -2442,8 +2443,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -2451,17 +2452,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Britannia NutriChoice Digestive Biscuits
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -2488,12 +2489,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2511,24 +2512,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-3.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -2536,8 +2537,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -2545,17 +2546,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Cadbury 5 star chocolate
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -2582,12 +2583,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2610,24 +2611,24 @@ function Index() {
                             </span>
                           </div>
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-5.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -2635,8 +2636,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -2644,17 +2645,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Salted Instant Popcorn
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -2684,12 +2685,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2707,24 +2708,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-6.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -2732,8 +2733,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -2741,17 +2742,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Epigamia Blueberry Greek Yogurt, 90g
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -2778,12 +2779,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2801,24 +2802,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-8.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -2826,8 +2827,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -2835,17 +2836,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Kellogg's Special K Original Cereal
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -2875,12 +2876,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2898,24 +2899,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-9.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -2923,8 +2924,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -2932,17 +2933,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Slurrp Farm No Maida Millet Pancake Mix
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -2972,12 +2973,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3010,24 +3011,24 @@ function Index() {
                             </span>
                           </div>
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-5.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -3035,8 +3036,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -3044,17 +3045,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Salted Instant Popcorn
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -3084,12 +3085,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3107,24 +3108,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-6.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -3132,8 +3133,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -3141,17 +3142,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Epigamia Blueberry Greek Yogurt, 90g
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -3178,12 +3179,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3201,24 +3202,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-8.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -3226,8 +3227,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -3235,17 +3236,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Kellogg's Special K Original Cereal
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -3275,12 +3276,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3298,24 +3299,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-9.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -3323,8 +3324,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -3332,17 +3333,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Slurrp Farm No Maida Millet Pancake Mix
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -3372,12 +3373,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3398,24 +3399,24 @@ function Index() {
                             <span className="badge bg-danger">Sale</span>
                           </div>
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-1.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -3423,8 +3424,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -3432,17 +3433,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Haldiram's Sev Bhujia
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -3472,12 +3473,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3495,24 +3496,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-2.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -3520,8 +3521,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -3529,17 +3530,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Britannia NutriChoice Digestive Biscuits
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -3566,12 +3567,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3589,24 +3590,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-3.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -3614,8 +3615,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -3623,17 +3624,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Cadbury 5 star chocolate
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -3660,12 +3661,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3683,24 +3684,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-4.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -3708,8 +3709,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -3717,17 +3718,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Onion Flavour Potato
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -3757,12 +3758,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3790,24 +3791,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-4.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -3815,8 +3816,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -3824,17 +3825,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Onion Flavour Potato
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -3864,12 +3865,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3892,24 +3893,24 @@ function Index() {
                             </span>
                           </div>
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-5.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -3917,8 +3918,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -3926,17 +3927,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Salted Instant Popcorn
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -3966,12 +3967,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -3989,24 +3990,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-6.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -4014,8 +4015,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -4023,17 +4024,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Epigamia Blueberry Greek Yogurt, 90g
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -4060,12 +4061,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4086,24 +4087,24 @@ function Index() {
                             <span className="badge bg-danger">Sale</span>
                           </div>
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-1.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -4111,8 +4112,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -4120,17 +4121,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Haldiram's Sev Bhujia
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -4160,12 +4161,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4183,24 +4184,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-2.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -4208,8 +4209,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -4217,17 +4218,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Britannia NutriChoice Digestive Biscuits
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -4254,12 +4255,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4277,24 +4278,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-3.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -4302,8 +4303,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -4311,17 +4312,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Cadbury 5 star chocolate
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -4348,12 +4349,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4371,24 +4372,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-8.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -4396,8 +4397,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -4405,17 +4406,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Kellogg's Special K Original Cereal
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -4445,12 +4446,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4468,24 +4469,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-9.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -4493,8 +4494,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -4502,17 +4503,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Slurrp Farm No Maida Millet Pancake Mix
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -4542,12 +4543,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4575,24 +4576,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-4.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -4600,8 +4601,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -4609,17 +4610,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Onion Flavour Potato
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -4649,12 +4650,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4677,24 +4678,24 @@ function Index() {
                             </span>
                           </div>
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-5.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -4702,8 +4703,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -4711,17 +4712,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Salted Instant Popcorn
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -4751,12 +4752,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4774,24 +4775,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-6.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -4799,8 +4800,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -4808,17 +4809,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Epigamia Blueberry Greek Yogurt, 90g
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -4845,12 +4846,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4871,24 +4872,24 @@ function Index() {
                             <span className="badge bg-danger">Sale</span>
                           </div>
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-1.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -4896,8 +4897,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -4905,17 +4906,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Haldiram's Sev Bhujia
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -4945,12 +4946,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -4968,24 +4969,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-2.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -4993,8 +4994,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -5002,17 +5003,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Britannia NutriChoice Digestive Biscuits
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -5039,12 +5040,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5062,24 +5063,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-3.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -5087,8 +5088,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -5096,17 +5097,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Cadbury 5 star chocolate
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -5133,12 +5134,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5156,24 +5157,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-8.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -5181,8 +5182,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -5190,17 +5191,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Kellogg's Special K Original Cereal
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -5230,12 +5231,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5253,24 +5254,24 @@ function Index() {
                         {/* badge */}
                         <div className="text-center position-relative">
                           {/* img */}
-                          <a href="#!">
+                          <Link href="#!">
                             <img
                               src="../assets/images/products/product-img-9.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3 img-fluid"
                             />
-                          </a>
+                          </Link>
                           {/* action btn */}
                           <div className="product-action-btn">
-                            <a
+                            <Link
                               href="#!"
                               className="btn-action mb-1"
                               data-bs-toggle="modal"
                               data-bs-target="#quickViewModal"
                             >
                               <i className="bi bi-eye" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="/components/shopwishlist"
                               className="btn-action mb-1"
                               data-bs-toggle="tooltip"
@@ -5278,8 +5279,8 @@ function Index() {
                               title="Wishlist"
                             >
                               <i className="bi bi-heart" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               href="#!"
                               className="btn-action"
                               data-bs-toggle="tooltip"
@@ -5287,17 +5288,17 @@ function Index() {
                               title="Compare"
                             >
                               <i className="bi bi-arrow-left-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         {/* title */}
                         <h2 className="fs-6">
-                          <a
+                          <Link
                             href="#!"
                             className="text-inherit text-decoration-none"
                           >
                             Slurrp Farm No Maida Millet Pancake Mix
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           {/* rating */}
@@ -5327,12 +5328,12 @@ function Index() {
                         {/* btn */}
                         <div className="product-fade-block">
                           <div className="d-grid mt-4">
-                            <a
+                            <Link
                               href="#"
                               className="btn btn-primary rounded-pill"
                             >
                               Add to Cart
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -5362,9 +5363,9 @@ function Index() {
                   <br />
                   treats, and more in one easy spot.
                 </p>
-                <a href="#" className="btn btn-dark mt-5">
+                <Link href="#" className="btn btn-dark mt-5">
                   Get Discount on Share
-                </a>
+                </Link>
               </div>
               <div className="p-6 d-lg-block d-none">
                 <img
@@ -5391,10 +5392,10 @@ function Index() {
                 </p>
               </div>
               <div>
-                <a href="#">
+                <Link href="#">
                   View All
                   <i className="feather-icon icon-chevron-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -5408,16 +5409,16 @@ function Index() {
                     <span className="badge bg-info">25%</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-2.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -5429,8 +5430,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -5438,8 +5439,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -5447,7 +5448,7 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mb-3">
@@ -5455,9 +5456,9 @@ function Index() {
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Britannia NutriChoice Digestive Biscuits
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -5496,9 +5497,9 @@ function Index() {
                 {/* btn */}
                 <div className="product-fade-block">
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -5516,16 +5517,16 @@ function Index() {
                     <small>Buy 1 Get $4.00 Off</small>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-3.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -5537,8 +5538,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -5546,8 +5547,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -5555,7 +5556,7 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mb-3">
@@ -5563,9 +5564,9 @@ function Index() {
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Cadbury 5 star chocolate
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -5604,9 +5605,9 @@ function Index() {
                 {/* btn */}
                 <div className="product-fade-block">
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -5624,16 +5625,16 @@ function Index() {
                     <span className="badge bg-info">22%</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-8.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -5645,8 +5646,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -5654,8 +5655,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -5663,7 +5664,7 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mb-3">
@@ -5674,9 +5675,9 @@ function Index() {
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Kellogg's Special K Original Cereal
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -5715,9 +5716,9 @@ function Index() {
                 {/* btn */}
                 <div className="product-fade-block">
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -5735,16 +5736,16 @@ function Index() {
                     <span className="badge bg-info">16%</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-9.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -5756,8 +5757,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -5765,8 +5766,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -5774,7 +5775,7 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mb-3">
@@ -5785,9 +5786,9 @@ function Index() {
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Slurrp Farm No Maida Millet Pancake Mix
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -5826,9 +5827,9 @@ function Index() {
                 {/* btn */}
                 <div className="product-fade-block">
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -5843,16 +5844,16 @@ function Index() {
               <div className="card-body position-relative text-center">
                 <div className="text-center position-relative">
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-10.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -5864,8 +5865,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -5873,8 +5874,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -5882,7 +5883,7 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mb-3">
@@ -5893,9 +5894,9 @@ function Index() {
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Amul Butter - 500g
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -5934,9 +5935,9 @@ function Index() {
                 {/* btn */}
                 <div className="product-fade-block">
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -5969,16 +5970,16 @@ function Index() {
                     <span className="badge bg-danger">Sale</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-1.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -5990,8 +5991,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -5999,8 +6000,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -6008,14 +6009,14 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Haldiram's Sev Bhujia
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -6045,9 +6046,9 @@ function Index() {
                 <div>
                   {/* btn */}
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -6059,16 +6060,16 @@ function Index() {
               <div className="card-body position-relative">
                 <div className="text-center position-relative">
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-2.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -6080,8 +6081,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -6089,8 +6090,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -6098,14 +6099,14 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Britannia NutriChoice Digestive Biscuits
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -6132,9 +6133,9 @@ function Index() {
                 <div>
                   {/* btn */}
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -6146,16 +6147,16 @@ function Index() {
               <div className="card-body position-relative">
                 <div className="text-center position-relative">
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-3.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -6167,8 +6168,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -6176,8 +6177,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -6185,14 +6186,14 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Cadbury 5 star chocolate
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -6219,9 +6220,9 @@ function Index() {
                 <div>
                   {/* btn */}
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -6233,16 +6234,16 @@ function Index() {
               <div className="card-body position-relative">
                 <div className="text-center position-relative">
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-4.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -6254,8 +6255,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -6263,8 +6264,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -6272,14 +6273,14 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Onion Flavour Potato
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -6309,9 +6310,9 @@ function Index() {
                 <div>
                   {/* btn */}
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -6326,16 +6327,16 @@ function Index() {
                     <span className="badge bg-warning text-dark">14%</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-5.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -6347,8 +6348,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -6356,8 +6357,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -6365,14 +6366,14 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Salted Instant Popcorn
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -6402,9 +6403,9 @@ function Index() {
                 <div>
                   {/* btn */}
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -6416,16 +6417,16 @@ function Index() {
               <div className="card-body position-relative">
                 <div className="text-center position-relative">
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-6.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -6437,8 +6438,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -6446,8 +6447,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -6455,14 +6456,14 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Epigamia Blueberry Greek Yogurt, 90g
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -6489,9 +6490,9 @@ function Index() {
                 <div>
                   {/* btn */}
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -6503,16 +6504,16 @@ function Index() {
               <div className="card-body position-relative">
                 <div className="text-center position-relative">
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-8.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -6524,8 +6525,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -6533,8 +6534,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -6542,14 +6543,14 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Kellogg's Special K Original Cereal
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -6579,9 +6580,9 @@ function Index() {
                 <div>
                   {/* btn */}
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -6593,16 +6594,16 @@ function Index() {
               <div className="card-body position-relative">
                 <div className="text-center position-relative">
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-9.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -6614,8 +6615,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -6623,8 +6624,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -6632,14 +6633,14 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Slurrp Farm No Maida Millet Pancake Mix
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -6669,9 +6670,9 @@ function Index() {
                 <div>
                   {/* btn */}
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -6683,16 +6684,16 @@ function Index() {
               <div className="card-body position-relative">
                 <div className="text-center position-relative">
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-2.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -6704,8 +6705,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -6713,8 +6714,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -6722,14 +6723,14 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Britannia NutriChoice Digestive Biscuits
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -6756,9 +6757,9 @@ function Index() {
                 <div>
                   {/* btn */}
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -6770,16 +6771,16 @@ function Index() {
               <div className="card-body position-relative">
                 <div className="text-center position-relative">
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-3.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="product-action-btn">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action mb-1"
                       data-bs-toggle="modal"
@@ -6791,8 +6792,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action mb-1"
                       data-bs-toggle="tooltip"
@@ -6800,8 +6801,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -6809,14 +6810,14 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Cadbury 5 star chocolate
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -6843,9 +6844,9 @@ function Index() {
                 <div>
                   {/* btn */}
                   <div className="d-grid mt-4">
-                    <a href="#" className="btn btn-primary rounded-pill">
+                    <Link href="#" className="btn btn-primary rounded-pill">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -7056,9 +7057,9 @@ function Index() {
             </div>
             <div className="col-lg-6">
               <div className="ps-lg-8 mt-6 mt-lg-0">
-                <a href="#!" className="mb-4 d-block">
+                <Link href="#!" className="mb-4 d-block">
                   Bakery Biscuits
-                </a>
+                </Link>
                 <h2 className="mb-1 h1">Napolitanke Ljesnjak</h2>
                 <div className="mb-4">
                   <small className="text-warning">
@@ -7068,9 +7069,9 @@ function Index() {
                     <i className="bi bi-star-fill" />
                     <i className="bi bi-star-half" />
                   </small>
-                  <a href="#" className="ms-2">
+                  <Link href="#" className="ms-2">
                     (30 reviews)
-                  </a>
+                  </Link>
                 </div>
                 <div className="fs-4">
                   <span className="fw-bold text-dark">$32</span>
@@ -7130,7 +7131,7 @@ function Index() {
                   </div>
                   <div className="col-md-4 col-5">
                     {/* btn */}
-                    <a
+                    <Link
                       className="btn btn-light"
                       href="#"
                       data-bs-toggle="tooltip"
@@ -7138,8 +7139,8 @@ function Index() {
                       aria-label="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="btn btn-light"
                       href="#!"
                       data-bs-toggle="tooltip"
@@ -7147,7 +7148,7 @@ function Index() {
                       aria-label="Wishlist"
                     >
                       <i className="feather-icon icon-heart" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <hr className="my-6" />

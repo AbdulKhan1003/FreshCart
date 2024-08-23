@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from '../sidebar/page'
+import Link from 'next/link'
 
 function VendorList() {
   return (
@@ -10,7 +11,7 @@ function VendorList() {
     <div className="container-fluid">
       <div className="d-flex justify-content-between align-items-center w-100">
         <div className="d-flex align-items-center">
-          <a
+          <Link
             className="text-inherit d-block d-xl-none me-4"
             data-bs-toggle="offcanvas"
             href="#offcanvasExample"
@@ -27,7 +28,7 @@ function VendorList() {
             >
               <path d="M2 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm10.646 2.146a.5.5 0 0 1 .708.708L11.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zM2 6.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
             </svg>
-          </a>
+          </Link>
           <form role="search">
             <label htmlFor="search" className="form-label visually-hidden">
               Search
@@ -44,7 +45,7 @@ function VendorList() {
         <div>
           <ul className="list-unstyled d-flex align-items-center mb-0 ms-5 ms-lg-0">
             <li className="dropdown-center">
-              <a
+              <Link
                 className="position-relative btn-icon btn-ghost-secondary btn rounded-circle"
                 href="#"
                 role="button"
@@ -55,15 +56,15 @@ function VendorList() {
                 <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger mt-2 ms-n2">
                   2<span className="visually-hidden">unread messages</span>
                 </span>
-              </a>
+              </Link>
               <div className="dropdown-menu dropdown-menu-end dropdown-menu-lg p-0 border-0">
                 <div className="border-bottom p-5 d-flex justify-content-between align-items-center">
                   <div>
                     <h5 className="mb-1">Notifications</h5>
                     <p className="mb-0 small">You have 2 unread messages</p>
                   </div>
-                  <a href="#!" className="text-muted"></a>
-                  <a
+                  <Link href="#!" className="text-muted"></Link>
+                  <Link
                     href="#"
                     className="btn btn-ghost-secondary btn-icon rounded-circle"
                     data-bs-toggle="tooltip"
@@ -81,14 +82,14 @@ function VendorList() {
                       <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
                       <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
                 <div data-simplebar="" style={{ height: 250 }}>
                   {/* List group */}
                   <ul className="list-group list-group-flush notification-list-scroll fs-6">
                     {/* List group item */}
                     <li className="list-group-item px-5 py-4 list-group-item-action active">
-                      <a href="#!" className="text-muted">
+                      <Link href="#!" className="text-muted">
                         <div className="d-flex">
                           <img
                             src="/assets/images/avatar/avatar-1.jpg"
@@ -118,10 +119,10 @@ function VendorList() {
                             </span>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li className="list-group-item px-5 py-4 list-group-item-action">
-                      <a href="#!" className="text-muted">
+                      <Link href="#!" className="text-muted">
                         <div className="d-flex">
                           <img
                             src="/assets/images/avatar/avatar-5.jpg"
@@ -149,10 +150,10 @@ function VendorList() {
                             </span>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                     <li className="list-group-item px-5 py-4 list-group-item-action">
-                      <a href="#!" className="text-muted">
+                      <Link href="#!" className="text-muted">
                         <div className="d-flex">
                           <img
                             src="/assets/images/avatar/avatar-2.jpg"
@@ -182,17 +183,17 @@ function VendorList() {
                             </span>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
                 <div className="border-top px-5 py-4 text-center">
-                  <a href="#!">View All</a>
+                  <Link href="#!">View All</Link>
                 </div>
               </div>
             </li>
             <li className="dropdown ms-4">
-              <a
+              <Link
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -203,7 +204,7 @@ function VendorList() {
                   alt=""
                   className="avatar avatar-md rounded-circle"
                 />
-              </a>
+              </Link>
               <div className="dropdown-menu dropdown-menu-end p-0">
                 <div className="lh-1 px-5 py-4 border-bottom">
                   <h5 className="mb-1 h6">FreshCart Admin</h5>
@@ -211,23 +212,23 @@ function VendorList() {
                 </div>
                 <ul className="list-unstyled px-2 py-3">
                   <li>
-                    <a className="dropdown-item" href="#!">
+                    <Link className="dropdown-item" href="#!">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#!">
+                    <Link className="dropdown-item" href="#!">
                       Profile
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#!">
+                    <Link className="dropdown-item" href="#!">
                       Settings
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <div className="border-top px-5 py-3">
-                  <a href="#">Log Out</a>
+                  <Link href="#">Log Out</Link>
                 </div>
               </div>
             </li>
@@ -253,9 +254,9 @@ function VendorList() {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb mb-0">
                     <li className="breadcrumb-item">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Dashboard
-                      </a>
+                      </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Vendors
@@ -265,7 +266,7 @@ function VendorList() {
               </div>
               {/* button */}
               <div>
-                <a href="/components/dashboard/vendorgrid" className="btn btn-light btn-icon">
+                <Link href="/components/dashboard/vendorgrid" className="btn btn-light btn-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={18}
@@ -276,8 +277,8 @@ function VendorList() {
                   >
                     <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
                   </svg>
-                </a>
-                <a href="/components/dashboard/vendorlist" className="btn btn-primary btn-icon">
+                </Link>
+                <Link href="/components/dashboard/vendorlist" className="btn btn-primary btn-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={18}
@@ -296,7 +297,7 @@ function VendorList() {
                       d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -339,35 +340,35 @@ function VendorList() {
                       <tr>
                         <td>#010</td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             E-Grocery Super Market
-                          </a>
+                          </Link>
                         </td>
                         <td>egrocery@dayrep.com</td>
                         <td>$200.00</td>
                         <td>$60.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -376,35 +377,35 @@ function VendorList() {
                       <tr>
                         <td>#009</td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             DealShare Mart
-                          </a>
+                          </Link>
                         </td>
                         <td>werve1962@superrito.com</td>
                         <td>$350.00</td>
                         <td>$150.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -413,35 +414,35 @@ function VendorList() {
                       <tr>
                         <td>#008</td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             DMart
-                          </a>
+                          </Link>
                         </td>
                         <td>trablinever@armyspy.com</td>
                         <td>$120.00</td>
                         <td>$45.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -450,35 +451,35 @@ function VendorList() {
                       <tr>
                         <td>#007</td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Blinkit Store
-                          </a>
+                          </Link>
                         </td>
                         <td>steened@rhyta.com</td>
                         <td>$1200.00</td>
                         <td>$400.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -487,35 +488,35 @@ function VendorList() {
                       <tr>
                         <td>#006</td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             StoreFront Super Market
-                          </a>
+                          </Link>
                         </td>
                         <td>mansper@einrot.com</td>
                         <td>$230.00</td>
                         <td>$50.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -524,35 +525,35 @@ function VendorList() {
                       <tr>
                         <td>#005</td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             BigBasket
-                          </a>
+                          </Link>
                         </td>
                         <td>lizin@armyspy.com</td>
                         <td>$560.00</td>
                         <td>$120.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -561,35 +562,35 @@ function VendorList() {
                       <tr>
                         <td>#004</td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Swiggy Instamart
-                          </a>
+                          </Link>
                         </td>
                         <td>tured@jourrapide.com</td>
                         <td>$780.00</td>
                         <td>$360.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -598,35 +599,35 @@ function VendorList() {
                       <tr>
                         <td>#003</td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Online Grocery Mart
-                          </a>
+                          </Link>
                         </td>
                         <td>liturname@einrot.com</td>
                         <td>$460.00</td>
                         <td>$175.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -635,35 +636,35 @@ function VendorList() {
                       <tr>
                         <td>#002</td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             Spencer
-                          </a>
+                          </Link>
                         </td>
                         <td>fark1952@rhyta.com</td>
                         <td>$630.00</td>
                         <td>$190.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -672,35 +673,35 @@ function VendorList() {
                       <tr>
                         <td>#001</td>
                         <td>
-                          <a href="#" className="text-reset">
+                          <Link href="#" className="text-reset">
                             E-Grocery Super Market
-                          </a>
+                          </Link>
                         </td>
                         <td>heathercarpenter@dayrep.com</td>
                         <td>$200.00</td>
                         <td>$80.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -715,29 +716,29 @@ function VendorList() {
                 <nav className="mt-2 mt-md-0">
                   <ul className="pagination mb-0">
                     <li className="page-item disabled">
-                      <a className="page-link" href="#!">
+                      <Link className="page-link" href="#!">
                         Previous
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link active" href="#!">
+                      <Link className="page-link active" href="#!">
                         1
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#!">
+                      <Link className="page-link" href="#!">
                         2
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#!">
+                      <Link className="page-link" href="#!">
                         3
-                      </a>
+                      </Link>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#!">
+                      <Link className="page-link" href="#!">
                         Next
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../header/page'
 import Footer from '../footer/page'
+import Link from 'next/link'
 
 function ShopSingle() {
   return (
@@ -70,9 +71,9 @@ function ShopSingle() {
               <div className="invalid-feedback">Please enter password.</div>
               <small className="form-text">
                 By Signup, you agree to our
-                <a href="#!">Terms of Service</a>
+                <Link href="#!">Terms of Service</Link>
                 &amp;
-                <a href="#!">Privacy Policy</a>
+                <Link href="#!">Privacy Policy</Link>
               </small>
             </div>
             <button type="submit" className="btn btn-primary">
@@ -82,7 +83,7 @@ function ShopSingle() {
         </div>
         <div className="modal-footer border-0 justify-content-center">
           Already have an account?
-          <a href="#">Sign in</a>
+          <Link href="#">Sign in</Link>
         </div>
       </div>
     </div>
@@ -113,9 +114,9 @@ function ShopSingle() {
         {/* alert */}
         <div className="alert alert-danger p-2" role="alert">
           You’ve got FREE delivery. Start
-          <a href="#!" className="alert-link">
+          <Link href="#!" className="alert-link">
             checkout now!
-          </a>
+          </Link>
         </div>
         <ul className="list-group list-group-flush">
           {/* list group */}
@@ -131,15 +132,15 @@ function ShopSingle() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">.98 / lb</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -163,7 +164,7 @@ function ShopSingle() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -213,15 +214,15 @@ function ShopSingle() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -245,7 +246,7 @@ function ShopSingle() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -299,15 +300,15 @@ function ShopSingle() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">1 kg</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -331,7 +332,7 @@ function ShopSingle() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -386,15 +387,15 @@ function ShopSingle() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -418,7 +419,7 @@ function ShopSingle() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -472,15 +473,15 @@ function ShopSingle() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">100g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -504,7 +505,7 @@ function ShopSingle() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -548,12 +549,12 @@ function ShopSingle() {
         </ul>
         {/* btn */}
         <div className="d-flex justify-content-between mt-4">
-          <a href="#!" className="btn btn-primary">
+          <Link href="#!" className="btn btn-primary">
             Continue Shopping
-          </a>
-          <a href="#!" className="btn btn-dark">
+          </Link>
+          <Link href="#!" className="btn btn-dark">
             Update Cart
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -594,83 +595,83 @@ function ShopSingle() {
           </div>
           <div className="d-flex justify-content-between align-items-center mb-2">
             <h6 className="mb-0">Select Location</h6>
-            <a href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
+            <Link href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
               Clear All
-            </a>
+            </Link>
           </div>
           <div>
             <div data-simplebar="" style={{ height: 300 }}>
               <div className="list-group list-group-flush">
-                <a
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action active"
                 >
                   <span>Alabama</span>
                   <span>Min:$20</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Alaska</span>
                   <span>Min:$30</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -689,10 +690,10 @@ function ShopSingle() {
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb mb-0">
                 <li className="breadcrumb-item">
-                  <a href="#">Home</a>
+                  <Link href="#">Home</Link>
                 </li>
                 <li className="breadcrumb-item">
-                  <a href="#">Bakery Biscuits</a>
+                  <Link href="#">Bakery Biscuits</Link>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
                   Napolitanke Ljesnjak
@@ -818,9 +819,9 @@ function ShopSingle() {
           <div className="col-md-7 col-xl-6">
             <div className="ps-lg-10 mt-6 mt-md-0">
               {/* content */}
-              <a href="#!" className="mb-4 d-block">
+              <Link href="#!" className="mb-4 d-block">
                 Bakery Biscuits
-              </a>
+              </Link>
               {/* heading */}
               <h1 className="mb-1">Napolitanke Ljesnjak</h1>
               <div className="mb-4">
@@ -833,9 +834,9 @@ function ShopSingle() {
                   <i className="bi bi-star-fill" />
                   <i className="bi bi-star-half" />
                 </small>
-                <a href="#" className="ms-2">
+                <Link href="#" className="ms-2">
                   (30 reviews)
-                </a>
+                </Link>
               </div>
               <div className="fs-4">
                 {/* price */}
@@ -898,7 +899,7 @@ function ShopSingle() {
                 </div>
                 <div className="col-md-4 col-4">
                   {/* btn */}
-                  <a
+                  <Link
                     className="btn btn-light"
                     href="#"
                     data-bs-toggle="tooltip"
@@ -906,8 +907,8 @@ function ShopSingle() {
                     aria-label="Compare"
                   >
                     <i className="bi bi-arrow-left-right" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="btn btn-light"
                     href="shop-wishlist.html"
                     data-bs-toggle="tooltip"
@@ -915,7 +916,7 @@ function ShopSingle() {
                     aria-label="Wishlist"
                   >
                     <i className="feather-icon icon-heart" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* hr */}
@@ -953,7 +954,7 @@ function ShopSingle() {
               <div className="mt-8">
                 {/* dropdown */}
                 <div className="dropdown">
-                  <a
+                  <Link
                     className="btn btn-outline-secondary dropdown-toggle"
                     href="#"
                     role="button"
@@ -961,25 +962,25 @@ function ShopSingle() {
                     aria-expanded="false"
                   >
                     Share
-                  </a>
+                  </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <Link className="dropdown-item" href="#">
                         <i className="bi bi-facebook me-2" />
                         Facebook
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <Link className="dropdown-item" href="#">
                         <i className="bi bi-twitter me-2" />
                         Twitter
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <Link className="dropdown-item" href="#">
                         <i className="bi bi-instagram me-2" />
                         Instagram
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -1343,12 +1344,12 @@ function ShopSingle() {
                           <p className="mb-0">
                             Share your thoughts with other customers.
                           </p>
-                          <a
+                          <Link
                             href="#"
                             className="btn btn-outline-gray-400 mt-4 text-muted"
                           >
                             Write the Review
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1435,14 +1436,14 @@ function ShopSingle() {
                             </div>
                             {/* icon */}
                             <div className="d-flex justify-content-end mt-4">
-                              <a href="#" className="text-muted">
+                              <Link href="#" className="text-muted">
                                 <i className="feather-icon icon-thumbs-up me-1" />
                                 Helpful
-                              </a>
-                              <a href="#" className="text-muted ms-4">
+                              </Link>
+                              <Link href="#" className="text-muted ms-4">
                                 <i className="feather-icon icon-flag me-2" />
                                 Report abuse
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -1485,14 +1486,14 @@ function ShopSingle() {
                             </p>
                             {/* icon */}
                             <div className="d-flex justify-content-end mt-4">
-                              <a href="#" className="text-muted">
+                              <Link href="#" className="text-muted">
                                 <i className="feather-icon icon-thumbs-up me-1" />
                                 Helpful
-                              </a>
-                              <a href="#" className="text-muted ms-4">
+                              </Link>
+                              <Link href="#" className="text-muted ms-4">
                                 <i className="feather-icon icon-flag me-2" />
                                 Report abuse
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -1532,14 +1533,14 @@ function ShopSingle() {
                             </p>
                             {/* icon */}
                             <div className="d-flex justify-content-end mt-4">
-                              <a href="#" className="text-muted">
+                              <Link href="#" className="text-muted">
                                 <i className="feather-icon icon-thumbs-up me-1" />
                                 Helpful
-                              </a>
-                              <a href="#" className="text-muted ms-4">
+                              </Link>
+                              <Link href="#" className="text-muted ms-4">
                                 <i className="feather-icon icon-flag me-2" />
                                 Report abuse
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -1578,24 +1579,24 @@ function ShopSingle() {
                             </p>
                             {/* icon */}
                             <div className="d-flex justify-content-end mt-4">
-                              <a href="#" className="text-muted">
+                              <Link href="#" className="text-muted">
                                 <i className="feather-icon icon-thumbs-up me-1" />
                                 Helpful
-                              </a>
-                              <a href="#" className="text-muted ms-4">
+                              </Link>
+                              <Link href="#" className="text-muted ms-4">
                                 <i className="feather-icon icon-flag me-2" />
                                 Report abuse
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
                         <div>
-                          <a
+                          <Link
                             href="#"
                             className="btn btn-outline-gray-400 text-muted"
                           >
                             Read More Reviews
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -1652,9 +1653,9 @@ function ShopSingle() {
                         </div>
                         {/* button */}
                         <div className="d-flex justify-content-end">
-                          <a href="#" className="btn btn-primary">
+                          <Link href="#" className="btn btn-primary">
                             Submit Review
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1697,17 +1698,17 @@ function ShopSingle() {
                   <div className="position-absolute top-0 start-0">
                     <span className="badge bg-danger">Sale</span>
                   </div>
-                  <a href="#!">
+                  <Link href="#!">
                     {/* img */}
                     <img
                       src="../assets/images/products/product-img-1.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1719,8 +1720,8 @@ function ShopSingle() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="shop-wishlist.html"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1728,8 +1729,8 @@ function ShopSingle() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1737,19 +1738,19 @@ function ShopSingle() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* heading */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Snack &amp; Munchies</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Haldiram's Sev Bhujia
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -1772,7 +1773,7 @@ function ShopSingle() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -1789,7 +1790,7 @@ function ShopSingle() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1801,16 +1802,16 @@ function ShopSingle() {
               <div className="card-body">
                 {/* badge */}
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-2.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1822,8 +1823,8 @@ function ShopSingle() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="shop-wishlist.html"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1831,8 +1832,8 @@ function ShopSingle() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1840,19 +1841,19 @@ function ShopSingle() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* heading */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Bakery &amp; Biscuits</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     NutriChoice Digestive
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   <small>
@@ -1871,7 +1872,7 @@ function ShopSingle() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -1888,7 +1889,7 @@ function ShopSingle() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1900,16 +1901,16 @@ function ShopSingle() {
               <div className="card-body">
                 {/* badge */}
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-3.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1921,8 +1922,8 @@ function ShopSingle() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="shop-wishlist.html"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1930,8 +1931,8 @@ function ShopSingle() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1939,19 +1940,19 @@ function ShopSingle() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* heading */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Bakery &amp; Biscuits</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Cadbury 5 Star Chocolate
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   <small>
@@ -1973,7 +1974,7 @@ function ShopSingle() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -1990,7 +1991,7 @@ function ShopSingle() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2002,16 +2003,16 @@ function ShopSingle() {
               <div className="card-body">
                 {/* badge */}
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-4.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -2023,8 +2024,8 @@ function ShopSingle() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="shop-wishlist.html"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2032,8 +2033,8 @@ function ShopSingle() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2041,19 +2042,19 @@ function ShopSingle() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* heading */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Snack &amp; Munchies</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Onion Flavour Potato
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   <small>
@@ -2075,7 +2076,7 @@ function ShopSingle() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -2092,7 +2093,7 @@ function ShopSingle() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2104,16 +2105,16 @@ function ShopSingle() {
               <div className="card-body">
                 {/* badge */}
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-9.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -2125,8 +2126,8 @@ function ShopSingle() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="shop-wishlist.html"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2134,8 +2135,8 @@ function ShopSingle() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2143,19 +2144,19 @@ function ShopSingle() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* heading */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Snack &amp; Munchies</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Slurrp Millet Chocolate
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   <small>
@@ -2177,7 +2178,7 @@ function ShopSingle() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -2194,7 +2195,7 @@ function ShopSingle() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2337,9 +2338,9 @@ function ShopSingle() {
             </div>
             <div className="col-lg-6">
               <div className="ps-lg-8 mt-6 mt-lg-0">
-                <a href="#!" className="mb-4 d-block">
+                <Link href="#!" className="mb-4 d-block">
                   Bakery Biscuits
-                </a>
+                </Link>
                 <h2 className="mb-1 h1">Napolitanke Ljesnjak</h2>
                 <div className="mb-4">
                   <small className="text-warning">
@@ -2349,9 +2350,9 @@ function ShopSingle() {
                     <i className="bi bi-star-fill" />
                     <i className="bi bi-star-half" />
                   </small>
-                  <a href="#" className="ms-2">
+                  <Link href="#" className="ms-2">
                     (30 reviews)
-                  </a>
+                  </Link>
                 </div>
                 <div className="fs-4">
                   <span className="fw-bold text-dark">$32</span>
@@ -2411,7 +2412,7 @@ function ShopSingle() {
                   </div>
                   <div className="col-md-4 col-5">
                     {/* btn */}
-                    <a
+                    <Link
                       className="btn btn-light"
                       href="#"
                       data-bs-toggle="tooltip"
@@ -2419,8 +2420,8 @@ function ShopSingle() {
                       aria-label="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="btn btn-light"
                       href="#!"
                       data-bs-toggle="tooltip"
@@ -2428,7 +2429,7 @@ function ShopSingle() {
                       aria-label="Wishlist"
                     >
                       <i className="feather-icon icon-heart" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <hr className="my-6" />

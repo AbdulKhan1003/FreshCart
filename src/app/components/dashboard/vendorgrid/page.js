@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../sidebar/page'
 import Navbar from '../navbar/page'
+import Link from 'next/link'
 
 function VendorGrid() {
   return (
@@ -25,9 +26,9 @@ function VendorGrid() {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb mb-0">
                     <li className="breadcrumb-item">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Dashboard
-                      </a>
+                      </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Vendors
@@ -37,7 +38,7 @@ function VendorGrid() {
               </div>
               <div>
                 {/* button */}
-                <a href="/components/dashboard/vendorgrid" className="btn btn-primary btn-icon">
+                <Link href="/components/dashboard/vendorgrid" className="btn btn-primary btn-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={18}
@@ -48,8 +49,8 @@ function VendorGrid() {
                   >
                     <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
                   </svg>
-                </a>
-                <a href="/components/dashboard/vendorlist" className="btn btn-light btn-icon">
+                </Link>
+                <Link href="/components/dashboard/vendorlist" className="btn btn-light btn-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={18}
@@ -68,7 +69,7 @@ function VendorGrid() {
                       d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -89,9 +90,9 @@ function VendorGrid() {
                   />
                   {/* content */}
                   <h2 className="mb-2 h5">
-                    <a href="#!" className="text-inherit">
+                    <Link href="#!" className="text-inherit">
                       E-Grocery Super Market
-                    </a>
+                    </Link>
                   </h2>
                   <div className="mb-2">Seller ID: #009</div>
                   <div>heathercarpenter@dayrep.com</div>
@@ -123,9 +124,9 @@ function VendorGrid() {
                   />
                   {/* content */}
                   <h2 className="mb-2 h5">
-                    <a href="#!" className="text-inherit">
+                    <Link href="#!" className="text-inherit">
                       DealShare Mart
-                    </a>
+                    </Link>
                   </h2>
                   <div className="mb-2">Seller ID: #008</div>
                   <div>werve1962@superrito.com</div>
@@ -157,9 +158,9 @@ function VendorGrid() {
                   />
                   {/* content */}
                   <h2 className="mb-2 h5">
-                    <a href="#!" className="text-inherit">
+                    <Link href="#!" className="text-inherit">
                       DMart
-                    </a>
+                    </Link>
                   </h2>
                   <div className="mb-2">Seller ID: #007</div>
                   <div>trablinever@armyspy.com</div>
@@ -191,9 +192,9 @@ function VendorGrid() {
                   />
                   {/* content */}
                   <h2 className="mb-2 h5">
-                    <a href="#!" className="text-inherit">
+                    <Link href="#!" className="text-inherit">
                       Blinkit Store
-                    </a>
+                    </Link>
                   </h2>
                   <div className="mb-2">Seller ID: #006</div>
                   <div>steened@rhyta.com</div>
@@ -225,9 +226,9 @@ function VendorGrid() {
                   />
                   {/* content */}
                   <h2 className="mb-2 h5">
-                    <a href="#!" className="text-inherit">
+                    <Link href="#!" className="text-inherit">
                       StoreFront Super Market
-                    </a>
+                    </Link>
                   </h2>
                   <div className="mb-2">Seller ID: #005</div>
                   <div>mansper@einrot.com</div>
@@ -259,9 +260,9 @@ function VendorGrid() {
                   />
                   {/* content */}
                   <h2 className="mb-2 h5">
-                    <a href="#!" className="text-inherit">
+                    <Link href="#!" className="text-inherit">
                       BigBasket
-                    </a>
+                    </Link>
                   </h2>
                   <div className="mb-2">Seller ID: #004</div>
                   <div>lizin@armyspy.com</div>
@@ -293,9 +294,9 @@ function VendorGrid() {
                   />
                   {/* content */}
                   <h2 className="mb-2 h5">
-                    <a href="#!" className="text-inherit">
+                    <Link href="#!" className="text-inherit">
                       Swiggy Instamart
-                    </a>
+                    </Link>
                   </h2>
                   <div className="mb-2">Seller ID: #003</div>
                   <div>tured@jourrapide.com</div>
@@ -327,9 +328,9 @@ function VendorGrid() {
                   />
                   {/* content */}
                   <h2 className="mb-2 h5">
-                    <a href="#!" className="text-inherit">
+                    <Link href="#!" className="text-inherit">
                       Online Grocery Mart
-                    </a>
+                    </Link>
                   </h2>
                   <div className="mb-2">Seller ID: #002</div>
                   <div>liturname@einrot.com</div>
@@ -361,9 +362,9 @@ function VendorGrid() {
                   />
                   {/* content */}
                   <h2 className="mb-2 h5">
-                    <a href="#!" className="text-inherit">
+                    <Link href="#!" className="text-inherit">
                       Spencers
-                    </a>
+                    </Link>
                   </h2>
                   <div className="mb-2">Seller ID: #001</div>
                   <div>fark1952@rhyta.com</div>

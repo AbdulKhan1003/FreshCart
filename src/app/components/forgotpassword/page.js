@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../header/page'
 import Footer from '../footer/page'
+import Link from 'next/link'
+
 
 function ForgotPassword() {
   return (
@@ -61,9 +63,9 @@ function ForgotPassword() {
                     <button type="submit" className="btn btn-primary">
                       Reset Password
                     </button>
-                    <a href="/components/signup" className="btn btn-light">
+                    <Link href="/components/signup" className="btn btn-light">
                       Back
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </form>

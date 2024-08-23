@@ -1,3 +1,4 @@
+import Link from 'next/link'
 
 function categories() {
   return (
@@ -11,7 +12,7 @@ function categories() {
     </div>
     <div className="category-slider">
       <div className="item">
-        <a
+        <Link
           href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
@@ -25,10 +26,10 @@ function categories() {
               <div className="text-truncate">Dairy, Bread &amp; Eggs</div>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="item">
-        <a
+        <Link
           href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
@@ -42,10 +43,10 @@ function categories() {
               <div className="text-truncate">Snack &amp; Munchies</div>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="item">
-        <a
+        <Link
           href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
@@ -59,10 +60,10 @@ function categories() {
               <div className="text-truncate">Bakery &amp; Biscuits</div>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="item">
-        <a
+        <Link
           href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
@@ -76,10 +77,10 @@ function categories() {
               <div className="text-truncate">Instant Food</div>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="item">
-        <a
+        <Link
           href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
@@ -93,10 +94,10 @@ function categories() {
               <div className="text-truncate">Tea, Coffee &amp; Drinks</div>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="item">
-        <a
+        <Link
           href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
@@ -110,10 +111,10 @@ function categories() {
               <div className="text-truncate">Atta, Rice &amp; Dal</div>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="item">
-        <a
+        <Link
           href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
@@ -127,10 +128,10 @@ function categories() {
               <div className="text-truncate">Baby Care</div>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="item">
-        <a
+        <Link
           href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
@@ -144,10 +145,10 @@ function categories() {
               <div className="text-truncate">Chicken, Meat &amp; Fish</div>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="item">
-        <a
+        <Link
           href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
@@ -161,10 +162,10 @@ function categories() {
               <div className="text-truncate">Cleaning Essentials</div>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="item">
-        <a
+        <Link
           href="/components/shopgrid"
           className="text-decoration-none text-inherit"
         >
@@ -178,7 +179,7 @@ function categories() {
               <div className="text-truncate">Pet Care</div>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
     </div>
   </div>
@@ -206,9 +207,9 @@ function categories() {
                   <span className="fw-bold">30%</span>
                   Off
                 </p>
-                <a href="#!" className="btn btn-dark">
+                <Link href="#!" className="btn btn-dark">
                   Shop Now
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -231,9 +232,9 @@ function categories() {
                   <span className="fw-bold">25%</span>
                   Off
                 </p>
-                <a href="#!" className="btn btn-dark">
+                <Link href="#!" className="btn btn-dark">
                   Shop Now
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -257,15 +258,15 @@ function categories() {
                 <div className="position-absolute top-0 start-0">
                   <span className="badge bg-danger">Sale</span>
                 </div>
-                <a href="#!">
+                <Link href="#!">
                   <img
                     src="assets/images/products/product-img-1.jpg"
                     alt="Grocery Ecommerce Template"
                     className="mb-3 img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="card-product-action">
-                  <a
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="modal"
@@ -277,8 +278,8 @@ function categories() {
                       data-bs-html="true"
                       title="Quick View"
                     />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -286,8 +287,8 @@ function categories() {
                     title="Wishlist"
                   >
                     <i className="bi bi-heart" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -295,21 +296,21 @@ function categories() {
                     title="Compare"
                   >
                     <i className="bi bi-arrow-left-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="text-small mb-1">
-                <a href="#!" className="text-decoration-none text-muted">
+                <Link href="#!" className="text-decoration-none text-muted">
                   <small>Snack &amp; Munchies</small>
-                </a>
+                </Link>
               </div>
               <h2 className="fs-6">
-                <a
+                <Link
                   href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Haldiram's Sev Bhujia
-                </a>
+                </Link>
               </h2>
               <div>
                 <small className="text-warning">
@@ -329,7 +330,7 @@ function categories() {
                   </span>
                 </div>
                 <div>
-                  <a href="#!" className="btn btn-primary btn-sm">
+                  <Link href="#!" className="btn btn-primary btn-sm">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={16}
@@ -346,7 +347,7 @@ function categories() {
                       <line x1={5} y1={12} x2={19} y2={12} />
                     </svg>
                     Add
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -359,15 +360,15 @@ function categories() {
                 <div className="position-absolute top-0 start-0">
                   <span className="badge bg-success">14%</span>
                 </div>
-                <a href="/components/shopsingle">
+                <Link href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-2.jpg"
                     alt="Grocery Ecommerce Template"
                     className="mb-3 img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="card-product-action">
-                  <a
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="modal"
@@ -379,8 +380,8 @@ function categories() {
                       data-bs-html="true"
                       title="Quick View"
                     />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -388,8 +389,8 @@ function categories() {
                     title="Wishlist"
                   >
                     <i className="bi bi-heart" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -397,21 +398,21 @@ function categories() {
                     title="Compare"
                   >
                     <i className="bi bi-arrow-left-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="text-small mb-1">
-                <a href="#!" className="text-decoration-none text-muted">
+                <Link href="#!" className="text-decoration-none text-muted">
                   <small>Bakery &amp; Biscuits</small>
-                </a>
+                </Link>
               </div>
               <h2 className="fs-6">
-                <a
+                <Link
                   href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   NutriChoice Digestive
-                </a>
+                </Link>
               </h2>
               <div className="text-warning">
                 <small>
@@ -428,7 +429,7 @@ function categories() {
                   <span className="text-dark">$24</span>
                 </div>
                 <div>
-                  <a href="#!" className="btn btn-primary btn-sm">
+                  <Link href="#!" className="btn btn-primary btn-sm">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={16}
@@ -445,7 +446,7 @@ function categories() {
                       <line x1={5} y1={12} x2={19} y2={12} />
                     </svg>
                     Add
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -455,15 +456,15 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="/components/shopsingle">
+                <Link href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-3.jpg"
                     alt="Grocery Ecommerce Template"
                     className="mb-3 img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="card-product-action">
-                  <a
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="modal"
@@ -475,8 +476,8 @@ function categories() {
                       data-bs-html="true"
                       title="Quick View"
                     />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -484,8 +485,8 @@ function categories() {
                     title="Wishlist"
                   >
                     <i className="bi bi-heart" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -493,21 +494,21 @@ function categories() {
                     title="Compare"
                   >
                     <i className="bi bi-arrow-left-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="text-small mb-1">
-                <a href="#!" className="text-decoration-none text-muted">
+                <Link href="#!" className="text-decoration-none text-muted">
                   <small>Bakery &amp; Biscuits</small>
-                </a>
+                </Link>
               </div>
               <h2 className="fs-6">
-                <a
+                <Link
                   href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Cadbury 5 Star Chocolate
-                </a>
+                </Link>
               </h2>
               <div className="text-warning">
                 <small>
@@ -527,7 +528,7 @@ function categories() {
                   </span>
                 </div>
                 <div>
-                  <a href="#!" className="btn btn-primary btn-sm">
+                  <Link href="#!" className="btn btn-primary btn-sm">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={16}
@@ -544,7 +545,7 @@ function categories() {
                       <line x1={5} y1={12} x2={19} y2={12} />
                     </svg>
                     Add
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -554,15 +555,15 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="/components/shopsingle">
+                <Link href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-4.jpg"
                     alt="Grocery Ecommerce Template"
                     className="mb-3 img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="card-product-action">
-                  <a
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="modal"
@@ -574,8 +575,8 @@ function categories() {
                       data-bs-html="true"
                       title="Quick View"
                     />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -583,8 +584,8 @@ function categories() {
                     title="Wishlist"
                   >
                     <i className="bi bi-heart" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -592,24 +593,24 @@ function categories() {
                     title="Compare"
                   >
                     <i className="bi bi-arrow-left-right" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="position-absolute top-0 start-0">
                   <span className="badge bg-danger">Hot</span>
                 </div>
               </div>
               <div className="text-small mb-1">
-                <a href="#!" className="text-decoration-none text-muted">
+                <Link href="#!" className="text-decoration-none text-muted">
                   <small>Snack &amp; Munchies</small>
-                </a>
+                </Link>
               </div>
               <h2 className="fs-6">
-                <a
+                <Link
                   href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Onion Flavour Potato
-                </a>
+                </Link>
               </h2>
               <div className="text-warning">
                 <small>
@@ -629,7 +630,7 @@ function categories() {
                   </span>
                 </div>
                 <div>
-                  <a href="#!" className="btn btn-primary btn-sm">
+                  <Link href="#!" className="btn btn-primary btn-sm">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={16}
@@ -646,7 +647,7 @@ function categories() {
                       <line x1={5} y1={12} x2={19} y2={12} />
                     </svg>
                     Add
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -656,15 +657,15 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="/components/shopsingle">
+                <Link href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-5.jpg"
                     alt="Grocery Ecommerce Template"
                     className="mb-3 img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="card-product-action">
-                  <a
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="modal"
@@ -676,8 +677,8 @@ function categories() {
                       data-bs-html="true"
                       title="Quick View"
                     />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -685,8 +686,8 @@ function categories() {
                     title="Wishlist"
                   >
                     <i className="bi bi-heart" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -694,21 +695,21 @@ function categories() {
                     title="Compare"
                   >
                     <i className="bi bi-arrow-left-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="text-small mb-1">
-                <a href="#!" className="text-decoration-none text-muted">
+                <Link href="#!" className="text-decoration-none text-muted">
                   <small>Instant Food</small>
-                </a>
+                </Link>
               </div>
               <h2 className="fs-6">
-                <a
+                <Link
                   href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Salted Instant Popcorn
-                </a>
+                </Link>
               </h2>
               <div className="text-warning">
                 <small>
@@ -728,7 +729,7 @@ function categories() {
                   </span>
                 </div>
                 <div>
-                  <a href="#!" className="btn btn-primary btn-sm">
+                  <Link href="#!" className="btn btn-primary btn-sm">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={16}
@@ -745,7 +746,7 @@ function categories() {
                       <line x1={5} y1={12} x2={19} y2={12} />
                     </svg>
                     Add
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -758,15 +759,15 @@ function categories() {
                 <div className="position-absolute top-0 start-0">
                   <span className="badge bg-danger">Sale</span>
                 </div>
-                <a href="#!">
+                <Link href="#!">
                   <img
                     src="assets/images/products/product-img-6.jpg"
                     alt="Grocery Ecommerce Template"
                     className="mb-3 img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="card-product-action">
-                  <a
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="modal"
@@ -778,8 +779,8 @@ function categories() {
                       data-bs-html="true"
                       title="Quick View"
                     />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -787,8 +788,8 @@ function categories() {
                     title="Wishlist"
                   >
                     <i className="bi bi-heart" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -796,21 +797,21 @@ function categories() {
                     title="Compare"
                   >
                     <i className="bi bi-arrow-left-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="text-small mb-1">
-                <a href="#!" className="text-decoration-none text-muted">
+                <Link href="#!" className="text-decoration-none text-muted">
                   <small>Dairy, Bread &amp; Eggs</small>
-                </a>
+                </Link>
               </div>
               <h2 className="fs-6">
-                <a
+                <Link
                   href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Blueberry Greek Yogurt
-                </a>
+                </Link>
               </h2>
               <div>
                 <small className="text-warning">
@@ -830,7 +831,7 @@ function categories() {
                   </span>
                 </div>
                 <div>
-                  <a href="#!" className="btn btn-primary btn-sm">
+                  <Link href="#!" className="btn btn-primary btn-sm">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={16}
@@ -847,7 +848,7 @@ function categories() {
                       <line x1={5} y1={12} x2={19} y2={12} />
                     </svg>
                     Add
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -857,15 +858,15 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="/components/shopsingle">
+                <Link href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-7.jpg"
                     alt="Grocery Ecommerce Template"
                     className="mb-3 img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="card-product-action">
-                  <a
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="modal"
@@ -877,8 +878,8 @@ function categories() {
                       data-bs-html="true"
                       title="Quick View"
                     />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -886,8 +887,8 @@ function categories() {
                     title="Wishlist"
                   >
                     <i className="bi bi-heart" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -895,21 +896,21 @@ function categories() {
                     title="Compare"
                   >
                     <i className="bi bi-arrow-left-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="text-small mb-1">
-                <a href="#!" className="text-decoration-none text-muted">
+                <Link href="#!" className="text-decoration-none text-muted">
                   <small>Dairy, Bread &amp; Eggs</small>
-                </a>
+                </Link>
               </div>
               <h2 className="fs-6">
-                <a
+                <Link
                   href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Britannia Cheese Slices
-                </a>
+                </Link>
               </h2>
               <div className="text-warning">
                 <small>
@@ -926,7 +927,7 @@ function categories() {
                   <span className="text-dark">$24</span>
                 </div>
                 <div>
-                  <a href="#!" className="btn btn-primary btn-sm">
+                  <Link href="#!" className="btn btn-primary btn-sm">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={16}
@@ -943,7 +944,7 @@ function categories() {
                       <line x1={5} y1={12} x2={19} y2={12} />
                     </svg>
                     Add
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -953,15 +954,15 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="/components/shopsingle">
+                <Link href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-8.jpg"
                     alt="Grocery Ecommerce Template"
                     className="mb-3 img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="card-product-action">
-                  <a
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="modal"
@@ -973,8 +974,8 @@ function categories() {
                       data-bs-html="true"
                       title="Quick View"
                     />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -982,8 +983,8 @@ function categories() {
                     title="Wishlist"
                   >
                     <i className="bi bi-heart" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -991,21 +992,21 @@ function categories() {
                     title="Compare"
                   >
                     <i className="bi bi-arrow-left-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="text-small mb-1">
-                <a href="#!" className="text-decoration-none text-muted">
+                <Link href="#!" className="text-decoration-none text-muted">
                   <small>Instant Food</small>
-                </a>
+                </Link>
               </div>
               <h2 className="fs-6">
-                <a
+                <Link
                   href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Kellogg's Original Cereals
-                </a>
+                </Link>
               </h2>
               <div className="text-warning">
                 <small>
@@ -1025,7 +1026,7 @@ function categories() {
                   </span>
                 </div>
                 <div>
-                  <a href="#!" className="btn btn-primary btn-sm">
+                  <Link href="#!" className="btn btn-primary btn-sm">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={16}
@@ -1042,7 +1043,7 @@ function categories() {
                       <line x1={5} y1={12} x2={19} y2={12} />
                     </svg>
                     Add
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1052,15 +1053,15 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="/components/shopsingle">
+                <Link href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-9.jpg"
                     alt="Grocery Ecommerce Template"
                     className="mb-3 img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="card-product-action">
-                  <a
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="modal"
@@ -1072,8 +1073,8 @@ function categories() {
                       data-bs-html="true"
                       title="Quick View"
                     />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -1081,8 +1082,8 @@ function categories() {
                     title="Wishlist"
                   >
                     <i className="bi bi-heart" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -1090,21 +1091,21 @@ function categories() {
                     title="Compare"
                   >
                     <i className="bi bi-arrow-left-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="text-small mb-1">
-                <a href="#!" className="text-decoration-none text-muted">
+                <Link href="#!" className="text-decoration-none text-muted">
                   <small>Snack &amp; Munchies</small>
-                </a>
+                </Link>
               </div>
               <h2 className="fs-6">
-                <a
+                <Link
                   href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Slurrp Millet Chocolate
-                </a>
+                </Link>
               </h2>
               <div className="text-warning">
                 <small>
@@ -1124,7 +1125,7 @@ function categories() {
                   </span>
                 </div>
                 <div>
-                  <a href="#!" className="btn btn-primary btn-sm">
+                  <Link href="#!" className="btn btn-primary btn-sm">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={16}
@@ -1141,7 +1142,7 @@ function categories() {
                       <line x1={5} y1={12} x2={19} y2={12} />
                     </svg>
                     Add
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1151,15 +1152,15 @@ function categories() {
           <div className="card card-product">
             <div className="card-body">
               <div className="text-center position-relative">
-                <a href="/components/shopsingle">
+                <Link href="/components/shopsingle">
                   <img
                     src="assets/images/products/product-img-10.jpg"
                     alt="Grocery Ecommerce Template"
                     className="mb-3 img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="card-product-action">
-                  <a
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="modal"
@@ -1171,8 +1172,8 @@ function categories() {
                       data-bs-html="true"
                       title="Quick View"
                     />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/components/shopwishlist"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -1180,8 +1181,8 @@ function categories() {
                     title="Wishlist"
                   >
                     <i className="bi bi-heart" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#!"
                     className="btn-action"
                     data-bs-toggle="tooltip"
@@ -1189,21 +1190,21 @@ function categories() {
                     title="Compare"
                   >
                     <i className="bi bi-arrow-left-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="text-small mb-1">
-                <a href="#!" className="text-decoration-none text-muted">
+                <Link href="#!" className="text-decoration-none text-muted">
                   <small>Dairy, Bread &amp; Eggs</small>
-                </a>
+                </Link>
               </div>
               <h2 className="fs-6">
-                <a
+                <Link
                   href="/components/shopsingle"
                   className="text-inherit text-decoration-none"
                 >
                   Amul Butter - 500 g
-                </a>
+                </Link>
               </h2>
               <div className="text-warning">
                 <small>
@@ -1223,7 +1224,7 @@ function categories() {
                   </span>
                 </div>
                 <div>
-                  <a href="#!" className="btn btn-primary btn-sm">
+                  <Link href="#!" className="btn btn-primary btn-sm">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={16}
@@ -1240,7 +1241,7 @@ function categories() {
                       <line x1={5} y1={12} x2={19} y2={12} />
                     </svg>
                     Add
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1274,10 +1275,10 @@ function categories() {
                   100% Organic Coffee Beans.
                 </h3>
                 <p className="text-white">Get the best deal before close.</p>
-                <a href="#!" className="btn btn-primary">
+                <Link href="#!" className="btn btn-primary">
                   Shop Now
                   <i className="feather-icon icon-arrow-right ms-1" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -1285,15 +1286,15 @@ function categories() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="/components/shopsingle">
+                  <Link href="/components/shopsingle">
                     <img
                       src="assets/images/products/product-img-11.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1305,8 +1306,8 @@ function categories() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1314,8 +1315,8 @@ function categories() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1323,21 +1324,21 @@ function categories() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Tea, Coffee &amp; Drinks</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a
+                  <Link
                     href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Roast Ground Coffee
-                  </a>
+                  </Link>
                 </h2>
                 <div className="d-flex justify-content-between align-items-center mt-3">
                   <div>
@@ -1360,7 +1361,7 @@ function categories() {
                   </div>
                 </div>
                 <div className="d-grid mt-2">
-                  <a href="#!" className="btn btn-primary">
+                  <Link href="#!" className="btn btn-primary">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={16}
@@ -1377,7 +1378,7 @@ function categories() {
                       <line x1={5} y1={12} x2={19} y2={12} />
                     </svg>
                     Add to cart
-                  </a>
+                  </Link>
                 </div>
                 <div className="d-flex justify-content-start text-center mt-3">
                   <div
@@ -1392,15 +1393,15 @@ function categories() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="/components/shopsingle">
+                  <Link href="/components/shopsingle">
                     <img
                       src="assets/images/products/product-img-12.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1412,8 +1413,8 @@ function categories() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1421,8 +1422,8 @@ function categories() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1430,21 +1431,21 @@ function categories() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Fruits &amp; Vegetables</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a
+                  <Link
                     href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Crushed Tomatoes
-                  </a>
+                  </Link>
                 </h2>
                 <div className="d-flex justify-content-between align-items-center mt-3">
                   <div>
@@ -1467,7 +1468,7 @@ function categories() {
                   </div>
                 </div>
                 <div className="d-grid mt-2">
-                  <a href="#!" className="btn btn-primary">
+                  <Link href="#!" className="btn btn-primary">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={16}
@@ -1484,7 +1485,7 @@ function categories() {
                       <line x1={5} y1={12} x2={19} y2={12} />
                     </svg>
                     Add to cart
-                  </a>
+                  </Link>
                 </div>
                 <div className="d-flex justify-content-start text-center mt-3 w-100">
                   <div
@@ -1499,15 +1500,15 @@ function categories() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="/components/shopsingle">
+                  <Link href="/components/shopsingle">
                     <img
                       src="assets/images/products/product-img-13.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1519,8 +1520,8 @@ function categories() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1528,8 +1529,8 @@ function categories() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1537,21 +1538,21 @@ function categories() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Fruits &amp; Vegetables</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a
+                  <Link
                     href="/components/shopsingle"
                     className="text-inherit text-decoration-none"
                   >
                     Golden Pineapple
-                  </a>
+                  </Link>
                 </h2>
                 <div className="d-flex justify-content-between align-items-center mt-3">
                   <div>
@@ -1574,7 +1575,7 @@ function categories() {
                   </div>
                 </div>
                 <div className="d-grid mt-2">
-                  <a href="#!" className="btn btn-primary">
+                  <Link href="#!" className="btn btn-primary">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={16}
@@ -1591,7 +1592,7 @@ function categories() {
                       <line x1={5} y1={12} x2={19} y2={12} />
                     </svg>
                     Add to cart
-                  </a>
+                  </Link>
                 </div>
                 <div className="d-flex justify-content-start text-center mt-3">
                   <div
@@ -1654,7 +1655,7 @@ function categories() {
             <p>
               Not satisfied with a product? Return it at the doorstep &amp; get
               a refund within hours. No questions asked
-              <a href="#!">policy</a>.
+              <Link href="#!">policy</Link>.
             </p>
           </div>
         </div>

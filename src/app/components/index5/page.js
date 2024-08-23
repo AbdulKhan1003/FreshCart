@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../header/page'
 import Footer from '../footer/page'
+import Link from 'next/link'
 
 function Index() {
   return (
@@ -33,9 +34,9 @@ function Index() {
         {/* alert */}
         <div className="alert alert-danger p-2" role="alert">
           You’ve got FREE delivery. Start
-          <a href="#!" className="alert-link">
+          <Link href="#!" className="alert-link">
             checkout now!
-          </a>
+          </Link>
         </div>
         <ul className="list-group list-group-flush">
           {/* list group */}
@@ -51,15 +52,15 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">.98 / lb</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -83,7 +84,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -133,15 +134,15 @@ function Index() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -165,7 +166,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -219,15 +220,15 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">1 kg</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -251,7 +252,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -306,15 +307,15 @@ function Index() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -338,7 +339,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -392,15 +393,15 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">100g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -424,7 +425,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -468,12 +469,12 @@ function Index() {
         </ul>
         {/* btn */}
         <div className="d-flex justify-content-between mt-4">
-          <a href="#!" className="btn btn-primary">
+          <Link href="#!" className="btn btn-primary">
             Continue Shopping
-          </a>
-          <a href="#!" className="btn btn-dark">
+          </Link>
+          <Link href="#!" className="btn btn-dark">
             Update Cart
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -538,9 +539,9 @@ function Index() {
               />
               <small className="form-text">
                 By Signup, you agree to our
-                <a href="#">Terms of Service</a>
+                <Link href="#">Terms of Service</Link>
                 &amp;
-                <a href="#">Privacy Policy</a>
+                <Link href="#">Privacy Policy</Link>
               </small>
             </div>
             <button type="submit" className="btn btn-primary">
@@ -550,7 +551,7 @@ function Index() {
         </div>
         <div className="modal-footer border-0 justify-content-center">
           Already have an account?
-          <a href="#">Sign in</a>
+          <Link href="#">Sign in</Link>
         </div>
       </div>
     </div>
@@ -581,7 +582,7 @@ function Index() {
         </button>
       </div>
       <div className="dropdown w-25 ms-2 py-4 icon-hover">
-        <a
+        <Link
           href="#"
           className="text-inherit"
           data-bs-toggle="dropdown"
@@ -604,21 +605,21 @@ function Index() {
               </span>
             </div>
           </div>
-        </a>
+        </Link>
         <div className="dropdown-menu dropdown-menu-lg p-0">
           <div>
             <h6 className="px-4 border-bottom py-3 mb-0">Notification</h6>
             <p className="mb-0 px-4 py-3">
-              <a href="/components/signin">Sign in</a>
+              <Link href="/components/signin">Sign in</Link>
               or
-              <a href="/components/signup">Register</a>
+              <Link href="/components/signup">Register</Link>
               in or so you don t have to enter your details every time
             </p>
           </div>
         </div>
       </div>
       <div className="w-25 ms-2 py-4 icon-hover">
-        <a
+        <Link
           href="#"
           className="text-inherit"
           data-bs-toggle="modal"
@@ -642,10 +643,10 @@ function Index() {
               </svg>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="w-25 ms-2 py-4 icon-hover">
-        <a href="/components/orders" className="text-inherit">
+        <Link href="/components/orders" className="text-inherit">
           <div className="text-center">
             <div>
               <svg
@@ -660,10 +661,10 @@ function Index() {
               </svg>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="w-25 ms-2 py-4 icon-hover">
-        <a
+        <Link
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasRight"
           href="#offcanvasExample"
@@ -685,10 +686,10 @@ function Index() {
               </svg>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="w-25 ms-2 py-4 icon-hover">
-        <a
+        <Link
           className="text-inherit"
           data-bs-toggle="offcanvas"
           href="#offcanvasCategory"
@@ -705,7 +706,7 @@ function Index() {
           >
             <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z" />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   </div>
@@ -730,10 +731,10 @@ function Index() {
                 Introduced a new model for online grocery shopping and
                 convenient home delivery at any time.
               </p>
-              <a href="#!" className="btn btn-dark mt-3">
+              <Link href="#!" className="btn btn-dark mt-3">
                 Shop Now
                 <i className="feather-icon icon-arrow-right ms-1" />
-              </a>
+              </Link>
             </div>
           </div>
           <div
@@ -756,10 +757,10 @@ function Index() {
                 Snack on late-night munchies of delicious nuts &amp; you’re
                 guaranteed happiness before you doze!
               </p>
-              <a href="#!" className="btn btn-dark mt-3">
+              <Link href="#!" className="btn btn-dark mt-3">
                 Shop Now
                 <i className="feather-icon icon-arrow-right ms-1" />
-              </a>
+              </Link>
             </div>
           </div>
           <div
@@ -779,10 +780,10 @@ function Index() {
                 Snack on late-night munchies of delicious nuts &amp; you’re
                 guaranteed happiness before you doze!
               </p>
-              <a href="#!" className="btn btn-dark mt-3">
+              <Link href="#!" className="btn btn-dark mt-3">
                 Shop Now
                 <i className="feather-icon icon-arrow-right ms-1" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -794,7 +795,7 @@ function Index() {
         {/* row */}
         <div className="row">
           {/* col */}
-          <aside className="col-xl-3 col-lg-4 col-md-4 mb-6 mb-md-0">
+          <Linkside className="col-xl-3 col-lg-4 col-md-4 mb-6 mb-md-0">
             <div id="sidebar">
               <div className="sidebar__inner">
                 <div
@@ -825,7 +826,7 @@ function Index() {
                           id="categoryCollapseMenu"
                         >
                           <li className="nav-item border-bottom w-100 collapsed px-4 py-1">
-                            <a
+                            <Link
                               href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
@@ -851,7 +852,7 @@ function Index() {
                                 </span>
                               </span>
                               <i className="feather-icon icon-chevron-right" />
-                            </a>
+                            </Link>
                             {/* accordion collapse */}
                             <div
                               id="categoryFlushOne"
@@ -863,111 +864,111 @@ function Index() {
                                 <ul className="nav flex-column ms-8">
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Milk
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Milk Drinks
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Curd &amp; Yogurt
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Eggs
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Bread
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Buns &amp; Bakery
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Butter &amp; More
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Cheese
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Paneer &amp; Tofu
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Cream &amp; Whitener
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Condensed Milk
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Vegan Drinks
-                                    </a>
+                                    </Link>
                                   </li>
                                 </ul>
                               </div>
@@ -975,7 +976,7 @@ function Index() {
                           </li>
                           {/* nav item */}
                           <li className="nav-item border-bottom w-100 collapsed px-4 py-1">
-                            <a
+                            <Link
                               href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
@@ -1001,7 +1002,7 @@ function Index() {
                                 </span>
                               </span>
                               <i className="feather-icon icon-chevron-right" />
-                            </a>
+                            </Link>
                             {/* collapse */}
                             <div
                               id="flush-collapseTwo"
@@ -1012,100 +1013,100 @@ function Index() {
                                 <ul className="nav flex-column ms-8">
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Chips &amp; Crisps
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Nachos
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Popcorn
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Bhujia &amp; Mixtures
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Namkeen Snacks
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Healthy Snacks
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Cakes &amp; Rolls
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Energy Bars
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Papad &amp; Fryums
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Rusks &amp; Wafers
-                                    </a>
+                                    </Link>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </li>
                           <li className="nav-item border-bottom w-100 collapsed px-4 py-1">
-                            <a
+                            <Link
                               href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
@@ -1131,7 +1132,7 @@ function Index() {
                                 </span>
                               </span>
                               <i className="feather-icon icon-chevron-right" />
-                            </a>
+                            </Link>
                             {/* collapse */}
                             <div
                               id="flush-collapseThree"
@@ -1142,74 +1143,74 @@ function Index() {
                                 <ul className="nav flex-column ms-8">
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link active"
                                       aria-current="page"
                                       href="#"
                                     >
                                       Fresh Vegetables
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Herbs &amp; Seasonings
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Fresh Fruits
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Organic Fruits &amp; Vegetables
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Cuts &amp; Sprouts
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Exotic Fruits &amp; Veggies
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Flower Bouquets, Bunches
-                                    </a>
+                                    </Link>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </li>
                           <li className="nav-item border-bottom w-100 collapsed px-4 py-1">
-                            <a
+                            <Link
                               href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
@@ -1235,7 +1236,7 @@ function Index() {
                                 </span>
                               </span>
                               <i className="feather-icon icon-chevron-right" />
-                            </a>
+                            </Link>
                             {/* collapse */}
                             <div
                               id="flush-collapseFour"
@@ -1246,91 +1247,91 @@ function Index() {
                                 <ul className="nav flex-column ms-8">
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Soft Drinks
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Fruit Juices
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Coldpress
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Energy Drinks
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Water &amp; Ice Cubes
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Soda &amp; Mixers
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Concentrates &amp; Syrups
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Detox &amp; Energy Drinks
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       href="#"
                                       className="nav-link"
                                     >
                                       Juice Collection
-                                    </a>
+                                    </Link>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </li>
                           <li className="nav-item border-bottom w-100 collapsed px-4 py-1">
-                            <a
+                            <Link
                               href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
@@ -1354,7 +1355,7 @@ function Index() {
                                 <span className="ms-2">Baby Care</span>
                               </span>
                               <i className="feather-icon icon-chevron-right" />
-                            </a>
+                            </Link>
                             {/* collapse */}
                             <div
                               id="flush-collapseFive"
@@ -1365,74 +1366,74 @@ function Index() {
                                 <ul className="nav flex-column ms-8">
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link active"
                                       aria-current="page"
                                       href="#"
                                     >
                                       Diapers, Wipes &amp; More
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Baby Food
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Bath &amp; Hair Care
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Oral &amp; Nasal Care
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Baby Skin Care Online
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Cleaning Needs Online
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Feeding Accessories Online
-                                    </a>
+                                    </Link>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </li>
                           <li className="nav-item border-bottom w-100 collapsed px-4 py-1">
-                            <a
+                            <Link
                               href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
@@ -1458,7 +1459,7 @@ function Index() {
                                 </span>
                               </span>
                               <i className="feather-icon icon-chevron-right" />
-                            </a>
+                            </Link>
                             {/* collapse */}
                             <div
                               id="flush-collapseSix"
@@ -1469,83 +1470,83 @@ function Index() {
                                 <ul className="nav flex-column ms-8">
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link active"
                                       aria-current="page"
                                       href="#"
                                     >
                                       Cookies
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Glucose &amp; Marie
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Sweet &amp; Salty
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Healthy &amp; Digestive
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Cream Biscuits
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Rusks &amp; Wafers
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Cakes &amp; Rolls
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Buns &amp; Bakery
-                                    </a>
+                                    </Link>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </li>
                           <li className="nav-item w-100 collapsed px-4 py-1">
-                            <a
+                            <Link
                               href="#"
                               className="nav-link"
                               data-bs-toggle="collapse"
@@ -1571,7 +1572,7 @@ function Index() {
                                 </span>
                               </span>
                               <i className="feather-icon icon-chevron-right" />
-                            </a>
+                            </Link>
                             {/* collapse */}
                             <div
                               id="flush-collapseSeven"
@@ -1582,49 +1583,49 @@ function Index() {
                                 <ul className="nav flex-column ms-8">
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link active"
                                       aria-current="page"
                                       href="#"
                                     >
                                       Chicken
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Sausage, Salami &amp; Ham
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Exotic Meat
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Eggs
-                                    </a>
+                                    </Link>
                                   </li>
                                   {/* nav item */}
                                   <li className="nav-item">
-                                    <a
+                                    <Link
                                       className="nav-link"
                                       href="#"
                                     >
                                       Frozen Non-Veg Snacks
-                                    </a>
+                                    </Link>
                                   </li>
                                 </ul>
                               </div>
@@ -1763,22 +1764,22 @@ function Index() {
                   <div className="card card-product mb-4">
                     <div className="card-body text-center py-8">
                       {/* img */}
-                      <a href="#">
+                      <Link href="#">
                         <img
                           src="../assets/images/category/category-snack-munchies.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3"
                         />
-                      </a>
+                      </Link>
                       {/* text */}
                     </div>
                   </div>
                   <div>
                     <span className="badge bg-danger rounded-pill">-45%</span>
                     <h2 className="mt-3 fs-6">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Salted Instant Popcorn
-                      </a>
+                      </Link>
                     </h2>
                     <div>
                       <span className="text-dark fs-5 fw-bold">$18</span>
@@ -1805,22 +1806,22 @@ function Index() {
                   <div className="card card-product mb-4">
                     <div className="card-body text-center py-8">
                       {/* img */}
-                      <a href="#">
+                      <Link href="#">
                         <img
                           src="../assets/images/category/category-dairy-bread-eggs.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3"
                         />
-                      </a>
+                      </Link>
                       {/* text */}
                     </div>
                   </div>
                   <div>
                     <span className="badge bg-danger rounded-pill">-12%</span>
                     <h2 className="mt-3 fs-6">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Blueberry Greek Yogurt
-                      </a>
+                      </Link>
                     </h2>
                     <div>
                       <span className="text-dark fs-5 fw-bold">$15</span>
@@ -1847,22 +1848,22 @@ function Index() {
                   <div className="card card-product mb-4">
                     <div className="card-body text-center py-8">
                       {/* img */}
-                      <a href="#">
+                      <Link href="#">
                         <img
                           src="../assets/images/category/category-snack-munchies.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3"
                         />
-                      </a>
+                      </Link>
                       {/* text */}
                     </div>
                   </div>
                   <div>
                     <span className="badge bg-danger rounded-pill">-55%</span>
                     <h2 className="mt-3 fs-6">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Kellogg s Original Cereals
-                      </a>
+                      </Link>
                     </h2>
                     <div>
                       <span className="text-dark fs-5 fw-bold">$18</span>
@@ -1889,22 +1890,22 @@ function Index() {
                   <div className="card card-product mb-4">
                     <div className="card-body text-center py-8">
                       {/* img */}
-                      <a href="#">
+                      <Link href="#">
                         <img
                           src="../assets/images/category/category-tea-coffee-drinks.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3"
                         />
-                      </a>
+                      </Link>
                       {/* text */}
                     </div>
                   </div>
                   <div>
                     <span className="badge bg-danger rounded-pill">-45%</span>
                     <h2 className="mt-3 fs-6">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Tea Coffee &amp; Drinks
-                      </a>
+                      </Link>
                     </h2>
                     <div>
                       <span className="text-dark fs-5 fw-bold">$18</span>
@@ -1931,22 +1932,22 @@ function Index() {
                   <div className="card card-product mb-4">
                     <div className="card-body text-center py-8">
                       {/* img */}
-                      <a href="#">
+                      <Link href="#">
                         <img
                           src="../assets/images/category/category-bakery-biscuits.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3"
                         />
-                      </a>
+                      </Link>
                       {/* text */}
                     </div>
                   </div>
                   <div>
                     <span className="badge bg-danger rounded-pill">-25%</span>
                     <h2 className="mt-3 fs-6">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Slurrp Millet Chocolate
-                      </a>
+                      </Link>
                     </h2>
                     <div>
                       <span className="text-dark fs-5 fw-bold">$120</span>
@@ -1973,22 +1974,22 @@ function Index() {
                   <div className="card card-product mb-4">
                     <div className="card-body text-center py-8">
                       {/* img */}
-                      <a href="#">
+                      <Link href="#">
                         <img
                           src="../assets/images/category/category-atta-rice-dal.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3"
                         />
-                      </a>
+                      </Link>
                       {/* text */}
                     </div>
                   </div>
                   <div>
                     <span className="badge bg-danger rounded-pill">-55%</span>
                     <h2 className="mt-3 fs-6">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Atta, Rice &amp; Dal
-                      </a>
+                      </Link>
                     </h2>
                     <div>
                       <span className="text-dark fs-5 fw-bold">$18</span>
@@ -2015,22 +2016,22 @@ function Index() {
                   <div className="card card-product mb-4">
                     <div className="card-body text-center py-8">
                       {/* img */}
-                      <a href="#">
+                      <Link href="#">
                         <img
                           src="../assets/images/category/category-chicken-meat-fish.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3"
                         />
-                      </a>
+                      </Link>
                       {/* text */}
                     </div>
                   </div>
                   <div>
                     <span className="badge bg-danger rounded-pill">-45%</span>
                     <h2 className="mt-3 fs-6">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Chicken, Meat &amp; Fish
-                      </a>
+                      </Link>
                     </h2>
                     <div>
                       <span className="text-dark fs-5 fw-bold">$18</span>
@@ -2057,22 +2058,22 @@ function Index() {
                   <div className="card card-product mb-4">
                     <div className="card-body text-center py-8">
                       {/* img */}
-                      <a href="#">
+                      <Link href="#">
                         <img
                           src="../assets/images/category/category-cleaning-essentials.jpg"
                           alt="Grocery Ecommerce Template"
                           className="mb-3"
                         />
-                      </a>
+                      </Link>
                       {/* text */}
                     </div>
                   </div>
                   <div>
                     <span className="badge bg-danger rounded-pill">-25%</span>
                     <h2 className="mt-3 fs-6">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Cleaning Essentials
-                      </a>
+                      </Link>
                     </h2>
                     <div>
                       <span className="text-dark fs-5 fw-bold">$120</span>
@@ -2103,13 +2104,13 @@ function Index() {
               <div className="card border border-danger p-6">
                 <div className="row">
                   <div className="col-lg-5 text-center">
-                    <a href="/components/shopsingle">
+                    <Link href="/components/shopsingle">
                       <img
                         src="../assets/images/products/deal-img.jpg"
                         alt="Grocery Ecommerce Template"
                         className="img-fluid"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-7 text-center text-lg-start">
                     <div className="mb-3">
@@ -2125,12 +2126,12 @@ function Index() {
                       </span>
                     </div>
                     <h2 className="fs-4">
-                      <a
+                      <Link
                         href="/components/shopsingle"
                         className="text-inherit text-decoration-none"
                       >
                         Parle Platina Nutricrunch Digestive Cookies
-                      </a>
+                      </Link>
                     </h2>
                     <div className="d-flex justify-content-center align-items-center justify-content-lg-between mt-3">
                       <div>
@@ -2141,7 +2142,7 @@ function Index() {
                       </div>
                     </div>
                     <div className="mt-2">
-                      <a href="#" className="btn btn-primary">
+                      <Link href="#" className="btn btn-primary">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -2158,7 +2159,7 @@ function Index() {
                           <line x1={5} y1={12} x2={19} y2={12} />
                         </svg>
                         Add to cart
-                      </a>
+                      </Link>
                     </div>
                     <div className="mt-6 mb-6">
                       <div className="d-flex justify-content-between mb-2">
@@ -2220,9 +2221,9 @@ function Index() {
                     </div>
                   </div>
                   <div className="col-xl-2 col-lg-3 col-4 text-end">
-                    <a href="#" className="btn btn-light">
+                    <Link href="#" className="btn btn-light">
                       View All
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="row row-cols-xl-4 row-cols-lg-3 g-4">
@@ -2231,13 +2232,13 @@ function Index() {
                       <div className="card card-product mb-4">
                         <div className="card-body text-center py-8">
                           {/* img */}
-                          <a href="#">
+                          <Link href="#">
                             <img
                               src="../assets/images/category/category-instant-food.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3"
                             />
-                          </a>
+                          </Link>
                           {/* text */}
                         </div>
                       </div>
@@ -2246,9 +2247,9 @@ function Index() {
                           -45%
                         </span>
                         <h2 className="mt-3 fs-6">
-                          <a href="#" className="text-inherit">
+                          <Link href="#" className="text-inherit">
                             Instant Food
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           <span className="text-dark fs-5 fw-bold">$18</span>
@@ -2277,13 +2278,13 @@ function Index() {
                       <div className="card card-product mb-4">
                         <div className="card-body text-center py-8">
                           {/* img */}
-                          <a href="#">
+                          <Link href="#">
                             <img
                               src="../assets/images/category/category-atta-rice-dal.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3"
                             />
-                          </a>
+                          </Link>
                           {/* text */}
                         </div>
                       </div>
@@ -2292,9 +2293,9 @@ function Index() {
                           -12%
                         </span>
                         <h2 className="mt-3 fs-6">
-                          <a href="#" className="text-inherit">
+                          <Link href="#" className="text-inherit">
                             Atta Rice &amp; Dal
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           <span className="text-dark fs-5 fw-bold">$15</span>
@@ -2323,13 +2324,13 @@ function Index() {
                       <div className="card card-product mb-4">
                         <div className="card-body text-center py-8">
                           {/* img */}
-                          <a href="#">
+                          <Link href="#">
                             <img
                               src="../assets/images/category/category-baby-care.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3"
                             />
-                          </a>
+                          </Link>
                           {/* text */}
                         </div>
                       </div>
@@ -2338,9 +2339,9 @@ function Index() {
                           -55%
                         </span>
                         <h2 className="mt-3 fs-6">
-                          <a href="#" className="text-inherit">
+                          <Link href="#" className="text-inherit">
                             Baby Care
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           <span className="text-dark fs-5 fw-bold">$18</span>
@@ -2369,13 +2370,13 @@ function Index() {
                       <div className="card card-product mb-4">
                         <div className="card-body text-center py-8">
                           {/* img */}
-                          <a href="#">
+                          <Link href="#">
                             <img
                               src="../assets/images/category/category-tea-coffee-drinks.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3"
                             />
-                          </a>
+                          </Link>
                           {/* text */}
                         </div>
                       </div>
@@ -2384,9 +2385,9 @@ function Index() {
                           -45%
                         </span>
                         <h2 className="mt-3 fs-6">
-                          <a href="#" className="text-inherit">
+                          <Link href="#" className="text-inherit">
                             Tea Coffee &amp; Drinks
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           <span className="text-dark fs-5 fw-bold">$18</span>
@@ -2415,13 +2416,13 @@ function Index() {
                       <div className="card card-product mb-4">
                         <div className="card-body text-center py-8">
                           {/* img */}
-                          <a href="#">
+                          <Link href="#">
                             <img
                               src="../assets/images/category/category-cleaning-essentials.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3"
                             />
-                          </a>
+                          </Link>
                           {/* text */}
                         </div>
                       </div>
@@ -2430,9 +2431,9 @@ function Index() {
                           -25%
                         </span>
                         <h2 className="mt-3 fs-6">
-                          <a href="#" className="text-inherit">
+                          <Link href="#" className="text-inherit">
                             Cleaning Essentials
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           <span className="text-dark fs-5 fw-bold">$120</span>
@@ -2461,13 +2462,13 @@ function Index() {
                       <div className="card card-product mb-4">
                         <div className="card-body text-center py-8">
                           {/* img */}
-                          <a href="#">
+                          <Link href="#">
                             <img
                               src="../assets/images/category/category-pet-care.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3"
                             />
-                          </a>
+                          </Link>
                           {/* text */}
                         </div>
                       </div>
@@ -2476,9 +2477,9 @@ function Index() {
                           -55%
                         </span>
                         <h2 className="mt-3 fs-6">
-                          <a href="#" className="text-inherit">
+                          <Link href="#" className="text-inherit">
                             Pet Cares
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           <span className="text-dark fs-5 fw-bold">$18</span>
@@ -2507,13 +2508,13 @@ function Index() {
                       <div className="card card-product mb-4">
                         <div className="card-body text-center py-8">
                           {/* img */}
-                          <a href="#">
+                          <Link href="#">
                             <img
                               src="../assets/images/category/category-chicken-meat-fish.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3"
                             />
-                          </a>
+                          </Link>
                           {/* text */}
                         </div>
                       </div>
@@ -2522,9 +2523,9 @@ function Index() {
                           -45%
                         </span>
                         <h2 className="mt-3 fs-6">
-                          <a href="#" className="text-inherit">
+                          <Link href="#" className="text-inherit">
                             Salted Instant Popcorn
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           <span className="text-dark fs-5 fw-bold">$18</span>
@@ -2553,13 +2554,13 @@ function Index() {
                       <div className="card card-product mb-4">
                         <div className="card-body text-center py-8">
                           {/* img */}
-                          <a href="#">
+                          <Link href="#">
                             <img
                               src="../assets/images/category/category-bakery-biscuits.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3"
                             />
-                          </a>
+                          </Link>
                           {/* text */}
                         </div>
                       </div>
@@ -2568,9 +2569,9 @@ function Index() {
                           -25%
                         </span>
                         <h2 className="mt-3 fs-6">
-                          <a href="#" className="text-inherit">
+                          <Link href="#" className="text-inherit">
                             Bakery &amp; Biscuits
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           <span className="text-dark fs-5 fw-bold">$120</span>
@@ -2599,13 +2600,13 @@ function Index() {
                       <div className="card card-product mb-4">
                         <div className="card-body text-center py-8">
                           {/* img */}
-                          <a href="#">
+                          <Link href="#">
                             <img
                               src="../assets/images/category/category-pet-care.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3"
                             />
-                          </a>
+                          </Link>
                           {/* text */}
                         </div>
                       </div>
@@ -2614,9 +2615,9 @@ function Index() {
                           -55%
                         </span>
                         <h2 className="mt-3 fs-6">
-                          <a href="#" className="text-inherit">
+                          <Link href="#" className="text-inherit">
                             Pet Cares
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           <span className="text-dark fs-5 fw-bold">$18</span>
@@ -2645,13 +2646,13 @@ function Index() {
                       <div className="card card-product mb-4">
                         <div className="card-body text-center py-8">
                           {/* img */}
-                          <a href="#">
+                          <Link href="#">
                             <img
                               src="../assets/images/category/category-cleaning-essentials.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3"
                             />
-                          </a>
+                          </Link>
                           {/* text */}
                         </div>
                       </div>
@@ -2660,9 +2661,9 @@ function Index() {
                           -25%
                         </span>
                         <h2 className="mt-3 fs-6">
-                          <a href="#" className="text-inherit">
+                          <Link href="#" className="text-inherit">
                             Cleaning Essentials
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           <span className="text-dark fs-5 fw-bold">$120</span>
@@ -2692,13 +2693,13 @@ function Index() {
                       <div className="card card-product mb-4">
                         <div className="card-body text-center py-8">
                           {/* img */}
-                          <a href="#">
+                          <Link href="#">
                             <img
                               src="../assets/images/category/category-bakery-biscuits.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3"
                             />
-                          </a>
+                          </Link>
                           {/* text */}
                         </div>
                       </div>
@@ -2707,9 +2708,9 @@ function Index() {
                           -25%
                         </span>
                         <h2 className="mt-3 fs-6">
-                          <a href="#" className="text-inherit">
+                          <Link href="#" className="text-inherit">
                             Bakery &amp; Biscuits
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           <span className="text-dark fs-5 fw-bold">$120</span>
@@ -2737,13 +2738,13 @@ function Index() {
                       <div className="card card-product mb-4">
                         <div className="card-body text-center py-8">
                           {/* img */}
-                          <a href="#">
+                          <Link href="#">
                             <img
                               src="../assets/images/category/category-chicken-meat-fish.jpg"
                               alt="Grocery Ecommerce Template"
                               className="mb-3"
                             />
-                          </a>
+                          </Link>
                           {/* text */}
                         </div>
                       </div>
@@ -2752,9 +2753,9 @@ function Index() {
                           -45%
                         </span>
                         <h2 className="mt-3 fs-6">
-                          <a href="#" className="text-inherit">
+                          <Link href="#" className="text-inherit">
                             Salted Instant Popcorn
-                          </a>
+                          </Link>
                         </h2>
                         <div>
                           <span className="text-dark fs-5 fw-bold">$18</span>
@@ -2812,16 +2813,16 @@ function Index() {
             </div>
             {/* button */}
             <div className="col-md-4 text-end d-none d-md-block">
-              <a href="#" className="btn btn-primary">
+              <Link href="#" className="btn btn-primary">
                 View all recipes
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row">
             {/* col */}
             <div className="col-12 col-md-6 col-lg-3 mb-8">
               <div className="mb-4">
-                <a href="#">
+                <Link href="#">
                   {/* img */}
                   <div className="img-zoom">
                     <img
@@ -2830,14 +2831,14 @@ function Index() {
                       className="img-fluid rounded w-100"
                     />
                   </div>
-                </a>
+                </Link>
               </div>
               {/* text */}
               <div>
                 <h4 className="h5">
-                  <a href="#" className="text-inherit">
+                  <Link href="#" className="text-inherit">
                     Spaghetti with Crispy Zucchini
-                  </a>
+                  </Link>
                 </h4>
                 <p>
                   Praesent vestibulum magna lacinia augue mollisvel aliquet
@@ -2865,7 +2866,7 @@ function Index() {
             {/* col */}
             <div className="col-12 col-md-6 col-lg-3 mb-8">
               <div className="mb-4">
-                <a href="#">
+                <Link href="#">
                   <div className="img-zoom">
                     {/* img */}
                     <img
@@ -2874,14 +2875,14 @@ function Index() {
                       className="img-fluid rounded w-100"
                     />
                   </div>
-                </a>
+                </Link>
               </div>
               {/* text */}
               <div>
                 <h4 className="h5">
-                  <a href="#" className="text-inherit">
+                  <Link href="#" className="text-inherit">
                     Almond Butter Chocolate Chip Zucchini Bars
-                  </a>
+                  </Link>
                 </h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur sit amet tincidunt
@@ -2909,7 +2910,7 @@ function Index() {
             {/* col */}
             <div className="col-12 col-md-6 col-lg-3 mb-8">
               <div className="mb-4">
-                <a href="#">
+                <Link href="#">
                   {/* img */}
                   <div className="img-zoom">
                     <img
@@ -2918,14 +2919,14 @@ function Index() {
                       className="img-fluid rounded w-100"
                     />
                   </div>
-                </a>
+                </Link>
               </div>
               {/* text */}
               <div>
                 <h4 className="h5">
-                  <a href="#" className="text-inherit">
+                  <Link href="#" className="text-inherit">
                     Spicy Shrimp Tacos Garlic Cilantro Lime Slaw
-                  </a>
+                  </Link>
                 </h4>
                 <p>
                   Praesent vestibulum magna lacinia augue mollisvel aliquet
@@ -2953,7 +2954,7 @@ function Index() {
             {/* col */}
             <div className="col-12 col-md-6 col-lg-3 mb-8">
               <div className="mb-4">
-                <a href="#">
+                <Link href="#">
                   {/* img */}
                   <div className="img-zoom">
                     <img
@@ -2962,13 +2963,13 @@ function Index() {
                       className="img-fluid rounded w-100"
                     />
                   </div>
-                </a>
+                </Link>
               </div>
               <div>
                 <h4 className="h5">
-                  <a href="#" className="text-inherit">
+                  <Link href="#" className="text-inherit">
                     Simple Homemade Tomato Soup
-                  </a>
+                  </Link>
                 </h4>
                 <p>
                   Aliquam tempus velit augue, sodales tincidunt augue ipsum
@@ -3037,9 +3038,9 @@ function Index() {
                 Seven day of grate deals - what could be better?
               </p>
               <div className="d-grid">
-                <a href="#" className="btn btn-primary" data-bs-dismiss="modal">
+                <Link href="#" className="btn btn-primary" data-bs-dismiss="modal">
                   Start Show Now
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -3177,9 +3178,9 @@ function Index() {
             </div>
             <div className="col-lg-6">
               <div className="ps-lg-8 mt-6 mt-lg-0">
-                <a href="#!" className="mb-4 d-block">
+                <Link href="#!" className="mb-4 d-block">
                   Bakery Biscuits
-                </a>
+                </Link>
                 <h2 className="mb-1 h1">Napolitanke Ljesnjak</h2>
                 <div className="mb-4">
                   <small className="text-warning">
@@ -3189,9 +3190,9 @@ function Index() {
                     <i className="bi bi-star-fill" />
                     <i className="bi bi-star-half" />
                   </small>
-                  <a href="#" className="ms-2">
+                  <Link href="#" className="ms-2">
                     (30 reviews)
-                  </a>
+                  </Link>
                 </div>
                 <div className="fs-4">
                   <span className="fw-bold text-dark">$32</span>
@@ -3251,7 +3252,7 @@ function Index() {
                   </div>
                   <div className="col-md-4 col-5">
                     {/* btn */}
-                    <a
+                    <Link
                       className="btn btn-light"
                       href="#"
                       data-bs-toggle="tooltip"
@@ -3259,8 +3260,8 @@ function Index() {
                       aria-label="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="btn btn-light"
                       href="#!"
                       data-bs-toggle="tooltip"
@@ -3268,7 +3269,7 @@ function Index() {
                       aria-label="Wishlist"
                     >
                       <i className="feather-icon icon-heart" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <hr className="my-6" />

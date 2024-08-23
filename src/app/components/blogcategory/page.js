@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../header/page'
 import Footer from '../footer/page'
+import Link from 'next/link'
 
 function BlogCategory() {
   return (
@@ -70,9 +71,9 @@ function BlogCategory() {
               <div className="invalid-feedback">Please enter password.</div>
               <small className="form-text">
                 By Signup, you agree to our
-                <a href="#!">Terms of Service</a>
+                <Link href="#!">Terms of Service</Link>
                 &amp;
-                <a href="#!">Privacy Policy</a>
+                <Link href="#!">Privacy Policy</Link>
               </small>
             </div>
             <button type="submit" className="btn btn-primary">
@@ -82,7 +83,7 @@ function BlogCategory() {
         </div>
         <div className="modal-footer border-0 justify-content-center">
           Already have an account?
-          <a href="#">Sign in</a>
+          <Link href="#">Sign in</Link>
         </div>
       </div>
     </div>
@@ -113,9 +114,9 @@ function BlogCategory() {
         {/* alert */}
         <div className="alert alert-danger p-2" role="alert">
           You’ve got FREE delivery. Start
-          <a href="#!" className="alert-link">
+          <Link href="#!" className="alert-link">
             checkout now!
-          </a>
+          </Link>
         </div>
         <ul className="list-group list-group-flush">
           {/* list group */}
@@ -131,15 +132,15 @@ function BlogCategory() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">.98 / lb</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -163,7 +164,7 @@ function BlogCategory() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -213,15 +214,15 @@ function BlogCategory() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -245,7 +246,7 @@ function BlogCategory() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -299,15 +300,15 @@ function BlogCategory() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">1 kg</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -331,7 +332,7 @@ function BlogCategory() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -386,15 +387,15 @@ function BlogCategory() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -418,7 +419,7 @@ function BlogCategory() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -472,15 +473,15 @@ function BlogCategory() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">100g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -504,7 +505,7 @@ function BlogCategory() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -548,12 +549,12 @@ function BlogCategory() {
         </ul>
         {/* btn */}
         <div className="d-flex justify-content-between mt-4">
-          <a href="#!" className="btn btn-primary">
+          <Link href="#!" className="btn btn-primary">
             Continue Shopping
-          </a>
-          <a href="#!" className="btn btn-dark">
+          </Link>
+          <Link href="#!" className="btn btn-dark">
             Update Cart
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -594,83 +595,83 @@ function BlogCategory() {
           </div>
           <div className="d-flex justify-content-between align-items-center mb-2">
             <h6 className="mb-0">Select Location</h6>
-            <a href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
+            <Link href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
               Clear All
-            </a>
+            </Link>
           </div>
           <div>
             <div data-simplebar="" style={{ height: 300 }}>
               <div className="list-group list-group-flush">
-                <a
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action active"
                 >
                   <span>Alabama</span>
                   <span>Min:$20</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Alaska</span>
                   <span>Min:$30</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -691,10 +692,10 @@ function BlogCategory() {
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb mb-0">
                 <li className="breadcrumb-item">
-                  <a href="#!">Home</a>
+                  <Link href="#!">Home</Link>
                 </li>
                 <li className="breadcrumb-item">
-                  <a href="#!">Blog</a>
+                  <Link href="#!">Blog</Link>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
                   Blog Category
@@ -727,7 +728,7 @@ function BlogCategory() {
           {/* col */}
           <div className="col-12 col-md-6 col-lg-4 mb-10">
             <div className="mb-4">
-              <a href="#!">
+              <Link href="#!">
                 {/* img */}
                 <div className="img-zoom">
                   <img
@@ -736,17 +737,17 @@ function BlogCategory() {
                     className="img-fluid w-100"
                   />
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="mb-3">
-              <a href="#!">Recipes</a>
+              <Link href="#!">Recipes</Link>
             </div>
             {/* text */}
             <div>
               <h2 className="h5">
-                <a href="#!" className="text-inherit">
+                <Link href="#!" className="text-inherit">
                   Harissa Chickpeas with Whipped Feta
-                </a>
+                </Link>
               </h2>
               <p>
                 In et eros dapibus, facilisis ipsum sit amet, tempor dolor.
@@ -768,7 +769,7 @@ function BlogCategory() {
           {/* col */}
           <div className="col-12 col-md-6 col-lg-4 mb-10">
             <div className="mb-4">
-              <a href="#!">
+              <Link href="#!">
                 <div className="img-zoom">
                   {/* img */}
                   <img
@@ -777,17 +778,17 @@ function BlogCategory() {
                     className="img-fluid w-100"
                   />
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="mb-3">
-              <a href="#!">Recipes</a>
+              <Link href="#!">Recipes</Link>
             </div>
             <div>
               {/* text */}
               <h2 className="h5">
-                <a href="#!" className="text-inherit">
+                <Link href="#!" className="text-inherit">
                   Almond Butter Chocolate Chip Zucchini Bars
-                </a>
+                </Link>
               </h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elitaenean
@@ -810,7 +811,7 @@ function BlogCategory() {
           {/* col */}
           <div className="col-12 col-md-6 col-lg-4 mb-10">
             <div className="mb-4">
-              <a href="#!">
+              <Link href="#!">
                 {/* img */}
                 <div className="img-zoom">
                   <img
@@ -819,17 +820,17 @@ function BlogCategory() {
                     className="img-fluid w-100"
                   />
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="mb-3">
-              <a href="#!">Company</a>
+              <Link href="#!">Company</Link>
             </div>
             {/* text */}
             <div>
               <h2 className="h5">
-                <a href="#!" className="text-inherit">
+                <Link href="#!" className="text-inherit">
                   Spicy Shrimp Tacos Garlic Cilantro Lime Slaw
-                </a>
+                </Link>
               </h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elitaenean
@@ -852,7 +853,7 @@ function BlogCategory() {
           {/* col */}
           <div className="col-12 col-md-6 col-lg-4 mb-10">
             <div className="mb-4">
-              <a href="#!">
+              <Link href="#!">
                 {/* img */}
                 <div className="img-zoom">
                   <img
@@ -861,17 +862,17 @@ function BlogCategory() {
                     className="img-fluid w-100"
                   />
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="mb-3">
-              <a href="#!">Recipes</a>
+              <Link href="#!">Recipes</Link>
             </div>
             <div>
               {/* text */}
               <h2 className="h5">
-                <a href="#!" className="text-inherit">
+                <Link href="#!" className="text-inherit">
                   Red Chile Chicken Tacos with Creamy Corn
-                </a>
+                </Link>
               </h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elitaenean
@@ -894,7 +895,7 @@ function BlogCategory() {
           {/* col */}
           <div className="col-12 col-md-6 col-lg-4 mb-10">
             <div className="mb-4">
-              <a href="#!">
+              <Link href="#!">
                 {/* img */}
                 <div className="img-zoom">
                   <img
@@ -903,17 +904,17 @@ function BlogCategory() {
                     className="img-fluid w-100"
                   />
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="mb-3">
-              <a href="#!">Retailer</a>
+              <Link href="#!">Retailer</Link>
             </div>
             {/* text */}
             <div>
               <h2 className="h5">
-                <a href="#!" className="text-inherit">
+                <Link href="#!" className="text-inherit">
                   Basic + Awesome Broccoli Cheese Soup
-                </a>
+                </Link>
               </h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elitaenean
@@ -935,7 +936,7 @@ function BlogCategory() {
           </div>
           <div className="col-12 col-md-6 col-lg-4 mb-10">
             <div className="mb-4">
-              <a href="#!">
+              <Link href="#!">
                 {/* img */}
                 <div className="img-zoom">
                   <img
@@ -944,17 +945,17 @@ function BlogCategory() {
                     className="img-fluid w-100"
                   />
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="mb-3">
-              <a href="#!">Recipes</a>
+              <Link href="#!">Recipes</Link>
             </div>
             <div>
               {/* text */}
               <h2 className="h5">
-                <a href="#!" className="text-inherit">
+                <Link href="#!" className="text-inherit">
                   No-Boil Baked Penne with Meatballs
-                </a>
+                </Link>
               </h2>
               <p>
                 Nulla consectetur sapien a libero imperdiet posuere. Donec
@@ -976,7 +977,7 @@ function BlogCategory() {
           </div>
           <div className="col-12 col-md-6 col-lg-4 mb-10">
             <div className="mb-4">
-              <a href="#!">
+              <Link href="#!">
                 {/* img */}
                 <div className="img-zoom">
                   <img
@@ -985,17 +986,17 @@ function BlogCategory() {
                     className="img-fluid w-100"
                   />
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="mb-3">
-              <a href="#!">Recipes</a>
+              <Link href="#!">Recipes</Link>
             </div>
             <div>
               {/* text */}
               <h2 className="h5">
-                <a href="#!" className="text-inherit">
+                <Link href="#!" className="text-inherit">
                   Red Chile Chicken Tacos with Creamy Corn
-                </a>
+                </Link>
               </h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elitaenean
@@ -1017,7 +1018,7 @@ function BlogCategory() {
           </div>
           <div className="col-12 col-md-6 col-lg-4 mb-10">
             <div className="mb-4">
-              <a href="#!">
+              <Link href="#!">
                 {/* img */}
                 <div className="img-zoom">
                   <img
@@ -1026,17 +1027,17 @@ function BlogCategory() {
                     className="img-fluid w-100"
                   />
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="mb-3">
-              <a href="#!">Retailer</a>
+              <Link href="#!">Retailer</Link>
             </div>
             <div>
               {/* text */}
               <h2 className="h5">
-                <a href="#!" className="text-inherit">
+                <Link href="#!" className="text-inherit">
                   Basic + Awesome Broccoli Cheese Soup
-                </a>
+                </Link>
               </h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elitaenean
@@ -1058,7 +1059,7 @@ function BlogCategory() {
           </div>
           <div className="col-12 col-md-6 col-lg-4 mb-10">
             <div className="mb-4">
-              <a href="#!">
+              <Link href="#!">
                 {/* img */}
                 <div className="img-zoom">
                   <img
@@ -1067,17 +1068,17 @@ function BlogCategory() {
                     className="img-fluid w-100"
                   />
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="mb-3">
-              <a href="#!">Recipes</a>
+              <Link href="#!">Recipes</Link>
             </div>
             <div>
               {/* text */}
               <h2 className="h5">
-                <a href="#!" className="text-inherit">
+                <Link href="#!" className="text-inherit">
                   No-Boil Baked Penne with Meatballs
-                </a>
+                </Link>
               </h2>
               <p>
                 Nulla consectetur sapien a libero imperdiet posuere. Donec
@@ -1102,34 +1103,34 @@ function BlogCategory() {
             <nav>
               <ul className="pagination">
                 <li className="page-item disabled">
-                  <a className="page-link mx-1" href="#" aria-label="Previous">
+                  <Link className="page-link mx-1" href="#" aria-label="Previous">
                     <i className="feather-icon icon-chevron-left" />
-                  </a>
+                  </Link>
                 </li>
                 <li className="page-item">
-                  <a className="page-link mx-1 active" href="#">
+                  <Link className="page-link mx-1 active" href="#">
                     1
-                  </a>
+                  </Link>
                 </li>
                 <li className="page-item">
-                  <a className="page-link mx-1" href="#">
+                  <Link className="page-link mx-1" href="#">
                     2
-                  </a>
+                  </Link>
                 </li>
                 <li className="page-item">
-                  <a className="page-link mx-1" href="#">
+                  <Link className="page-link mx-1" href="#">
                     ...
-                  </a>
+                  </Link>
                 </li>
                 <li className="page-item">
-                  <a className="page-link mx-1" href="#">
+                  <Link className="page-link mx-1" href="#">
                     12
-                  </a>
+                  </Link>
                 </li>
                 <li className="page-item">
-                  <a className="page-link mx-1" href="#" aria-label="Next">
+                  <Link className="page-link mx-1" href="#" aria-label="Next">
                     <i className="feather-icon icon-chevron-right" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

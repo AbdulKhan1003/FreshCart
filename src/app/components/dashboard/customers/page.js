@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../sidebar/page'
 import Navbar from '../navbar/page'
+import Link from 'next/link'
 
 function Customers() {
   return (
@@ -22,9 +23,9 @@ function Customers() {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb mb-0">
                     <li className="breadcrumb-item">
-                      <a href="#" className="text-inherit">
+                      <Link href="#" className="text-inherit">
                         Dashboard
-                      </a>
+                      </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Customers
@@ -33,9 +34,9 @@ function Customers() {
                 </nav>
               </div>
               <div>
-                <a href="/components/dashboard/createcustomers" className="btn btn-primary">
+                <Link href="/components/dashboard/createcustomers" className="btn btn-primary">
                   Add New Customer
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -115,7 +116,7 @@ function Customers() {
                               className="avatar avatar-xs rounded-circle"
                             />
                             <div className="ms-2">
-                              <a
+                              <Link
                                 href="#!"
                                 className="text-inherit"
                                 data-bs-toggle="offcanvas"
@@ -123,7 +124,7 @@ function Customers() {
                                 aria-controls="offcanvasRight"
                               >
                                 Bonnie Howe
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -133,29 +134,29 @@ function Customers() {
                         <td>$49.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
+                                <Link
                                   className="dropdown-item"
                                   href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -184,7 +185,7 @@ function Customers() {
                               className="avatar avatar-xs rounded-circle"
                             />
                             <div className="ms-2">
-                              <a
+                              <Link
                                 href="#!"
                                 className="text-inherit"
                                 data-bs-toggle="offcanvas"
@@ -192,7 +193,7 @@ function Customers() {
                                 aria-controls="offcanvasRight"
                               >
                                 Judy Nelson
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -202,29 +203,29 @@ function Customers() {
                         <td>$490.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
+                                <Link
                                   className="dropdown-item"
                                   href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -253,7 +254,7 @@ function Customers() {
                               className="avatar avatar-xs rounded-circle"
                             />
                             <div className="ms-2">
-                              <a
+                              <Link
                                 href="#!"
                                 className="text-inherit"
                                 data-bs-toggle="offcanvas"
@@ -261,7 +262,7 @@ function Customers() {
                                 aria-controls="offcanvasRight"
                               >
                                 John Mattox
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -271,29 +272,29 @@ function Customers() {
                         <td>$29.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
+                                <Link
                                   className="dropdown-item"
                                   href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -322,7 +323,7 @@ function Customers() {
                               className="avatar avatar-xs rounded-circle"
                             />
                             <div className="ms-2">
-                              <a
+                              <Link
                                 href="#!"
                                 className="text-inherit"
                                 data-bs-toggle="offcanvas"
@@ -330,7 +331,7 @@ function Customers() {
                                 aria-controls="offcanvasRight"
                               >
                                 Wayne Rossman
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -340,29 +341,29 @@ function Customers() {
                         <td>$39.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
+                                <Link
                                   className="dropdown-item"
                                   href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -391,7 +392,7 @@ function Customers() {
                               className="avatar avatar-xs rounded-circle"
                             />
                             <div className="ms-2">
-                              <a
+                              <Link
                                 href="#!"
                                 className="text-inherit"
                                 data-bs-toggle="offcanvas"
@@ -399,7 +400,7 @@ function Customers() {
                                 aria-controls="offcanvasRight"
                               >
                                 Rhonda Pinson
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -409,29 +410,29 @@ function Customers() {
                         <td>$213.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
+                                <Link
                                   className="dropdown-item"
                                   href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -460,7 +461,7 @@ function Customers() {
                               className="avatar avatar-xs rounded-circle"
                             />
                             <div className="ms-2">
-                              <a
+                              <Link
                                 href="#!"
                                 className="text-inherit"
                                 data-bs-toggle="offcanvas"
@@ -468,7 +469,7 @@ function Customers() {
                                 aria-controls="offcanvasRight"
                               >
                                 John Mattox
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -478,29 +479,29 @@ function Customers() {
                         <td>$490.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
+                                <Link
                                   className="dropdown-item"
                                   href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -529,7 +530,7 @@ function Customers() {
                               className="avatar avatar-xs rounded-circle"
                             />
                             <div className="ms-2">
-                              <a
+                              <Link
                                 href="#!"
                                 className="text-inherit"
                                 data-bs-toggle="offcanvas"
@@ -537,7 +538,7 @@ function Customers() {
                                 aria-controls="offcanvasRight"
                               >
                                 Wayne Rossman
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -547,29 +548,29 @@ function Customers() {
                         <td>$39.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
+                                <Link
                                   className="dropdown-item"
                                   href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -598,7 +599,7 @@ function Customers() {
                               className="avatar avatar-xs rounded-circle"
                             />
                             <div className="ms-2">
-                              <a
+                              <Link
                                 href="#!"
                                 className="text-inherit"
                                 data-bs-toggle="offcanvas"
@@ -606,7 +607,7 @@ function Customers() {
                                 aria-controls="offcanvasRight"
                               >
                                 Richard Shelton
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -616,29 +617,29 @@ function Customers() {
                         <td>$19.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
+                                <Link
                                   className="dropdown-item"
                                   href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -667,7 +668,7 @@ function Customers() {
                               className="avatar avatar-xs rounded-circle"
                             />
                             <div className="ms-2">
-                              <a
+                              <Link
                                 href="#!"
                                 className="text-inherit"
                                 data-bs-toggle="offcanvas"
@@ -675,7 +676,7 @@ function Customers() {
                                 aria-controls="offcanvasRight"
                               >
                                 Stephanie Morales
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -685,29 +686,29 @@ function Customers() {
                         <td>$250.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
+                                <Link
                                   className="dropdown-item"
                                   href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -736,7 +737,7 @@ function Customers() {
                               className="avatar avatar-xs rounded-circle"
                             />
                             <div className="ms-2">
-                              <a
+                              <Link
                                 href="#!"
                                 className="text-inherit"
                                 data-bs-toggle="offcanvas"
@@ -744,7 +745,7 @@ function Customers() {
                                 aria-controls="offcanvasRight"
                               >
                                 Stephanie Morales
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -754,29 +755,29 @@ function Customers() {
                         <td>$250.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
+                                <Link
                                   className="dropdown-item"
                                   href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -805,7 +806,7 @@ function Customers() {
                               className="avatar avatar-xs rounded-circle"
                             />
                             <div className="ms-2">
-                              <a
+                              <Link
                                 href="#!"
                                 className="text-inherit"
                                 data-bs-toggle="offcanvas"
@@ -813,7 +814,7 @@ function Customers() {
                                 aria-controls="offcanvasRight"
                               >
                                 Pasquale Kidd
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -823,29 +824,29 @@ function Customers() {
                         <td>$159.00</td>
                         <td>
                           <div className="dropdown">
-                            <a
+                            <Link
                               href="#"
                               className="text-reset"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
                             >
                               <i className="feather-icon icon-more-vertical fs-5" />
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                               <li>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" href="#">
                                   <i className="bi bi-trash me-3" />
                                   Delete
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
+                                <Link
                                   className="dropdown-item"
                                   href="/components/dashboard/editcustomers"
                                 >
                                   <i className="bi bi-pencil-square me-3" />
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -859,29 +860,29 @@ function Customers() {
                   <nav className="mt-2 mt-md-0">
                     <ul className="pagination mb-0">
                       <li className="page-item disabled">
-                        <a className="page-link" href="#!">
+                        <Link className="page-link" href="#!">
                           Previous
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link active" href="#!">
+                        <Link className="page-link active" href="#!">
                           1
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#!">
+                        <Link className="page-link" href="#!">
                           2
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#!">
+                        <Link className="page-link" href="#!">
                           3
-                        </a>
+                        </Link>
                       </li>
                       <li className="page-item">
-                        <a className="page-link" href="#!">
+                        <Link className="page-link" href="#!">
                           Next
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
@@ -1020,7 +1021,7 @@ function Customers() {
         </div>
         <div className="card">
           <div className="bg-light rounded-top px-4 py-3">
-            <a
+            <Link
               href="#"
               className="d-flex align-items-center justify-content-between text-inherit"
               data-bs-toggle="collapse"
@@ -1053,7 +1054,7 @@ function Customers() {
                   />
                 </svg>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="card-body py-0 px-4">
             <div
@@ -1067,7 +1068,7 @@ function Customers() {
               >
                 <ul className="list-group list-group-flush mb-0">
                   <li className="list-group-item px-0 py-1">
-                    <a
+                    <Link
                       href="#!"
                       className="text-inherit d-flex flex-row align-items-center justify-content-between"
                     >
@@ -1080,10 +1081,10 @@ function Customers() {
                         <span className="h6 mb-0">Organic Banana</span>
                       </div>
                       <span className="text-black-50">$35.00</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="list-group-item px-0 py-1">
-                    <a
+                    <Link
                       href="#!"
                       className="text-inherit d-flex flex-row align-items-center justify-content-between"
                     >
@@ -1096,10 +1097,10 @@ function Customers() {
                         <span className="h6 mb-0">Fresh Apple</span>
                       </div>
                       <span className="text-black-50">$70.00</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="list-group-item px-0 py-1">
-                    <a
+                    <Link
                       href="#!"
                       className="text-inherit d-flex flex-row align-items-center justify-content-between"
                     >
@@ -1112,7 +1113,7 @@ function Customers() {
                         <span className="h6 mb-0">BeetRoot</span>
                       </div>
                       <span className="text-black-50">$29.00</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="list-group-item px-0 py-3">
                     <div className="d-flex flex-row justify-content-between">
@@ -1129,7 +1130,7 @@ function Customers() {
         </div>
         <div className="card">
           <div className="bg-light rounded-top px-4 py-3">
-            <a
+            <Link
               href="#"
               className="d-flex align-items-center justify-content-between text-inherit"
               data-bs-toggle="collapse"
@@ -1162,7 +1163,7 @@ function Customers() {
                   />
                 </svg>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="card-body py-0 px-4">
             <div
@@ -1176,7 +1177,7 @@ function Customers() {
               >
                 <ul className="list-group list-group-flush mb-0">
                   <li className="list-group-item px-0 py-1">
-                    <a
+                    <Link
                       href="#!"
                       className="text-inherit d-flex flex-row align-items-center justify-content-between"
                     >
@@ -1189,10 +1190,10 @@ function Customers() {
                         <span className="h6 mb-0">Organic Banana</span>
                       </div>
                       <span className="text-black-50">$35.00</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="list-group-item px-0 py-1">
-                    <a
+                    <Link
                       href="#!"
                       className="text-inherit d-flex flex-row align-items-center justify-content-between"
                     >
@@ -1205,10 +1206,10 @@ function Customers() {
                         <span className="h6 mb-0">Fresh Apple</span>
                       </div>
                       <span className="text-black-50">$70.00</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="list-group-item px-0 py-1">
-                    <a
+                    <Link
                       href="#!"
                       className="text-inherit d-flex flex-row align-items-center justify-content-between"
                     >
@@ -1221,7 +1222,7 @@ function Customers() {
                         <span className="h6 mb-0">BeetRoot</span>
                       </div>
                       <span className="text-black-50">$29.00</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="list-group-item px-0 py-3">
                     <div className="d-flex flex-row justify-content-between">

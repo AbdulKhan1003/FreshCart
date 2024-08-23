@@ -4,7 +4,6 @@ import React from "react";
 import { useState } from "react";
 import Header from "./header/page";
 import Footer from './footer/page'
-import { Checkbox } from "primereact/checkbox"
 import { useRouter } from 'next/navigation'
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 
@@ -90,9 +89,9 @@ function Index() {
               />
               <small className="form-text">
                 By Signup, you agree to our
-                <a href="#!">Terms of Service</a>
+                <Link href="#!">Terms of Service</Link>
                 &amp;
-                <a href="#!">Privacy Policy</a>
+                <Link href="#!">Privacy Policy</Link>
               </small>
             </div>
             <button type="submit" className="btn btn-primary">
@@ -102,7 +101,7 @@ function Index() {
         </div>
         <div className="modal-footer border-0 justify-content-center">
           Already have an account?
-          <a href="#">Sign in</a>
+          <Link href="#">Sign in</Link>
         </div>
       </div>
     </div>
@@ -133,9 +132,9 @@ function Index() {
         {/* alert */}
         <div className="alert alert-danger p-2" role="alert">
           You’ve got FREE delivery. Start
-          <a href="#!" className="alert-link">
+          <Link href="#!" className="alert-link">
             checkout now!
-          </a>
+          </Link>
         </div>
         <ul className="list-group list-group-flush">
           {/* list group */}
@@ -151,15 +150,15 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">.98 / lb</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -183,7 +182,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -233,15 +232,15 @@ function Index() {
                     className="icon-shape icon-xxl"
                   />
                   <div className="ms-3">
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">NutriChoice Digestive</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -265,7 +264,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -319,15 +318,15 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Cadbury 5 Star Chocolate</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">1 kg</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -351,7 +350,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -406,15 +405,15 @@ function Index() {
                   <div className="ms-3">
                     {/* title */}
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Onion Flavour Potato</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">250g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -438,7 +437,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -492,15 +491,15 @@ function Index() {
                   />
                   <div className="ms-3">
                     {/* title */}
-                    <a href="/components/shopsingle" className="text-inherit">
+                    <Link href="/components/shopsingle" className="text-inherit">
                       <h6 className="mb-0">Salted Instant Popcorn</h6>
-                    </a>
+                    </Link>
                     <span>
                       <small className="text-muted">100g</small>
                     </span>
                     {/* text */}
                     <div className="mt-2 small lh-1">
-                      <a
+                      <Link
                         href="#!"
                         className="text-decoration-none text-inherit"
                       >
@@ -524,7 +523,7 @@ function Index() {
                           </svg>
                         </span>
                         <span className="text-muted">Remove</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -568,12 +567,12 @@ function Index() {
         </ul>
         {/* btn */}
         <div className="d-flex justify-content-between mt-4">
-          <a href="#!" className="btn btn-primary">
+          <Link href="#!" className="btn btn-primary">
             Continue Shopping
-          </a>
-          <a href="#!" className="btn btn-dark">
+          </Link>
+          <Link href="#!" className="btn btn-dark">
             Update Cart
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -614,83 +613,83 @@ function Index() {
           </div>
           <div className="d-flex justify-content-between align-items-center mb-2">
             <h6 className="mb-0">Select Location</h6>
-            <a href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
+            <Link href="#" className="btn btn-outline-gray-400 text-muted btn-sm">
               Clear All
-            </a>
+            </Link>
           </div>
           <div>
             <div data-simplebar="" style={{ height: 300 }}>
               <div className="list-group list-group-flush">
-                <a
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action active"
                 >
                   <span>Alabama</span>
                   <span>Min:$20</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Alaska</span>
                   <span>Min:$30</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Arizona</span>
                   <span>Min:$50</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>California</span>
                   <span>Min:$29</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Colorado</span>
                   <span>Min:$80</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action"
                 >
                   <span>Florida</span>
                   <span>Min:$90</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -727,9 +726,9 @@ function Index() {
               </div>
               <div className="mt-3 mt-lg-0">
                 {/* btn */}
-                <a href="#" className="btn btn-dark">
+                <Link href="#" className="btn btn-dark">
                   Download FreshCart App
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -764,9 +763,9 @@ function Index() {
                       <span className="fw-bold text-dark">CARE12</span>
                     </span>
                   </div>
-                  <a href="#" className="btn btn-dark">
+                  <Link href="#" className="btn btn-dark">
                     Shop Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -794,9 +793,9 @@ function Index() {
                       the fruity way
                     </p>
                   </div>
-                  <a href="#" className="btn btn-dark">
+                  <Link href="#" className="btn btn-dark">
                     Shop Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -823,9 +822,9 @@ function Index() {
                       summer today
                     </p>
                   </div>
-                  <a href="#" className="btn btn-dark">
+                  <Link href="#" className="btn btn-dark">
                     Shop Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -850,7 +849,7 @@ function Index() {
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xxl-6 g-6">
           {/* col */}
           <div className="col">
-            <a
+            <Link
               href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
@@ -867,11 +866,11 @@ function Index() {
                   <div className="text-truncate">Dairy, Bread &amp; Eggs</div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           {/* col */}
           <div className="col">
-            <a
+            <Link
               href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
@@ -888,11 +887,11 @@ function Index() {
                   <div className="text-truncate">Snack &amp; Munchies</div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           {/* col */}
           <div className="col">
-            <a
+            <Link
               href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
@@ -909,11 +908,11 @@ function Index() {
                   <div className="text-truncate">Bakery &amp; Biscuits</div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           {/* col */}
           <div className="col">
-            <a
+            <Link
               href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
@@ -929,11 +928,11 @@ function Index() {
                   <div className="text-truncate">Instant Food</div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           {/* col */}
           <div className="col">
-            <a
+            <Link
               href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
@@ -949,10 +948,10 @@ function Index() {
                   <div className="text-truncate">Tea, Coffee &amp; Drinks</div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col">
-            <a
+            <Link
               href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
@@ -966,11 +965,11 @@ function Index() {
                   <div className="text-truncate">Fruits &amp; Vegetables</div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           {/* col */}
           <div className="col">
-            <a
+            <Link
               href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
@@ -987,11 +986,11 @@ function Index() {
                   <div className="text-truncate">Cold Drinks &amp; Juices</div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           {/* col */}
           <div className="col">
-            <a
+            <Link
               href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
@@ -1007,11 +1006,11 @@ function Index() {
                   <div className="text-truncate">Chicken, Meat &amp; Fish</div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           {/* col */}
           <div className="col">
-            <a
+            <Link
               href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
@@ -1028,11 +1027,11 @@ function Index() {
                   <div className="text-truncate">Baby Care</div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           {/* text */}
           <div className="col">
-            <a
+            <Link
               href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
@@ -1049,11 +1048,11 @@ function Index() {
                   <div className="text-truncate">Cleaning Essentials</div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           {/* col */}
           <div className="col">
-            <a
+            <Link
               href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
@@ -1070,11 +1069,11 @@ function Index() {
                   <div className="text-truncate">Pet Care</div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           {/* col */}
           <div className="col">
-            <a
+            <Link
               href="/components/shopgrid"
               className="text-decoration-none text-inherit"
             >
@@ -1091,7 +1090,7 @@ function Index() {
                   <div className="text-truncate">Atta, Rice &amp; Dal</div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -1121,17 +1120,17 @@ function Index() {
                   </div>
                   {/* img */}
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-15.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1143,8 +1142,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1152,8 +1151,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1161,19 +1160,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Fruits &amp; Vegetables</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Fresh Apple
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -1196,7 +1195,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -1213,7 +1212,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1230,17 +1229,17 @@ function Index() {
                     <span className="badge bg-success">14%</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-16.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1252,8 +1251,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1261,8 +1260,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1270,20 +1269,20 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Fruits &amp; Vegetables</small>
-                  </a>
+                  </Link>
                 </div>
                 {/* title */}
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Golden Pineapple
-                  </a>
+                  </Link>
                 </h2>
                 {/* rating */}
                 <div className="text-warning">
@@ -1304,7 +1303,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -1321,7 +1320,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1334,16 +1333,16 @@ function Index() {
               <div className="card-body">
                 <div className="text-center position-relative">
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-17.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1355,8 +1354,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1364,8 +1363,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1373,19 +1372,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Fruits &amp; Vegetables</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Fresh Kiwi
-                  </a>
+                  </Link>
                 </h2>
                 {/* rating */}
                 <div className="text-warning">
@@ -1409,7 +1408,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -1426,7 +1425,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1443,16 +1442,16 @@ function Index() {
                     <span className="badge bg-danger">Hot</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-18.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1464,8 +1463,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1473,8 +1472,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1482,19 +1481,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* action btn */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Fruits &amp; Vegetables</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Fresh Banana
-                  </a>
+                  </Link>
                 </h2>
                 {/* rating */}
                 <div className="text-warning">
@@ -1518,7 +1517,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -1535,7 +1534,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1548,16 +1547,16 @@ function Index() {
               <div className="card-body">
                 <div className="text-center position-relative">
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-19.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1569,8 +1568,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1578,8 +1577,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1587,19 +1586,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Fruits &amp; Vegetables</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Beatroot
-                  </a>
+                  </Link>
                 </h2>
                 {/* rating */}
                 <div className="text-warning">
@@ -1623,7 +1622,7 @@ function Index() {
                   </div>
                   {/*  btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -1640,7 +1639,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1657,16 +1656,16 @@ function Index() {
                     <span className="badge bg-danger">Sale</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-15.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1678,8 +1677,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1687,8 +1686,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1696,19 +1695,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Fruits &amp; Vegetables</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Fresh Apple
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   {/* rating */}
@@ -1731,7 +1730,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -1748,7 +1747,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1765,16 +1764,16 @@ function Index() {
                     <span className="badge bg-success">14%</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-16.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1786,8 +1785,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1795,8 +1794,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1804,19 +1803,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Fruits &amp; Vegetables</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Golden Pineapple
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -1836,7 +1835,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -1853,7 +1852,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1866,16 +1865,16 @@ function Index() {
               <div className="card-body">
                 <div className="text-center position-relative">
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-17.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1887,8 +1886,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1896,8 +1895,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -1905,19 +1904,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Fruits &amp; Vegetables</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Fresh Kiwi
-                  </a>
+                  </Link>
                 </h2>
                 {/* rating*/}
                 <div className="text-warning">
@@ -1941,7 +1940,7 @@ function Index() {
                   </div>
                   {/*  btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -1958,7 +1957,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1975,16 +1974,16 @@ function Index() {
                     <span className="badge bg-danger">Hot</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-18.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -1996,8 +1995,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2005,8 +2004,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2014,19 +2013,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Fruits &amp; Vegetables</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Fresh Banana
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -2049,7 +2048,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -2066,7 +2065,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2079,16 +2078,16 @@ function Index() {
               <div className="card-body">
                 <div className="text-center position-relative">
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-19.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -2100,8 +2099,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2109,8 +2108,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2118,19 +2117,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Fruits &amp; Vegetables</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Beatroot
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -2153,7 +2152,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -2170,7 +2169,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2200,16 +2199,16 @@ function Index() {
                     <span className="badge bg-danger">Sale</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-1.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -2221,8 +2220,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2230,8 +2229,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2239,19 +2238,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Snack &amp; Munchies</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Haldiram's Sev Bhujia
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   <small className="text-warning">
@@ -2273,7 +2272,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -2290,7 +2289,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2305,16 +2304,16 @@ function Index() {
                   <div className="position-absolute top-0 start-0">
                     <span className="badge bg-success">14%</span>
                   </div>
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-2.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -2326,8 +2325,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2335,8 +2334,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2344,19 +2343,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Bakery &amp; Biscuits</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     NutriChoice Digestive
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -2376,7 +2375,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -2393,7 +2392,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2405,16 +2404,16 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-3.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -2426,8 +2425,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2435,8 +2434,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2444,19 +2443,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Bakery &amp; Biscuits</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Cadbury 5 Star Chocolate
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -2479,7 +2478,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -2496,7 +2495,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2511,16 +2510,16 @@ function Index() {
                   <div className="position-absolute top-0 start-0">
                     <span className="badge bg-danger">Hot</span>
                   </div>
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-4.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -2532,8 +2531,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2541,8 +2540,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2550,19 +2549,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Snack &amp; Munchies</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Onion Flavour Potato
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -2585,7 +2584,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -2602,7 +2601,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2614,16 +2613,16 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-5.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -2635,8 +2634,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2644,8 +2643,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2653,19 +2652,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Instant Food</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Salted Instant Popcorn
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -2687,7 +2686,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -2704,7 +2703,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2721,16 +2720,16 @@ function Index() {
                     <span className="badge bg-danger">Sale</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-6.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -2742,8 +2741,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2751,8 +2750,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2760,19 +2759,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Dairy, Bread &amp; Eggs</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Blueberry Greek Yogurt
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   <small className="text-warning">
@@ -2794,7 +2793,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -2811,7 +2810,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2823,16 +2822,16 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-7.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -2844,8 +2843,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2853,8 +2852,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2862,19 +2861,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Dairy, Bread &amp; Eggs</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Britannia Cheese Slices
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -2894,7 +2893,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -2911,7 +2910,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2923,16 +2922,16 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-8.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -2944,8 +2943,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2953,8 +2952,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -2962,19 +2961,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Instant Food</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Kellogg's Original Cereals
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -2997,7 +2996,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -3014,7 +3013,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -3026,16 +3025,16 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-9.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -3047,8 +3046,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3056,8 +3055,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3065,19 +3064,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Snack &amp; Munchies</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Slurrp Millet Chocolate
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -3100,7 +3099,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -3117,7 +3116,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -3129,24 +3128,24 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-10.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
                       data-bs-target="#quickViewModal"
                     >
                       <i className="bi bi-eye" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3154,8 +3153,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3163,19 +3162,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Dairy, Bread &amp; Eggs</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Amul Butter - 500 g
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -3197,7 +3196,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -3214,7 +3213,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -3243,16 +3242,16 @@ function Index() {
                     <span className="badge bg-danger">Sale</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-1.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -3264,8 +3263,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3273,8 +3272,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3282,19 +3281,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Snack &amp; Munchies</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Haldiram's Sev Bhujia
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   <small className="text-warning">
@@ -3316,7 +3315,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -3333,7 +3332,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -3348,16 +3347,16 @@ function Index() {
                   <div className="position-absolute top-0 start-0">
                     <span className="badge bg-success">14%</span>
                   </div>
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-2.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -3369,8 +3368,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3378,8 +3377,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3387,19 +3386,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Bakery &amp; Biscuits</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     NutriChoice Digestive
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -3419,7 +3418,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -3436,7 +3435,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -3448,16 +3447,16 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-3.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -3469,8 +3468,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3478,8 +3477,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3487,19 +3486,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Bakery &amp; Biscuits</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Cadbury 5 Star Chocolate
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -3522,7 +3521,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -3539,7 +3538,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -3554,16 +3553,16 @@ function Index() {
                   <div className="position-absolute top-0 start-0">
                     <span className="badge bg-danger">Hot</span>
                   </div>
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-4.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -3575,8 +3574,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3584,8 +3583,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3593,19 +3592,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Snack &amp; Munchies</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Onion Flavour Potato
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -3628,7 +3627,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -3645,7 +3644,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -3657,16 +3656,16 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-5.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -3678,8 +3677,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3687,8 +3686,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3696,19 +3695,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Instant Food</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Salted Instant Popcorn
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -3730,7 +3729,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -3747,7 +3746,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -3764,16 +3763,16 @@ function Index() {
                     <span className="badge bg-danger">Sale</span>
                   </div>
                   {/* img */}
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-6.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -3785,8 +3784,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3794,8 +3793,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3803,19 +3802,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Dairy, Bread &amp; Eggs</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Blueberry Greek Yogurt
-                  </a>
+                  </Link>
                 </h2>
                 <div>
                   <small className="text-warning">
@@ -3837,7 +3836,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -3854,7 +3853,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -3866,16 +3865,16 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-7.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -3887,8 +3886,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3896,8 +3895,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3905,19 +3904,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Dairy, Bread &amp; Eggs</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Britannia Cheese Slices
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -3937,7 +3936,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -3954,7 +3953,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -3967,16 +3966,16 @@ function Index() {
               <div className="card-body">
                 {/* text */}
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-8.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -3988,8 +3987,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -3997,8 +3996,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -4006,19 +4005,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Instant Food</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Kellogg's Original Cereals
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -4041,7 +4040,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -4058,7 +4057,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -4070,16 +4069,16 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-9.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
@@ -4091,8 +4090,8 @@ function Index() {
                         data-bs-html="true"
                         title="Quick View"
                       />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -4100,8 +4099,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -4109,19 +4108,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Snack &amp; Munchies</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Slurrp Millet Chocolate
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -4144,7 +4143,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -4161,7 +4160,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -4173,24 +4172,24 @@ function Index() {
             <div className="card card-product">
               <div className="card-body">
                 <div className="text-center position-relative">
-                  <a href="#!">
+                  <Link href="#!">
                     <img
                       src="../assets/images/products/product-img-10.jpg"
                       alt="Grocery Ecommerce Template"
                       className="mb-3 img-fluid"
                     />
-                  </a>
+                  </Link>
                   {/* action btn */}
                   <div className="card-product-action">
-                    <a
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="modal"
                       data-bs-target="#quickViewModal"
                     >
                       <i className="bi bi-eye" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/components/shopwishlist"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -4198,8 +4197,8 @@ function Index() {
                       title="Wishlist"
                     >
                       <i className="bi bi-heart" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#!"
                       className="btn-action"
                       data-bs-toggle="tooltip"
@@ -4207,19 +4206,19 @@ function Index() {
                       title="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* title */}
                 <div className="text-small mb-1">
-                  <a href="#!" className="text-decoration-none text-muted">
+                  <Link href="#!" className="text-decoration-none text-muted">
                     <small>Dairy, Bread &amp; Eggs</small>
-                  </a>
+                  </Link>
                 </div>
                 <h2 className="fs-6">
-                  <a href="#!" className="text-inherit text-decoration-none">
+                  <Link href="#!" className="text-inherit text-decoration-none">
                     Amul Butter - 500 g
-                  </a>
+                  </Link>
                 </h2>
                 <div className="text-warning">
                   {/* rating */}
@@ -4241,7 +4240,7 @@ function Index() {
                   </div>
                   {/* btn */}
                   <div>
-                    <a href="#!" className="btn btn-primary btn-sm">
+                    <Link href="#!" className="btn btn-primary btn-sm">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={16}
@@ -4258,7 +4257,7 @@ function Index() {
                         <line x1={5} y1={12} x2={19} y2={12} />
                       </svg>
                       Add
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -4352,23 +4351,23 @@ function Index() {
                   {/* list item */}
                   <li className="list-inline-item">
                     {/* img */}
-                    <a href="#!">
+                    <Link href="#!">
                       <img
                         src="../assets/images/appbutton/appstore-btn.svg"
                         alt=""
                         style={{ width: 140 }}
                       />
-                    </a>
+                    </Link>
                   </li>
                   <li className="list-inline-item">
                     {/* img */}
-                    <a href="#!">
+                    <Link href="#!">
                       <img
                         src="../assets/images/appbutton/googleplay-btn.svg"
                         alt=""
                         style={{ width: 140 }}
                       />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -4441,7 +4440,7 @@ function Index() {
               <p className="mb-0">
                 Not satisfied with a product? Return it at the doorstep &amp;
                 get a refund within hours. No questions asked
-                <a href="#!">policy</a>.
+                <Link href="#!">policy</Link>.
               </p>
             </div>
           </div>
@@ -4579,9 +4578,9 @@ function Index() {
             </div>
             <div className="col-lg-6">
               <div className="ps-lg-8 mt-6 mt-lg-0">
-                <a href="#!" className="mb-4 d-block">
+                <Link href="#!" className="mb-4 d-block">
                   Bakery Biscuits
-                </a>
+                </Link>
                 <h2 className="mb-1 h1">Napolitanke Ljesnjak</h2>
                 <div className="mb-4">
                   <small className="text-warning">
@@ -4591,9 +4590,9 @@ function Index() {
                     <i className="bi bi-star-fill" />
                     <i className="bi bi-star-half" />
                   </small>
-                  <a href="#" className="ms-2">
+                  <Link href="#" className="ms-2">
                     (30 reviews)
-                  </a>
+                  </Link>
                 </div>
                 <div className="fs-4">
                   <span className="fw-bold text-dark">$32</span>
@@ -4653,7 +4652,7 @@ function Index() {
                   </div>
                   <div className="col-md-4 col-5">
                     {/* btn */}
-                    <a
+                    <Link
                       className="btn btn-light"
                       href="#"
                       data-bs-toggle="tooltip"
@@ -4661,8 +4660,8 @@ function Index() {
                       aria-label="Compare"
                     >
                       <i className="bi bi-arrow-left-right" />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="btn btn-light"
                       href="#!"
                       data-bs-toggle="tooltip"
@@ -4670,7 +4669,7 @@ function Index() {
                       aria-label="Wishlist"
                     >
                       <i className="feather-icon icon-heart" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <hr className="my-6" />

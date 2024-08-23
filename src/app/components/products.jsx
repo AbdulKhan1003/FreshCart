@@ -1,3 +1,4 @@
+import Link from 'next/link'
 
 function products() {
   return (
@@ -23,9 +24,9 @@ function products() {
                                             <span className="fw-bold img-content-bg">30%</span>
                                             Off
                                         </p>
-                                        <a href="#!" className="btn btn-dark">
+                                        <Link href="#!" className="btn btn-dark">
                                             Shop Now
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -48,9 +49,9 @@ function products() {
                                             <span className="fw-bold img-content-bg2">25%</span>
                                             Off
                                         </p>
-                                        <a href="#!" className="btn btn-dark ">
+                                        <Link href="#!" className="btn btn-dark ">
                                             Shop Now
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -74,15 +75,15 @@ function products() {
                                         <div className="position-absolute top-0 start-0">
                                             <span className="badge bg-danger">Sale</span>
                                         </div>
-                                        <a href="#!">
+                                        <Link href="#!">
                                             <img
                                                 src="assets/images/products/product-img-1.jpg"
                                                 alt="Grocery Ecommerce Template"
                                                 className="mb-3 img-fluid"
                                             />
-                                        </a>
+                                        </Link>
                                         <div className="card-product-action">
-                                            <a
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="modal"
@@ -94,8 +95,8 @@ function products() {
                                                     data-bs-html="true"
                                                     title="Quick View"
                                                 />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -103,8 +104,8 @@ function products() {
                                                 title="Wishlist"
                                             >
                                                 <i className="bi bi-heart" />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -112,21 +113,21 @@ function products() {
                                                 title="Compare"
                                             >
                                                 <i className="bi bi-arrow-left-right" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="text-small mb-1">
-                                        <a href="#!" className="text-decoration-none text-muted">
+                                        <Link href="#!" className="text-decoration-none text-muted">
                                             <small>Snack &amp; Munchies</small>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <h2 className="fs-6">
-                                        <a
+                                        <Link
                                             href="/components/shopsingle"
                                             className="text-inherit text-decoration-none"
                                         >
                                             Haldiram's Sev Bhujia
-                                        </a>
+                                        </Link>
                                     </h2>
                                     <div>
                                         <small className="text-warning">
@@ -146,10 +147,10 @@ function products() {
                                             </span>
                                         </div>
                                         <div>
-                                            <a href="#!" className="btn btn-primary btn-sm">
+                                            <Link href="#!" className="btn btn-primary btn-sm">
                                                <i style={{fontSize:'1.1rem',}} className="bi bi-plus bg-success-match"></i>
                                                 Add
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -162,15 +163,15 @@ function products() {
                                         <div className="position-absolute top-0 start-0">
                                             <span className="badge bg-success">14%</span>
                                         </div>
-                                        <a href="/components/shopsingle">
+                                        <Link href="/components/shopsingle">
                                             <img
                                                 src="assets/images/products/product-img-2.jpg"
                                                 alt="Grocery Ecommerce Template"
                                                 className="mb-3 img-fluid"
                                             />
-                                        </a>
+                                        </Link>
                                         <div className="card-product-action">
-                                            <a
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="modal"
@@ -182,8 +183,8 @@ function products() {
                                                     data-bs-html="true"
                                                     title="Quick View"
                                                 />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="/components/shopwishlist"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -191,8 +192,8 @@ function products() {
                                                 title="Wishlist"
                                             >
                                                 <i className="bi bi-heart" />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -200,21 +201,21 @@ function products() {
                                                 title="Compare"
                                             >
                                                 <i className="bi bi-arrow-left-right" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="text-small mb-1">
-                                        <a href="#!" className="text-decoration-none text-muted">
+                                        <Link href="#!" className="text-decoration-none text-muted">
                                             <small>Bakery &amp; Biscuits</small>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <h2 className="fs-6">
-                                        <a
+                                        <Link
                                             href="/components/shopsingle"
                                             className="text-inherit text-decoration-none"
                                         >
                                             NutriChoice Digestive
-                                        </a>
+                                        </Link>
                                     </h2>
                                     <div className="text-warning">
                                         <small>
@@ -231,10 +232,10 @@ function products() {
                                             <span className="text-dark">$24</span>
                                         </div>
                                         <div>
-                                            <a href="#!" className="btn btn-primary btn-sm">
+                                            <Link href="#!" className="btn btn-primary btn-sm">
                                                <i style={{fontSize:'1.1rem',}} className="bi bi-plus bg-success-match"></i>
                                                 Add
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -244,15 +245,15 @@ function products() {
                             <div className="card card-product">
                                 <div className="card-body">
                                     <div className="text-center position-relative">
-                                        <a href="/components/shopsingle">
+                                        <Link href="/components/shopsingle">
                                             <img
                                                 src="assets/images/products/product-img-3.jpg"
                                                 alt="Grocery Ecommerce Template"
                                                 className="mb-3 img-fluid"
                                             />
-                                        </a>
+                                        </Link>
                                         <div className="card-product-action">
-                                            <a
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="modal"
@@ -264,8 +265,8 @@ function products() {
                                                     data-bs-html="true"
                                                     title="Quick View"
                                                 />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="/components/shopwishlist"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -273,8 +274,8 @@ function products() {
                                                 title="Wishlist"
                                             >
                                                 <i className="bi bi-heart" />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -282,21 +283,21 @@ function products() {
                                                 title="Compare"
                                             >
                                                 <i className="bi bi-arrow-left-right" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="text-small mb-1">
-                                        <a href="#!" className="text-decoration-none text-muted">
+                                        <Link href="#!" className="text-decoration-none text-muted">
                                             <small>Bakery &amp; Biscuits</small>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <h2 className="fs-6">
-                                        <a
+                                        <Link
                                             href="/components/shopsingle"
                                             className="text-inherit text-decoration-none"
                                         >
                                             Cadbury 5 Star Chocolate
-                                        </a>
+                                        </Link>
                                     </h2>
                                     <div className="text-warning">
                                         <small>
@@ -316,10 +317,10 @@ function products() {
                                             </span>
                                         </div>
                                         <div>
-                                            <a href="#!" className="btn btn-primary btn-sm">
+                                            <Link href="#!" className="btn btn-primary btn-sm">
                                                <i style={{fontSize:'1.1rem',}} className="bi bi-plus bg-success-match"></i>
                                                 Add
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -329,15 +330,15 @@ function products() {
                             <div className="card card-product">
                                 <div className="card-body">
                                     <div className="text-center position-relative">
-                                        <a href="/components/shopsingle">
+                                        <Link href="/components/shopsingle">
                                             <img
                                                 src="assets/images/products/product-img-4.jpg"
                                                 alt="Grocery Ecommerce Template"
                                                 className="mb-3 img-fluid"
                                             />
-                                        </a>
+                                        </Link>
                                         <div className="card-product-action">
-                                            <a
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="modal"
@@ -349,8 +350,8 @@ function products() {
                                                     data-bs-html="true"
                                                     title="Quick View"
                                                 />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="/components/shopwishlist"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -358,8 +359,8 @@ function products() {
                                                 title="Wishlist"
                                             >
                                                 <i className="bi bi-heart" />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -367,24 +368,24 @@ function products() {
                                                 title="Compare"
                                             >
                                                 <i className="bi bi-arrow-left-right" />
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="position-absolute top-0 start-0">
                                             <span className="badge bg-danger">Hot</span>
                                         </div>
                                     </div>
                                     <div className="text-small mb-1">
-                                        <a href="#!" className="text-decoration-none text-muted">
+                                        <Link href="#!" className="text-decoration-none text-muted">
                                             <small>Snack &amp; Munchies</small>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <h2 className="fs-6">
-                                        <a
+                                        <Link
                                             href="/components/shopsingle"
                                             className="text-inherit text-decoration-none"
                                         >
                                             Onion Flavour Potato
-                                        </a>
+                                        </Link>
                                     </h2>
                                     <div className="text-warning">
                                         <small>
@@ -404,10 +405,10 @@ function products() {
                                             </span>
                                         </div>
                                         <div>
-                                            <a href="#!" className="btn btn-primary btn-sm">
+                                            <Link href="#!" className="btn btn-primary btn-sm">
                                                <i style={{fontSize:'1.1rem',}} className="bi bi-plus bg-success-match"></i>
                                                 Add
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -417,15 +418,15 @@ function products() {
                             <div className="card card-product">
                                 <div className="card-body">
                                     <div className="text-center position-relative">
-                                        <a href="/components/shopsingle">
+                                        <Link href="/components/shopsingle">
                                             <img
                                                 src="assets/images/products/product-img-5.jpg"
                                                 alt="Grocery Ecommerce Template"
                                                 className="mb-3 img-fluid"
                                             />
-                                        </a>
+                                        </Link>
                                         <div className="card-product-action">
-                                            <a
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="modal"
@@ -437,8 +438,8 @@ function products() {
                                                     data-bs-html="true"
                                                     title="Quick View"
                                                 />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="/components/shopwishlist"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -446,8 +447,8 @@ function products() {
                                                 title="Wishlist"
                                             >
                                                 <i className="bi bi-heart" />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -455,21 +456,21 @@ function products() {
                                                 title="Compare"
                                             >
                                                 <i className="bi bi-arrow-left-right" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="text-small mb-1">
-                                        <a href="#!" className="text-decoration-none text-muted">
+                                        <Link href="#!" className="text-decoration-none text-muted">
                                             <small>Instant Food</small>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <h2 className="fs-6">
-                                        <a
+                                        <Link
                                             href="/components/shopsingle"
                                             className="text-inherit text-decoration-none"
                                         >
                                             Salted Instant Popcorn
-                                        </a>
+                                        </Link>
                                     </h2>
                                     <div className="text-warning">
                                         <small>
@@ -489,10 +490,10 @@ function products() {
                                             </span>
                                         </div>
                                         <div>
-                                            <a href="#!" className="btn btn-primary btn-sm">
+                                            <Link href="#!" className="btn btn-primary btn-sm">
                                                <i style={{fontSize:'1.1rem',}} className="bi bi-plus bg-success-match"></i>
                                                 Add
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -505,15 +506,15 @@ function products() {
                                         <div className="position-absolute top-0 start-0">
                                             <span className="badge bg-danger">Sale</span>
                                         </div>
-                                        <a href="#!">
+                                        <Link href="#!">
                                             <img
                                                 src="assets/images/products/product-img-6.jpg"
                                                 alt="Grocery Ecommerce Template"
                                                 className="mb-3 img-fluid"
                                             />
-                                        </a>
+                                        </Link>
                                         <div className="card-product-action">
-                                            <a
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="modal"
@@ -525,8 +526,8 @@ function products() {
                                                     data-bs-html="true"
                                                     title="Quick View"
                                                 />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="/components/shopwishlist"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -534,8 +535,8 @@ function products() {
                                                 title="Wishlist"
                                             >
                                                 <i className="bi bi-heart" />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -543,21 +544,21 @@ function products() {
                                                 title="Compare"
                                             >
                                                 <i className="bi bi-arrow-left-right" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="text-small mb-1">
-                                        <a href="#!" className="text-decoration-none text-muted">
+                                        <Link href="#!" className="text-decoration-none text-muted">
                                             <small>Dairy, Bread &amp; Eggs</small>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <h2 className="fs-6">
-                                        <a
+                                        <Link
                                             href="/components/shopsingle"
                                             className="text-inherit text-decoration-none"
                                         >
                                             Blueberry Greek Yogurt
-                                        </a>
+                                        </Link>
                                     </h2>
                                     <div>
                                         <small className="text-warning">
@@ -577,10 +578,10 @@ function products() {
                                             </span>
                                         </div>
                                         <div>
-                                            <a href="#!" className="btn btn-primary btn-sm">
+                                            <Link href="#!" className="btn btn-primary btn-sm">
                                                <i style={{fontSize:'1.1rem',}} className="bi bi-plus bg-success-match"></i>
                                                 Add
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -590,15 +591,15 @@ function products() {
                             <div className="card card-product">
                                 <div className="card-body">
                                     <div className="text-center position-relative">
-                                        <a href="/components/shopsingle">
+                                        <Link href="/components/shopsingle">
                                             <img
                                                 src="assets/images/products/product-img-7.jpg"
                                                 alt="Grocery Ecommerce Template"
                                                 className="mb-3 img-fluid"
                                             />
-                                        </a>
+                                        </Link>
                                         <div className="card-product-action">
-                                            <a
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="modal"
@@ -610,8 +611,8 @@ function products() {
                                                     data-bs-html="true"
                                                     title="Quick View"
                                                 />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="/components/shopwishlist"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -619,8 +620,8 @@ function products() {
                                                 title="Wishlist"
                                             >
                                                 <i className="bi bi-heart" />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -628,21 +629,21 @@ function products() {
                                                 title="Compare"
                                             >
                                                 <i className="bi bi-arrow-left-right" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="text-small mb-1">
-                                        <a href="#!" className="text-decoration-none text-muted">
+                                        <Link href="#!" className="text-decoration-none text-muted">
                                             <small>Dairy, Bread &amp; Eggs</small>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <h2 className="fs-6">
-                                        <a
+                                        <Link
                                             href="/components/shopsingle"
                                             className="text-inherit text-decoration-none"
                                         >
                                             Britannia Cheese Slices
-                                        </a>
+                                        </Link>
                                     </h2>
                                     <div className="text-warning">
                                         <small>
@@ -659,10 +660,10 @@ function products() {
                                             <span className="text-dark">$24</span>
                                         </div>
                                         <div>
-                                            <a href="#!" className="btn btn-primary btn-sm">
+                                            <Link href="#!" className="btn btn-primary btn-sm">
                                                <i style={{fontSize:'1.1rem',}} className="bi bi-plus bg-success-match"></i>
                                                 Add
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -672,15 +673,15 @@ function products() {
                             <div className="card card-product">
                                 <div className="card-body">
                                     <div className="text-center position-relative">
-                                        <a href="/components/shopsingle">
+                                        <Link href="/components/shopsingle">
                                             <img
                                                 src="assets/images/products/product-img-8.jpg"
                                                 alt="Grocery Ecommerce Template"
                                                 className="mb-3 img-fluid"
                                             />
-                                        </a>
+                                        </Link>
                                         <div className="card-product-action">
-                                            <a
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="modal"
@@ -692,8 +693,8 @@ function products() {
                                                     data-bs-html="true"
                                                     title="Quick View"
                                                 />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="/components/shopwishlist"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -701,8 +702,8 @@ function products() {
                                                 title="Wishlist"
                                             >
                                                 <i className="bi bi-heart" />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -710,21 +711,21 @@ function products() {
                                                 title="Compare"
                                             >
                                                 <i className="bi bi-arrow-left-right" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="text-small mb-1">
-                                        <a href="#!" className="text-decoration-none text-muted">
+                                        <Link href="#!" className="text-decoration-none text-muted">
                                             <small>Instant Food</small>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <h2 className="fs-6">
-                                        <a
+                                        <Link
                                             href="/components/shopsingle"
                                             className="text-inherit text-decoration-none"
                                         >
                                             Kellogg's Original Cereals
-                                        </a>
+                                        </Link>
                                     </h2>
                                     <div className="text-warning">
                                         <small>
@@ -744,10 +745,10 @@ function products() {
                                             </span>
                                         </div>
                                         <div>
-                                            <a href="#!" className="btn btn-primary btn-sm">
+                                            <Link href="#!" className="btn btn-primary btn-sm">
                                                <i style={{fontSize:'1.1rem',}} className="bi bi-plus bg-success-match"></i>
                                                 Add
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -757,15 +758,15 @@ function products() {
                             <div className="card card-product">
                                 <div className="card-body">
                                     <div className="text-center position-relative">
-                                        <a href="/components/shopsingle">
+                                        <Link href="/components/shopsingle">
                                             <img
                                                 src="assets/images/products/product-img-9.jpg"
                                                 alt="Grocery Ecommerce Template"
                                                 className="mb-3 img-fluid"
                                             />
-                                        </a>
+                                        </Link>
                                         <div className="card-product-action">
-                                            <a
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="modal"
@@ -777,8 +778,8 @@ function products() {
                                                     data-bs-html="true"
                                                     title="Quick View"
                                                 />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="/components/shopwishlist"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -786,8 +787,8 @@ function products() {
                                                 title="Wishlist"
                                             >
                                                 <i className="bi bi-heart" />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -795,21 +796,21 @@ function products() {
                                                 title="Compare"
                                             >
                                                 <i className="bi bi-arrow-left-right" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="text-small mb-1">
-                                        <a href="#!" className="text-decoration-none text-muted">
+                                        <Link href="#!" className="text-decoration-none text-muted">
                                             <small>Snack &amp; Munchies</small>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <h2 className="fs-6">
-                                        <a
+                                        <Link
                                             href="/components/shopsingle"
                                             className="text-inherit text-decoration-none"
                                         >
                                             Slurrp Millet Chocolate
-                                        </a>
+                                        </Link>
                                     </h2>
                                     <div className="text-warning">
                                         <small>
@@ -829,10 +830,10 @@ function products() {
                                             </span>
                                         </div>
                                         <div>
-                                            <a href="#!" className="btn btn-primary btn-sm">
+                                            <Link href="#!" className="btn btn-primary btn-sm">
                                                <i style={{fontSize:'1.1rem',}} className="bi bi-plus bg-success-match"></i>
                                                 Add
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -842,15 +843,15 @@ function products() {
                             <div className="card card-product">
                                 <div className="card-body">
                                     <div className="text-center position-relative">
-                                        <a href="/components/shopsingle">
+                                        <Link href="/components/shopsingle">
                                             <img
                                                 src="assets/images/products/product-img-10.jpg"
                                                 alt="Grocery Ecommerce Template"
                                                 className="mb-3 img-fluid"
                                             />
-                                        </a>
+                                        </Link>
                                         <div className="card-product-action">
-                                            <a
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="modal"
@@ -862,8 +863,8 @@ function products() {
                                                     data-bs-html="true"
                                                     title="Quick View"
                                                 />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="/components/shopwishlist"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -871,8 +872,8 @@ function products() {
                                                 title="Wishlist"
                                             >
                                                 <i className="bi bi-heart" />
-                                            </a>
-                                            <a
+                                            </Link>
+                                            <Link
                                                 href="#!"
                                                 className="btn-action"
                                                 data-bs-toggle="tooltip"
@@ -880,21 +881,21 @@ function products() {
                                                 title="Compare"
                                             >
                                                 <i className="bi bi-arrow-left-right" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="text-small mb-1">
-                                        <a href="#!" className="text-decoration-none text-muted">
+                                        <Link href="#!" className="text-decoration-none text-muted">
                                             <small>Dairy, Bread &amp; Eggs</small>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <h2 className="fs-6">
-                                        <a
+                                        <Link
                                             href="/components/shopsingle"
                                             className="text-inherit text-decoration-none"
                                         >
                                             Amul Butter - 500 g
-                                        </a>
+                                        </Link>
                                     </h2>
                                     <div className="text-warning">
                                         <small>
@@ -914,10 +915,10 @@ function products() {
                                             </span>
                                         </div>
                                         <div>
-                                            <a href="#!" className="btn btn-primary btn-sm">
+                                            <Link href="#!" className="btn btn-primary btn-sm">
                                                <i style={{fontSize:'1.1rem',}} className="bi bi-plus bg-success-match"></i>
                                                 Add
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -951,10 +952,10 @@ function products() {
                                             100% Organic Coffee Beans.
                                         </h3>
                                         <p className="coffee-beans text-white">Get the best deal before close.</p>
-                                        <a href="#!" className="btn btn-primary">
+                                        <Link href="#!" className="btn btn-primary">
                                             Shop Now
                                             <i className="feather-icon icon-arrow-right ms-1 bg-success-match" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -962,15 +963,15 @@ function products() {
                                 <div className="card card-product">
                                     <div className="card-body">
                                         <div className="text-center position-relative">
-                                            <a href="/components/shopsingle">
+                                            <Link href="/components/shopsingle">
                                                 <img
                                                     src="assets/images/products/product-img-11.jpg"
                                                     alt="Grocery Ecommerce Template"
                                                     className="mb-3 img-fluid"
                                                 />
-                                            </a>
+                                            </Link>
                                             <div className="card-product-action">
-                                                <a
+                                                <Link
                                                     href="#!"
                                                     className="btn-action"
                                                     data-bs-toggle="modal"
@@ -982,8 +983,8 @@ function products() {
                                                         data-bs-html="true"
                                                         title="Quick View"
                                                     />
-                                                </a>
-                                                <a
+                                                </Link>
+                                                <Link
                                                     href="#!"
                                                     className="btn-action"
                                                     data-bs-toggle="tooltip"
@@ -991,8 +992,8 @@ function products() {
                                                     title="Wishlist"
                                                 >
                                                     <i className="bi bi-heart" />
-                                                </a>
-                                                <a
+                                                </Link>
+                                                <Link
                                                     href="#!"
                                                     className="btn-action"
                                                     data-bs-toggle="tooltip"
@@ -1000,21 +1001,21 @@ function products() {
                                                     title="Compare"
                                                 >
                                                     <i className="bi bi-arrow-left-right" />
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className="text-small mb-1">
-                                            <a href="#!" className="text-decoration-none text-muted">
+                                            <Link href="#!" className="text-decoration-none text-muted">
                                                 <small>Tea, Coffee &amp; Drinks</small>
-                                            </a>
+                                            </Link>
                                         </div>
                                         <h2 className="fs-6">
-                                            <a
+                                            <Link
                                                 href="/components/shopsingle"
                                                 className="text-inherit text-decoration-none"
                                             >
                                                 Roast Ground Coffee
-                                            </a>
+                                            </Link>
                                         </h2>
                                         <div className="d-flex justify-content-between align-items-center mt-3">
                                             <div>
@@ -1037,10 +1038,10 @@ function products() {
                                             </div>
                                         </div>
                                         <div className="d-grid mt-2">
-                                            <a href="#!" className="btn btn-primary">
+                                            <Link href="#!" className="btn btn-primary">
                                                <i style={{fontSize:'1.1rem',}} className="bi bi-plus bg-success-match"></i>
                                                 Add to cart
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="d-flex justify-content-start text-center mt-3">
                                             <div
@@ -1055,15 +1056,15 @@ function products() {
                                 <div className="card card-product">
                                     <div className="card-body">
                                         <div className="text-center position-relative">
-                                            <a href="/components/shopsingle">
+                                            <Link href="/components/shopsingle">
                                                 <img
                                                     src="assets/images/products/product-img-12.jpg"
                                                     alt="Grocery Ecommerce Template"
                                                     className="mb-3 img-fluid"
                                                 />
-                                            </a>
+                                            </Link>
                                             <div className="card-product-action">
-                                                <a
+                                                <Link
                                                     href="#!"
                                                     className="btn-action"
                                                     data-bs-toggle="modal"
@@ -1075,8 +1076,8 @@ function products() {
                                                         data-bs-html="true"
                                                         title="Quick View"
                                                     />
-                                                </a>
-                                                <a
+                                                </Link>
+                                                <Link
                                                     href="#!"
                                                     className="btn-action"
                                                     data-bs-toggle="tooltip"
@@ -1084,8 +1085,8 @@ function products() {
                                                     title="Wishlist"
                                                 >
                                                     <i className="bi bi-heart" />
-                                                </a>
-                                                <a
+                                                </Link>
+                                                <Link
                                                     href="#!"
                                                     className="btn-action"
                                                     data-bs-toggle="tooltip"
@@ -1093,21 +1094,21 @@ function products() {
                                                     title="Compare"
                                                 >
                                                     <i className="bi bi-arrow-left-right" />
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className="text-small mb-1">
-                                            <a href="#!" className="text-decoration-none text-muted">
+                                            <Link href="#!" className="text-decoration-none text-muted">
                                                 <small>Fruits &amp; Vegetables</small>
-                                            </a>
+                                            </Link>
                                         </div>
                                         <h2 className="fs-6">
-                                            <a
+                                            <Link
                                                 href="/components/shopsingle"
                                                 className="text-inherit text-decoration-none"
                                             >
                                                 Crushed Tomatoes
-                                            </a>
+                                            </Link>
                                         </h2>
                                         <div className="d-flex justify-content-between align-items-center mt-3">
                                             <div>
@@ -1130,10 +1131,10 @@ function products() {
                                             </div>
                                         </div>
                                         <div className="d-grid mt-2">
-                                            <a href="#!" className="btn btn-primary">
+                                            <Link href="#!" className="btn btn-primary">
                                                <i style={{fontSize:'1.1rem',}} className="bi bi-plus bg-success-match"></i>
                                                 Add to cart
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="d-flex justify-content-start text-center mt-3 w-100">
                                             <div
@@ -1148,15 +1149,15 @@ function products() {
                                 <div className="card card-product">
                                     <div className="card-body">
                                         <div className="text-center position-relative">
-                                            <a href="/components/shopsingle">
+                                            <Link href="/components/shopsingle">
                                                 <img
                                                     src="assets/images/products/product-img-13.jpg"
                                                     alt="Grocery Ecommerce Template"
                                                     className="mb-3 img-fluid"
                                                 />
-                                            </a>
+                                            </Link>
                                             <div className="card-product-action">
-                                                <a
+                                                <Link
                                                     href="#!"
                                                     className="btn-action"
                                                     data-bs-toggle="modal"
@@ -1168,8 +1169,8 @@ function products() {
                                                         data-bs-html="true"
                                                         title="Quick View"
                                                     />
-                                                </a>
-                                                <a
+                                                </Link>
+                                                <Link
                                                     href="#!"
                                                     className="btn-action"
                                                     data-bs-toggle="tooltip"
@@ -1177,8 +1178,8 @@ function products() {
                                                     title="Wishlist"
                                                 >
                                                     <i className="bi bi-heart" />
-                                                </a>
-                                                <a
+                                                </Link>
+                                                <Link
                                                     href="#!"
                                                     className="btn-action"
                                                     data-bs-toggle="tooltip"
@@ -1186,21 +1187,21 @@ function products() {
                                                     title="Compare"
                                                 >
                                                     <i className="bi bi-arrow-left-right" />
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className="text-small mb-1">
-                                            <a href="#!" className="text-decoration-none text-muted">
+                                            <Link href="#!" className="text-decoration-none text-muted">
                                                 <small>Fruits &amp; Vegetables</small>
-                                            </a>
+                                            </Link>
                                         </div>
                                         <h2 className="fs-6">
-                                            <a
+                                            <Link
                                                 href="/components/shopsingle"
                                                 className="text-inherit text-decoration-none"
                                             >
                                                 Golden Pineapple
-                                            </a>
+                                            </Link>
                                         </h2>
                                         <div className="d-flex justify-content-between align-items-center mt-3">
                                             <div>
@@ -1223,10 +1224,10 @@ function products() {
                                             </div>
                                         </div>
                                         <div className="d-grid mt-2">
-                                            <a href="#!" className="btn btn-primary">
+                                            <Link href="#!" className="btn btn-primary">
                                                <i style={{fontSize:'1.1rem',}} className="bi bi-plus bg-success-match"></i>
                                                 Add to cart
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="d-flex justify-content-start text-center mt-3">
                                             <div
@@ -1289,7 +1290,7 @@ function products() {
                                 <p>
                                     Not satisfied with a product? Return it at the doorstep &amp; get
                                     a refund within hours. No questions asked
-                                    <a href="#!">policy</a>.
+                                    <Link href="#!">policy</Link>.
                                 </p>
                             </div>
                         </div>

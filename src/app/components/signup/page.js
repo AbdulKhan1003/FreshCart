@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../footer/page'
+import Link from 'next/link'
 
 function SignUp() {
   return (
@@ -8,16 +9,16 @@ function SignUp() {
   <div className="border-bottom shadow-sm">
     <nav className="navbar navbar-light py-2">
       <div className="container justify-content-center justify-content-lg-between">
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" href="/">
           <img
             src="/assets/images/logo/freshcart-logo.svg"
             alt=""
             className="d-inline-block align-text-top"
           />
-        </a>
+        </Link>
         <span className="navbar-text">
           Already have an account?
-          <a href="/components/signin"> Sign in</a>
+          <Link href="/components/signin"> Sign in</Link>
         </span>
       </div>
     </nav>
@@ -137,9 +138,9 @@ function SignUp() {
                 <p>
                   <small>
                     By continuing, you agree to our
-                    <a href="#!">Terms of Service</a>
+                    <Link href="#!">Terms of Service</Link>
                     &amp;
-                    <a href="#!">Privacy Policy</a>
+                    <Link href="#!">Privacy Policy</Link>
                   </small>
                 </p>
               </div>
